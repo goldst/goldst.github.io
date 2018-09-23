@@ -107,7 +107,7 @@ if [ ! -d docs ]; then
 fi
 
 cd docs
-git clone https://github.com/goldst/ein-web.wiki.git
+git clone https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
 cd ..
 ```
 
@@ -121,7 +121,6 @@ git config user.name ${GIT_NAME}
 git config user.email ${GIT_EMAIL}
 git add .
 git commit -m "Travis CI deployment: documentation update for push TODO number here"
-git remote add origin-pages https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git > /dev/null 2>&1
 git push --quiet --u origin master
 ```
 
