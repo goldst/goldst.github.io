@@ -1,0 +1,118 @@
+.project-card {
+    --project-card--padding: 10px;
+
+    background-image: 
+        repeating-linear-gradient(
+            45deg,
+            var(--c1) 0,
+            var(--c0) 40px,
+            var(--c1) 80px
+        );
+}
+
+.project-card__inner {
+    background-color: transparent;
+    background-image:
+        linear-gradient(
+            0deg,
+            var(--c1) var(--project-card--padding),
+            transparent var(--project-card--padding)
+        ),
+        linear-gradient(
+            90deg,
+            var(--c1) var(--project-card--padding),
+            transparent var(--project-card--padding)
+        ),
+        linear-gradient(
+            180deg,
+            var(--c1) var(--project-card--padding),
+            transparent var(--project-card--padding)
+        ),
+        linear-gradient(
+            270deg,
+            var(--c1) calc(50% + 0.5 * var(--project-card--padding)),
+            transparent calc(50% + 0.5 * var(--project-card--padding))
+        );
+    box-sizing: border-box;
+    color: var(--c0);
+    height: var(--h);
+    hyphens: auto;
+    overflow: hidden;
+    padding-left: calc(
+        0.5 * var(--w) +
+        0.5 * var(--project-card--padding)
+    );
+    padding-right: var(--project-card--padding);
+    padding-top: var(--project-card--padding);
+    position: relative;
+    text-overflow: ellipsis;
+    transform:
+        translateX(calc(0.5 * var(--h) - 0.5 * var(--w)))
+        translateY(calc(0.5 * var(--w) - 0.5 * var(--h)))
+        rotate(90deg);
+    width: var(--w);
+}
+
+.project-card__inner::after {
+    background-image:
+        linear-gradient(
+            0deg,
+            var(--c1) 0,
+            transparent 100%
+        );
+    bottom: 0;
+    content: "";
+    height: calc(2.1 * var(--project-card--padding));
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    width: calc(50% + 0.5 * var(--project-card--padding));
+}
+
+.project-card__inner ::selection {
+    background: var(--c0);
+    color: var(--c1);
+}
+
+.project-card__inner ::-moz-selection {
+    background: var(--c0);
+    color: var(--c1);
+}
+
+.project-card__title::before {
+    content: "Projekttitel";
+    display: block;
+    font-size: 12px;
+    text-transform: none;
+}
+
+.project-card__title {
+    font-size: 28px;
+    hyphens: none;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.project-card__data::before {
+    content: "Verwendete Technologie";
+    display: block;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: none;
+    width: 100%;
+}
+
+.project-card__data {
+    
+}
+
+.project-card__description:first-of-type::before {
+    content: "Projektbeschreibung";
+    display: block;
+    font-size: 12px;
+    text-transform: none;
+}
+
+.project-card__description:first-of-type {
+    text-transform: uppercase;
+}

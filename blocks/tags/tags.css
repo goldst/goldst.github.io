@@ -1,0 +1,73 @@
+.tags {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-top: 0;
+    -webkit-user-select: none;        
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tags--right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.tags__tag {
+    border: 1px solid var(--c0);
+    border-radius: 3px;
+    color: var(--c0);
+    cursor: pointer;
+    display: inline-block;
+    hyphens: none;
+    margin-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    transition:
+        color 0.5s,
+        background-color 0.5s;
+    white-space: nowrap;
+}
+
+.tags--right .tags__tag {
+    margin-left: 5px;
+}
+
+.tags--right .tags__tag:first-child {
+    margin-left: 0;
+}
+
+.tags:not(.tags--right) .tags__tag,
+.tags--left .tags__tag{
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.tags:not(.tags--right) .tags__tag:last-child {
+    margin-right: 0;
+}
+
+.tags--color-inversed .tags__tag,
+.tags__tag--color-inversed {
+    border: 1px solid var(--c1);
+    color: var(--c1);
+}
+
+.tags__tag--toggled {
+    background-color: var(--c0);
+    color: var(--c1);
+}
+
+.tags--color-inversed .tags__tag--toggled,
+.tags__tag--color-inversed.tags__tag--toggled {
+    background-color: var(--c1);
+    color: var(--c0);
+}
+
+.tags__tag--hidden {
+    visibility: collapse;
+}

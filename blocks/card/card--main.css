@@ -1,0 +1,74 @@
+/**
+ * @extends 'card.css'
+ */
+
+.card--main { }
+
+.card--main__inner {
+    display: grid;
+    grid-column-gap: var(--_padding);
+    grid-row-gap: var(--_padding);
+    grid-template-areas:
+        "logo info"
+        "logo social"
+        "logo projects";
+    grid-template-columns:
+        38.197%
+        calc(62.803% - 1.5 * var(--_padding));
+    grid-template-rows: 1fr auto auto;
+}
+
+.card--main__image {
+    grid-area: logo;
+    height: 100%;
+    width: 100%;
+}
+
+.card--main__info {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: info;
+    width: 100%;
+}
+
+.card--main__title {
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+}
+
+.card--main__social-links {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: social;
+}
+
+.card--main__social-links::before {
+    content: 'Kontakt/Contact/TODO';
+    display: block;
+    width: 100%;
+}
+
+.card--main__social-link {
+    margin-right: var(--_padding);
+}
+
+.card--main__social-link:last-of-type {
+    margin-right: 0;
+}
+
+.card--main__social-link--github {
+    --button--background: url("../../img/GitHub.svg");
+}
+
+.card--main__social-link--qr {
+    --button--background: url("../../img/QR%20icon.svg");
+}
+
+.card--main__social-link--tel {
+    --button--background: url("../../img/tel.svg");
+}
+
+.card--main__social-link--mail {
+    --button--background: url("../../img/E-Mail.svg");
+}

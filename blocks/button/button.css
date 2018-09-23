@@ -1,0 +1,108 @@
+/**
+ * @block button a standard button
+ * @markup
+ *   <a class="button">button</a>
+ * @markup
+ *   <button class="button">button</button>
+ * @markup
+ *   <input type="button" class="button" value="button">
+ */
+.button {
+    /**
+     * @variable {length} [--w=500px] base width of a standard card,
+     *   influences size of element if element's <code>width</code> isn't
+     *   overwritten 
+     */
+    --_w: var(--w, 500px);
+
+    /**
+     * @variable {length} [--h=calc(var(--w, 500px) * 0.618033988)] base
+     *   height of a standard card, influences size of element if
+     *   element's <code>height</code> isn't overwritten
+     */
+    --_h: var(--h, calc(var(--w, 500px) * 0.618033988));
+
+    /**
+     * @variable {color} [--c0=black] block background color
+     */
+    --_c0: var(--c0, black);
+
+    /**
+     * @variable {color} [--c1=lightgrey] block foreground color
+     */
+    --_c1: var(--c1, lightgrey);
+
+    /**
+     * @variable {image} [--button--background=
+     *   linear-gradient(black, black)] Icon of the button. Currently only
+     *   works with the <code>.button--s</code> modifier.
+     * @requires button-s on button
+     */
+    --_button--background: var(--button--background, linear-gradient(black, black));
+    
+    background: var(--_c0);
+    border: none;
+    box-sizing: content-box;
+    color: var(--_c1);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Manrope", courier;
+    font-size: inherit;
+    height: calc(0.12 * var(--_w));
+    line-height: calc(0.12 * var(--_w));
+    padding: 0 calc(0.01 * var(--_w));
+    text-align: center;
+    text-decoration: none;
+    transition:
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.button:hover,
+.button:focus {
+    box-shadow: 0 0 calc(0.015 * var(--_w)) 0 var(--_c0);
+    outline: none;
+    transform: scale(1.05);
+}
+
+
+/**
+ * @modifier button--s Small sqare version of the button. Only shows icon
+ *   by default, extends <code>width</code> and shows text on
+ *   <code>:hover</code>.
+ */
+.button--s {
+    --collapsed: 15px;
+
+    background:
+        var(--_button--background)
+        calc(0.01 * var(--_w))
+        calc(0.01 * var(--_w)) /
+        15px 15px no-repeat, var(--_c0);
+    height: var(--collapsed);
+    line-height: normal;
+
+    /* transition using max-width because width:auto is not animated */
+    max-width: 0;
+    overflow: hidden;
+    padding:
+        calc(0.01 * var(--_w))
+        0
+        calc(0.01 * var(--_w))
+        calc(var(--collapsed) + 0.02 * var(--_w));
+    transition:
+        box-shadow 0.5s,
+        padding-right 0.5s,
+        transform 0.5s,
+        max-width 0.5s;
+    white-space: nowrap;
+}
+
+.button--s:hover,
+.button--s:focus {
+    box-shadow: 0 0 calc(0.025 * var(--_w)) 0 var(--_c0);
+    max-width: var(--_w);
+    outline: none;
+    padding-right: calc(0.01 * var(--_w));
+    transform: scale(1.1);
+}

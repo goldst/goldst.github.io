@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Manrope";
+    font-weight: 700;
+    src: url("./../../fonts/Manrope/semibold.woff2") format("woff2"),
+        url("./../../fonts/Manrope/semibold.woff") format("woff"),
+        url("./../../fonts/Manrope/semibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-weight: 400;
+    src: url("./../../fonts/Manrope/regular.woff2") format("woff2"),
+        url("./../../fonts/Manrope/regular.woff") format("woff"),
+        url("./../../fonts/Manrope/regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-weight: 300;
+    src: url("./../../fonts/Manrope/light.woff2") format("woff2"),
+        url("./../../fonts/Manrope/light.woff") format("woff"),
+        url("./../../fonts/Manrope/light.ttf") format("truetype");
+}
+
+:root {
+    --c0: #20989d;
+    --c1: #2f2933;
+    --w: 500px;
+    --h: calc(var(--w) * 0.618033988);
+    
+    /*
+    Klara Vorauswahl:
+    --c0: #e5e2cc;
+    --c1: #286d45;
+    */
+}
+
+
+html,
+.page {
+    --_w: var(--w, 500px);
+    --_h: var(--h, calc(var(--_w) * 0.618033988));
+    
+    background-color: var(--c0);
+    color: var(--c1);
+    font-family: "Manrope";
+    margin: 0;
+}
+
+.page ::selection {
+    background: var(--c1);
+    color: var(--c0);
+}
+
+.page ::-moz-selection {
+    background: var(--c1);
+    color: var(--c0);
+}

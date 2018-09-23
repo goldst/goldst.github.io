@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="6mm"
+   height="6mm"
+   viewBox="0 0 6.0000001 6.0000001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="QR icon.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313709"
+     inkscape:cx="32.62746"
+     inkscape:cy="12.929062"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-291)">
+    <path
+       style="fill:#2f2933;fill-opacity:1;stroke-width:0.64793348"
+       d="M 0 0 L 0 15.119141 L 0 22.677734 L 22.677734 22.677734 L 22.677734 7.5585938 L 22.677734 0 L 15.117188 0 L 0 0 z M 3.7792969 3.7792969 L 15.117188 3.7792969 L 15.117188 7.5585938 L 18.898438 7.5585938 L 18.898438 18.898438 L 7.5605469 18.898438 L 7.5605469 15.119141 L 3.7792969 15.119141 L 3.7792969 3.7792969 z M 15.117188 7.5585938 L 7.5585938 7.5585938 L 7.5585938 11.337891 L 11.337891 11.337891 L 11.337891 15.117188 L 15.117188 15.117188 L 15.117188 7.5585938 z "
+       id="path1022"
+       transform="matrix(0.26458333,0,0,0.26458333,0,291)" />
+    <rect
+       style="fill:#2f2933;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect828"
+       width="0.1889883"
+       height="0"
+       x="4.4884672"
+       y="294.2124" />
+  </g>
+</svg>

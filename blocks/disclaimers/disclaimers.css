@@ -1,0 +1,33 @@
+/**
+ * @block disclaimers
+ * @markup
+ *   <footer class="disclaimers">
+ *      <ul>
+ *          <li>element 1</li>
+ *          <li>element 2</li>
+ *          <li>element 3</li>
+ *      </ul>
+ *   </footer>
+ */
+.disclaimers {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+}
+
+/**
+ * @todo this is not BEM-conformant, is it? - change it?
+ */
+.disclaimers ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.disclaimers ul li {
+    display: inline-block;
+}
+
+.disclaimers ul :not(:last-child)::after {
+    content: " | ";
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>.card block doc</title>
+    <link rel="stylesheet" href="./card.css">
+</head>
+<body>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid grey;
+        }
+        td {
+            padding: 0 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul ul {
+            padding-left: 20px;
+        }
+        code {
+            background-color: lightgray;
+            border-radius: 3px;
+            padding: 1px 2px;
+        }
+    </style>
+    <form>
+        <h1><code>.card</code> block doc</h1>
+        <h2>minimal block markup</h2>
+        <table>
+           <tr>
+               <th>markup variation</th>
+               <th>html element live demo</th>
+           </tr>
+            <tr>
+                <td>
+                    <textarea cols="70">
+<div class="card card--projects">
+    <div class="card__inner">card</div>
+</div>
+                    </textarea>
+                </td>
+                <td><div class="card card--projects">
+                    <div class="card__inner">card</div>
+                </div></td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea cols="70">
+<div class="card">
+    <header class="card__inner">card</header>
+</div>
+                    </textarea>
+                </td>
+                <td><div class="card">
+                    <header class="card__inner">card</header>
+                </div></td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea cols="70">
+<div class="card">
+    <article class="card__inner">card</article>
+</div>
+                    </textarea>
+                </td>
+                <td><div class="card">
+                    <article class="card__inner">card</article>
+                </div>
+                </td>
+            </tr>
+        </table>
+        <h2>elements</h2>
+        <h3>element class tree</h3>
+        <ul>
+            <li>
+                <code id="class-tree---_card"><a href="#element-list---_card">.card</a></code>
+            </li>
+            <ul>
+                <li><code>.card__inner</code></li>
+                <ul>
+                    <li>[<code>.card__title</code>]</li>
+                    <li>[<code>.card--main__image</code>]</li>
+                    <li>[<code>.card--main__info</code>]</li>
+                    <ul>
+                        <li>[<code>.card__title</code>]</li>
+                    </ul>
+                    <li>[<code>.card--main__social-links</code>]</li>
+                    <li>[<code>.card--main__projects-button</code>]</li>
+                </ul>
+            </ul>
+        </ul>
+        <h3>element list</h3>
+        <table>
+            <tr>
+                <th>class</th>
+                <th>role</th>
+                <th>tag</th>
+                <th>description</th>
+                <th>modifiers</th>
+                <th>requirements</th>
+            </tr>
+            <tr>
+                <td><code id="element-list---_card">
+                    <a href="#class-tree---_card">.card</a>
+                </code></td>
+                <td>compulsory</td>
+                <td><code>div</code></td>
+                <td>block base</td>
+                <td>
+                    <code><a href="#modifiers---_card--main">.card--main</a></code> |
+                    <code><a href="#modifiers---_card--projects">.card--projects</a></code> 
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><code id="element-list---_card__inner">
+                    <a href="#class-tree---_card__inner">.card__inner</a>
+                </code></td>
+                <td>compulsory</td>
+                <td><code>div</code> | <code>header</code> | <code>article</code></td>
+                <td>element that contains the content</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><code id="element-list---_card__title">
+                    <a href="#class-tree---_card__title">.card__title</a>
+                </code></td>
+                <td>optional</td>
+                <td><code>h1</code> | <code>h2</code> | <code>h3</code></td>
+                <td>card title</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><code id="element-list---_card--main__image">
+                    <a href="#class-tree---_card--main__image">.card--main__image</a>
+                </code></td>
+                <td>optional</td>
+                <td><code>img</code></td>
+                <td>card image or logo</td>
+                <td></td>
+                <td><code>.card--main</code> on <code>.card</code></td>
+            </tr>
+        </table>
+        <h2>modifiers</h2>
+        <h3><code id="modifiers---_button--s">.button--s</code></h3>
+        apply to <code><a href="#element-list---_button">.button</a></code>
+        <p>Small sqare version of the button. Only shows icon by default, extends <code>width</code> and shows text on <code>:hover</code>.</p>
+        <table>
+           <tr>
+               <th>markup variation</th>
+               <th>html element live demo</th>
+           </tr>
+            <tr>
+                <td>
+                    <textarea cols="70">&lt;a class="button button--s"&gt;button&lt;/a&gt;</textarea>
+                </td>
+                <td><a class="button button--s">button</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea cols="70">&lt;button class="button button--s"&gt;button&lt;/button&gt;</textarea>
+                </td>
+                <td><button class="button button--s">button</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea cols="70">&lt;input type="button" class="button" value="button"&gt;</textarea>
+                </td>
+                <td><input type="button" class="button button--s" value="button"</td>
+            </tr>
+        </table>
+        <h2>variables</h2>
+            <table>
+                <tr>
+                    <th>variable name</th>
+                    <th>data type</th>
+                    <th>description</th>
+                    <th>value</th>
+                </tr>
+                <tr>
+                    <td><code>--w</code></td>
+                    <td><code>&lt;length&gt;</code></td>
+                    <td>base width of a standard card, influences size of element if element's <code>width</code> isn't overwritten</td>
+                    <td><input type="text" placeholder="500px"/></td>
+                </tr>
+                <tr>
+                    <td><code>--h</code></td>
+                    <td><code>&lt;length&gt;</code></td>
+                    <td>base height of a standard card, influences size of element if element's <code>height</code> isn't overwritten</td>
+                    <td><input type="text" placeholder="calc( var(--_w) * 0.618033988 )"/></td>
+                </tr>
+                <tr>
+                    <td><code>--c0</code></td>
+                    <td><code>&lt;color&gt;</code></td>
+                    <td>block background color</td>
+                    <td><input type="text" placeholder="black"/></td>
+                </tr>
+                <tr>
+                    <td><code>--c1</code></td>
+                    <td><code>&lt;color&gt;</code></td>
+                    <td>block foreground color</td>
+                    <td><input type="text" placeholder="lightgrey"/></td>
+                </tr>
+                <tr><td> </td></tr>
+                <tr>
+                    <td><code>--button--icon</code></td>
+                    <td><code>&lt;image&gt;</code></td>
+                    <td>Icon of the button. Currently only works with the <code>.button--s</code> modifier.</td>
+                    <td><input type="text" placeholder="linear-gradient(black, black)"/></td>
+                </tr>
+            </table>
+    </form>
+    <script src="card.js" type="module"></script>
+</body>
+</html>
