@@ -8,7 +8,7 @@
     "htmllint": "^0.7.2",
     "htmllint-cli": "0.0.7",
     "jsdoc-to-markdown": "^4.0.1",
-    "jsdocexample2mochajs": "file:../../jsdocexample2mochajs",
+    "jsdocexample2mochajs": "file:../../../jsdocexample2mochajs",
     "jsdoctest": "^1.7.1",
     "maid": "^0.2.4",
     "mocha": "^5.2.0",
