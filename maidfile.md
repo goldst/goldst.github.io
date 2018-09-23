@@ -106,7 +106,7 @@ ALL=""
 for F in $(find js/ -type f); do
     DIR=$(dirname "${F}")
     mkdir -p test/${DIR}/;
-    node node_modules/jsdocexample2mochajs/bin "${F}" > "test/${F}.test.js"
+    node jsdocexample2mochajs/bin "${F}" > "test/${F}.test.js"
     ALL+="require('./${F}.test.js');\n"
 done
 
