@@ -121,7 +121,7 @@ git config user.name ${GIT_NAME}
 git config user.email ${GIT_EMAIL}
 git add .
 git commit -m "Travis CI deployment: documentation update for push TODO number here"
-git push --quiet --u origin master
+git push --quiet -u origin master
 ```
 
 
