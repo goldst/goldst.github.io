@@ -43,18 +43,18 @@
     color: var(--c1);
 }
 
+.tags--left .tags__tag,
+.tags:not(.tags--right) .tags__tag {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
 .tags--right .tags__tag:first-child {
     margin-left: 0;
 }
 
 .tags:not(.tags--right) .tags__tag:last-child {
     margin-right: 0;
-}
-
-.tags--left .tags__tag,
-.tags:not(.tags--right) .tags__tag {
-    margin-left: 0;
-    margin-right: 5px;
 }
 
 .tags__tag--toggled {
