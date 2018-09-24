@@ -117,8 +117,8 @@ push changes to the wiki. Only works in travis.
 
 ```bash
 cd docs
-git config user.name ${GIT_NAME}
-git config user.email ${GIT_EMAIL}
+git config user.name goldst
+git config user.email leonard-goldstein@outlook.de
 git checkout -b master
 git add .
 git commit -m "Travis CI deployment: documentation update for build $TRAVIS_BUILD_NUMBER"
