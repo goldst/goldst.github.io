@@ -140,7 +140,7 @@ echo -e "${ALL}" | tee "test/test.js" >/dev/null
 Runs tests for js files. Only outputs errors.
 
 ```bash
-mocha --require babel-core/register >/dev/null
+mocha --require babel-core/register
 ```
 
 ## test:run:loud
