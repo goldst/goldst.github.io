@@ -287,7 +287,7 @@ export default class LinearAlgebra {
      * removes rows and columns at the end and/or the beginning of a
      * matrix
      * @param {Array.<number[]>} M - input matrix
-     * @param {number} [beginRow = 0] - row where the output matrix starts 
+     * @param {number} [beginRow = 0] - row where the output matrix starts
      * @param {number} [beginColumn = 0] - column where the output matrix
      * @param {number} [endRow = M.length] - row where the output matrix
      *   ends
@@ -381,7 +381,7 @@ export default class LinearAlgebra {
      * @throws {Error} 'not a sqare matrix' if `throwIfNot` is true and M
      *   is not n*n
      * @returns {boolean} False if matrix is not sqare and `throwIfNot` is
-     *   false. True in any other case that doesn't throw. 
+     *   false. True if it is a sqare matrix.
      */
     static isSqareShortCheck(M, throwIfNot=false) {
         if(M.length !== M[0].length) {
@@ -396,14 +396,15 @@ export default class LinearAlgebra {
     }
 
     /**
-     * Calculates inversed matrix M^⁻¹. Based on a function by Andrew
-     *   Ippoliti.
-     * @param {Array.<number[]>}
+     * Calculates inverted matrix M⁻¹. Based on a function by Andrew
+     * Ippoliti.
+     * @param {Array.<number[]>} M - input matrix
      * @author Andrew Ippoliti
      * @see http://blog.acipo.com/matrix-inversion-in-javascript/
      * @throws {Error} 'not a square matrix' if number of rows and columns
      *   don't match. Only checks first row and assumes all other rows
      *   have the same length.
+     * @returns {Array.<number[]>} inverted Matrix
      */
     static matrixInvert(M) {
         this.isSqareShortCheck(M, true);
