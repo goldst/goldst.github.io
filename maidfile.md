@@ -8,7 +8,7 @@ Run tasks `test`, `lint:fix`, and `documentation`.
 
 Travis CI runs this.
 
-Run tasks `test`, `lint`, and `documentation`.
+Run tasks `test`, `lint`, and `documentation` after this.
 
 ## lint
 
