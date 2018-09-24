@@ -50,7 +50,7 @@
     "id-no-dup": true,
     "id-class-no-ad": true,
     //"id-class-style": "bem",
-    "id-class-style": "/([a-z]([-_]?[a-z])*(--[a-z]([-_]?[a-z])*)*(__[a-z]([-_]?[a-z])*)?(--[a-z]([-_]?[a-z])*)* ?)*/g", //value bem currently doesn't support block--modifier__element which is necessary in this project
+    "id-class-style": "/([a-z]([-_]?[a-z])*(--[a-z]([-_]?[a-z])*)*(__[a-z]([-_]?[a-z])*)?(--[a-z]([-_]?[a-z])*)*)(( [a-z]([-_]?[a-z])*(--[a-z]([-_]?[a-z])*)*(__[a-z]([-_]?[a-z])*)?(--[a-z]([-_]?[a-z])*)*))*/g", //value bem currently doesn't support block--modifier__element which is necessary in this project
     "class-no-dup": true,
     "class-style": false,
     "id-class-ignore-regex": false,
