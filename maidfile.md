@@ -1,6 +1,6 @@
 ## prepublish
 
-do this before publishing
+do this before pushing to make sure everything is fine.
 
 Run tasks `test`, `lint:fix`, and `documentation`.
 
@@ -30,7 +30,6 @@ lints index.html
 ```bash
 htmllint index.html --rc config/htmllint.json
 ```
-
 
 ## lint:css
 
@@ -113,17 +112,11 @@ git commit -m "Travis CI deployment: documentation update for build $TRAVIS_BUIL
 git push -u origin master
 ```
 
-
 ## test
 
 generates and runs js tests for the js directory
 
 Run tasks `test:generate`, and `test:run`.
-
-```bash
-maid test:generate
-maid test:run
-```
 
 ## test:generate
 

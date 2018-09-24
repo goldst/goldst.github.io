@@ -11,8 +11,8 @@ p0 = [0, 2, 3, 1],
 p1 = [2, 4, 5, 3]
             assert.deepEqual(LinearAlgebra.vector(p0, p1),[2,2,2,2]);
         });
-        it('() => linearAlgebra.vector([1, 2], [3, 4, 5]) should throw an error', function() {
-            assert.throws(() => linearAlgebra.vector([1, 2], [3, 4, 5]));
+        it('() => LinearAlgebra.vector([1, 2], [3, 4, 5]) should throw an error', function() {
+            assert.throws(() => LinearAlgebra.vector([1, 2], [3, 4, 5]));
         });
     });
     describe('static vectorAdd(v0, v1)', function() {
@@ -23,9 +23,22 @@ p1 = [2, 4, 5, 3]
             assert.throws(() => LinearAlgebra.vectorAdd([0], [1, 2, 3]));
         });
     });
+    describe('static vectorSubtract(v0, v1)', function() {
+        it('LinearAlgebra.vectorSubtract([3, 2], [1, 0]) should be [2,1]', function() {
+            assert.deepEqual(LinearAlgebra.vectorSubtract([3, 2], [1, 0]),[2,1]);
+        });
+        it('() => LinearAlgebra.vectorSubtract([0], [1, 2, 3]) should throw an error', function() {
+            assert.throws(() => LinearAlgebra.vectorSubtract([0], [1, 2, 3]));
+        });
+    });
     describe('static vectorMultiply(v, n)', function() {
         it('LinearAlgebra.vectorMultiply([1, -2, 0], 2) should be [2,-4,0]', function() {
             assert.deepEqual(LinearAlgebra.vectorMultiply([1, -2, 0], 2),[2,-4,0]);
+        });
+    });
+    describe('static vectorDivide(v, n)', function() {
+        it('LinearAlgebra.vectorDivide([1, 2, 3], 2) should be [0.5,1,1.5]', function() {
+            assert.deepEqual(LinearAlgebra.vectorDivide([1, 2, 3], 2),[0.5,1,1.5]);
         });
     });
     describe('static vectorDotProduct(v0, v1)', function() {

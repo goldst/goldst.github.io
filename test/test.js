@@ -6,4 +6,5 @@ require('./js/transformation/TransformationController.js.test.js');
 require('./js/math/LinearAlgebra.js.test.js');
 require('./js/math/DegOperations.js.test.js');
 require('./js/math/UnitConversion.js.test.js');
+require('./js/debug/debugDot.js.test.js');
 
