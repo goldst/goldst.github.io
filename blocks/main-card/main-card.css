@@ -101,7 +101,7 @@
 
 .main-card:not(
 .main-card--minimized):not(
-.main-card--initial) .main-card__inner .main-card__image {
+    .main-card--initial) .main-card__inner .main-card__image {
     animation: main-card__image--from-minimized 0.5s both;
 }
 
@@ -125,6 +125,6 @@
 
 .main-card:not(.main-card--initial):not(.main-card__image):not(
 .main-card--text-invisible) .main-card__inner :not(
-.main-card__image):not(.main-card__toggle) {
+    .main-card__image):not(.main-card__toggle) {
     animation: main-card__inner--to-text-visible 0.5s both;
 }
