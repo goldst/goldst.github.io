@@ -2,32 +2,26 @@
 
 do this before publishing
 
-```bash
-maid test
-maid lint:fix
-maid documentation
-```
+Run tasks `test`, `lint:fix`, and `documentation`.
+
+## travis
+
+Travis CI runs this.
+
+Run tasks `test`, `lint`, and `documentation`.
 
 ## lint
 
 lints everything that can be linted
 
-```bash
-maid lint:html
-maid lint:css
-maid lint:js
-```
+Run tasks `lint:html`, `lint:css`, and `lint:js`.
 
 ## lint:fix
 
 Lints everything that can be linted.
 Fixes everything that can be fixed.
 
-```bash
-maid lint:html
-maid lint:css:fix
-maid lint:js:fix
-```
+Run tasks `lint:html`, `lint:css:fix`, and `lint:js:fix`.
 
 ## lint:html
 
@@ -74,11 +68,7 @@ eslint js/** blocks/** -c config/eslint.json --fix
 
 creates documentation and pushes it to the wiki. Only works in Travis CI.
 
-```bash
-maid documentation:clonegit
-maid documentation:generate
-maid documentation:push
-```
+Run tasks `documentation:clonegit`, `documentation:generate`, and `documentation:push`.
 
 ## documentation:generate
 
@@ -120,7 +110,6 @@ cd docs
 git add .
 git commit -m "Travis CI deployment: documentation update for build $TRAVIS_BUILD_NUMBER"
 
-# git remote add origin https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
 git push -u origin master
 ```
 
@@ -128,6 +117,8 @@ git push -u origin master
 ## test
 
 generates and runs js tests for the js directory
+
+Run tasks `test:generate`, and `test:run`.
 
 ```bash
 maid test:generate
