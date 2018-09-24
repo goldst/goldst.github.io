@@ -2,7 +2,7 @@
 
 do this before pushing to make sure everything is fine.
 
-Run tasks `test`, `lint:fix`, and `documentation`.
+Run tasks `test`, `lint:fix`, and `documentation` after this.
 
 ## travis
 
@@ -14,14 +14,14 @@ Run tasks `test`, `lint`, and `documentation` after this.
 
 lints everything that can be linted
 
-Run tasks `lint:html`, `lint:css`, and `lint:js`.
+Run tasks `lint:html`, `lint:css`, and `lint:js` after this.
 
 ## lint:fix
 
 Lints everything that can be linted.
 Fixes everything that can be fixed.
 
-Run tasks `lint:html`, `lint:css:fix`, and `lint:js:fix`.
+Run tasks `lint:html`, `lint:css:fix`, and `lint:js:fix` after this.
 
 ## lint:html
 
@@ -67,7 +67,7 @@ eslint js/** blocks/** -c config/eslint.json --fix
 
 creates documentation and pushes it to the wiki. Only works in Travis CI.
 
-Run tasks `documentation:clonegit`, `documentation:generate`, and `documentation:push`.
+Run tasks `documentation:clonegit`, `documentation:generate`, and `documentation:push` after this.
 
 ## documentation:generate
 
@@ -116,7 +116,7 @@ git push -u origin master
 
 generates and runs js tests for the js directory
 
-Run tasks `test:generate`, and `test:run`.
+Run tasks `test:generate`, and `test:run` after this.
 
 ## test:generate
 
