@@ -23,7 +23,8 @@
     visibility: visible;
 }
 
-.main-container--maximized .main-container__projects .main-container__projects-title-bar {
+/* .main-container--maximized .main-container__projects .main-container__projects-title-bar { */
+.main-container--maximized .main-container__projects-title-bar {
     animation: main-container__projects-title-bar--to-maximized 0.5s both;
 }
 
