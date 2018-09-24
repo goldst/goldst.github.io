@@ -124,7 +124,7 @@ git add .
 git commit -m "Travis CI deployment: documentation update for build $TRAVIS_BUILD_NUMBER"
 
 git remote add origin https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
-git push --quiet -u origin master
+git push -u origin master
 ```
 
 
