@@ -38,10 +38,11 @@
      *   works with the <code>.button--s</code> modifier.
      * @requires button-s on button
      */
-    --_button--background: var(
-        --button--background,
-        linear-gradient(black, black)
-    );
+    --_button--background:
+        var(
+            --button--background,
+            linear-gradient(black, black)
+        );
 
     background: var(--_c0);
     border: none;
@@ -49,7 +50,7 @@
     color: var(--_c1);
     cursor: pointer;
     display: inline-block;
-    font-family: "Manrope", courier;
+    font-family: "Manrope", Arial, Verdana, Tahoma, sans-serif;
     font-size: inherit;
     height: calc(0.12 * var(--_w));
     line-height: calc(0.12 * var(--_w));
@@ -80,7 +81,8 @@
         var(--_button--background)
         calc(0.01 * var(--_w))
         calc(0.01 * var(--_w)) /
-        15px 15px no-repeat, var(--_c0);
+        15px 15px no-repeat,
+        var(--_c0);
     height: var(--collapsed);
     line-height: normal;
 

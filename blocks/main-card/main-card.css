@@ -99,8 +99,9 @@
     animation: main-card__image--to-minimized 0.5s both;
 }
 
-.main-card:not(.main-card--minimized):not(.main-card--initial)
-.main-card__inner .main-card__image {
+.main-card:not(
+.main-card--minimized):not(
+.main-card--initial) .main-card__inner .main-card__image {
     animation: main-card__image--from-minimized 0.5s both;
 }
 
@@ -113,7 +114,8 @@
     width: 100%;
 }
 
-.main-card:not(.main-card--minimized):not(.main-card--initial) .main-card__inner {
+.main-card:not(.main-card--minimized):not(
+.main-card--initial) .main-card__inner {
     animation: main-card__inner--from-minimized 0.5s both;
 }
 
@@ -121,6 +123,8 @@
     animation: main-card--from-minimized 0.5s both;
 }
 
-.main-card:not(.main-card--initial):not(.main-card__image):not(.main-card--text-invisible) .main-card__inner :not(.main-card__image):not(.main-card__toggle) {
+.main-card:not(.main-card--initial):not(.main-card__image):not(
+.main-card--text-invisible) .main-card__inner :not(
+.main-card__image):not(.main-card__toggle) {
     animation: main-card__inner--to-text-visible 0.5s both;
 }
