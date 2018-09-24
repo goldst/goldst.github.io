@@ -8,7 +8,7 @@
  * @variable {length} --card__inner--hover-top
  */
 .card {
-    /*local private vars*/
+    /* local private vars */
     --_w: var(--w, 500px);
     --_h: var(--h, calc(var(--_w) * 0.618033988));
     --_c0: var(--c0, black);
@@ -40,7 +40,7 @@
 }
 
 .card__inner:hover {
-    background-image: 
+    background-image:
         var(--_add-background),
         radial-gradient(
             circle at

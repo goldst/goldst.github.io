@@ -2,7 +2,7 @@
  * @extends 'card.css'
  */
 
-.card--main { }
+/* .card--main { } */
 
 .card--main__inner {
     display: grid;

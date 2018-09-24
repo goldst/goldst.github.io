@@ -11,7 +11,7 @@
     /**
      * @variable {length} [--w=500px] base width of a standard card,
      *   influences size of element if element's <code>width</code> isn't
-     *   overwritten 
+     *   overwritten
      */
     --_w: var(--w, 500px);
 
@@ -38,8 +38,11 @@
      *   works with the <code>.button--s</code> modifier.
      * @requires button-s on button
      */
-    --_button--background: var(--button--background, linear-gradient(black, black));
-    
+    --_button--background: var(
+        --button--background,
+        linear-gradient(black, black)
+    );
+
     background: var(--_c0);
     border: none;
     box-sizing: content-box;
@@ -64,7 +67,6 @@
     outline: none;
     transform: scale(1.05);
 }
-
 
 /**
  * @modifier button--s Small sqare version of the button. Only shows icon

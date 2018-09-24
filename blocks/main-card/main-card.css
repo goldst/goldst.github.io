@@ -24,7 +24,7 @@
     font-size: 12px;
     font-weight: normal;
     text-transform: none;
-    white-space: pre
+    white-space: pre;
 }
 
 .main-card__name--surname::before {
@@ -99,7 +99,8 @@
     animation: main-card__image--to-minimized 0.5s both;
 }
 
-.main-card:not(.main-card--minimized):not(.main-card--initial) .main-card__inner .main-card__image {
+.main-card:not(.main-card--minimized):not(.main-card--initial)
+.main-card__inner .main-card__image {
     animation: main-card__image--from-minimized 0.5s both;
 }
 
