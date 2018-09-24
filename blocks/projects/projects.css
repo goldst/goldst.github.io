@@ -44,7 +44,7 @@
     transform: rotate(90deg);
     transform-origin: top left;
 
-    /*width: calc(100vw - 0.3 * var(--w));*/
+    /* width: calc(100vw - 0.3 * var(--w)); */
     width: 0;
     z-index: 1;
 }
@@ -88,5 +88,5 @@
 }
 
 .projects__filter:not(:empty)::before {
-    content: "Filter:"
+    content: "Filter:";
 }

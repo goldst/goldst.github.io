@@ -45,7 +45,7 @@ html,
 
     background-color: var(--c0);
     color: var(--c1);
-    font-family: "Manrope";
+    font-family: "Manrope", Arial, Verdana, Tahoma, sans-serif;
     margin: 0;
 }
 

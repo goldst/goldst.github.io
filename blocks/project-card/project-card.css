@@ -1,7 +1,7 @@
 .project-card {
     --project-card--padding: 10px;
 
-    background-image: 
+    background-image:
         repeating-linear-gradient(
             45deg,
             var(--c1) 0,
@@ -38,10 +38,11 @@
     height: var(--h);
     hyphens: auto;
     overflow: hidden;
-    padding-left: calc(
-        0.5 * var(--w) +
-        0.5 * var(--project-card--padding)
-    );
+    padding-left:
+        calc(
+            0.5 * var(--w) +
+            0.5 * var(--project-card--padding)
+        );
     padding-right: var(--project-card--padding);
     padding-top: var(--project-card--padding);
     position: relative;
@@ -102,9 +103,9 @@
     width: 100%;
 }
 
-.project-card__data {
-    
-}
+/* .project-card__data {
+
+} */
 
 .project-card__description:first-of-type::before {
     content: "Projektbeschreibung";

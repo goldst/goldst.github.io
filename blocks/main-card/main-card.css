@@ -91,6 +91,15 @@
     visibility: collapse;
 }
 
+.main-card--minimized .main-card__button--projects {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 .main-card--text-invisible .main-card__inner .main-card__button--projects {
     opacity: 0;
 }
@@ -103,15 +112,6 @@
 .main-card--minimized):not(
     .main-card--initial) .main-card__inner .main-card__image {
     animation: main-card__image--from-minimized 0.5s both;
-}
-
-.main-card--minimized .main-card__button--projects {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
 }
 
 .main-card:not(.main-card--minimized):not(
