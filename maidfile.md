@@ -107,7 +107,7 @@ if [ ! -d docs ]; then
 fi
 
 cd docs
-# git clone https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
+git clone https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
 cd ..
 ```
 
@@ -123,7 +123,7 @@ git checkout -b master
 git add .
 git commit -m "Travis CI deployment: documentation update for build $TRAVIS_BUILD_NUMBER"
 
-git remote add origin https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
+# git remote add origin https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
 git push -u origin master
 ```
 
