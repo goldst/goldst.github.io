@@ -243,6 +243,14 @@ export default class LinearAlgebra {
         return this.vectorLength(AO) * Math.sin(a);
     }
 
+    /**
+     * returns a n*n identity matrix
+     * @param {number} n - matrix width/height
+     * @returns {Array.<number[]>} identity matrix with n rows and columns
+     * @example
+     *   LinearAlgebra.matrixIdentity(3);
+     *       //is equal to [[1, 0, 0], [0, 1, 0], [0, 0, 1]];
+     */
     static matrixIdentity(n) {
         let out = [];
 
@@ -257,6 +265,16 @@ export default class LinearAlgebra {
         return out;
     }
 
+    /**
+     * creates a matrix that is basically the two input matrices next to
+     * each other
+     * @param {Array.<number[]>} M0 - first input matrix
+     * @param {Array.<number[]>} M1 - second input matrix
+     * @returns {Array.<number[]>} augmented matrix M0M1
+     * @example
+     *   LinearAlgebra.matrixAugment([[1], [3]], [[2], 4])
+     *       //is equal to [[1, 2], [3, 4]]
+     */
     static matrixAugment(M0, M1) {
         if(M0.length !== M1.length) {
             throw 'input lengths are not equal';
@@ -265,6 +283,26 @@ export default class LinearAlgebra {
         return M0.map((row, index) => row.concat(M1[index]));
     }
 
+    /**
+     * removes rows and columns at the end and/or the beginning of a
+     * matrix
+     * @param {Array.<number[]>} M - input matrix
+     * @param {number} [beginRow = 0] - row where the output matrix starts 
+     * @param {number} [beginColumn = 0] - column where the output matrix
+     * @param {number} [endRow = M.length] - row where the output matrix
+     *   ends
+     * @param {number} [endColumn = M[0].length] - column where the output
+     *   matrix ends
+     * @returns {Array.<number[]>} sliced matrix M₁
+     * @example
+     *   LinearAlgebra.matrixSlice([[0, 1], [2, 3]])
+     *       //is equal to [[0, 1], [2, 3]]
+     * @example [[Description]]
+     *   LinearAlgebra.matrixSlice(
+     *       [[8, 8, 8], [8, 9, 8], [8, 8, 8]],
+     *       1, 1, 1, 1
+     *   ) //is equal to [[9]]
+     */
     static matrixSlice(M,
         beginRow = 0, beginColumn = 0,
         endRow = M.length, endColumn = M[0].length) {
@@ -280,8 +318,15 @@ export default class LinearAlgebra {
     }
 
     /**
+     * Sorry, i forgot what this does. THat's the problem with personal
+     * projects, there is no reason to hurry or to watch your coding style
+     * and then you just forget stuff. I don't think this function it is
+     * necessary though.I might delete it soon.
      * @param {Array.<number[]>} M0
      * @param {Array.<number[]>|number[]} M1
+     * @todo find out what this does and delete it if it's not in use or
+     *   not useful
+     * @returns {Array.<number[]>} Something. I don't exactly know.
      */
     static matrixEliminate(M0, M1) {
         this.isSqareShortCheck(M0, true);
@@ -327,6 +372,17 @@ export default class LinearAlgebra {
         return this.matrixSlice(M, 0, M.length, M.length);
     }
 
+    /**
+     * Checks if a matrix is n*n. Only checks first row internally, so
+     * make sure the matrix is well-formed.
+     * @param {Array.<number[]>} M - matrix to be checked
+     * @param {boolean} [throwIfNot = false] - specifies if exception
+     *   should be thrown in case of M not being a sqare matrix
+     * @throws {Error} 'not a sqare matrix' if `throwIfNot` is true and M
+     *   is not n*n
+     * @returns {boolean} False if matrix is not sqare and `throwIfNot` is
+     *   false. True in any other case that doesn't throw. 
+     */
     static isSqareShortCheck(M, throwIfNot=false) {
         if(M.length !== M[0].length) {
             if(throwIfNot) {
