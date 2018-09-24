@@ -123,7 +123,7 @@ git checkout -b master
 git add .
 git commit -m "Travis CI deployment: documentation update for build $TRAVIS_BUILD_NUMBER"
 
-git remote add origin https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git > /dev/null 2>&1
+git remote add origin https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
 git push --quiet -u origin master
 ```
 
