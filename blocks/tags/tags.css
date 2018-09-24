@@ -6,7 +6,7 @@
     justify-content: flex-start;
     padding-left: 0;
     padding-top: 0;
-    -webkit-user-select: none;        
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -33,18 +33,18 @@
     white-space: nowrap;
 }
 
+.tags:not(.tags--right) .tags__tag,
+.tags--left .tags__tag {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
 .tags--right .tags__tag {
     margin-left: 5px;
 }
 
 .tags--right .tags__tag:first-child {
     margin-left: 0;
-}
-
-.tags:not(.tags--right) .tags__tag,
-.tags--left .tags__tag{
-    margin-left: 0;
-    margin-right: 5px;
 }
 
 .tags:not(.tags--right) .tags__tag:last-child {
