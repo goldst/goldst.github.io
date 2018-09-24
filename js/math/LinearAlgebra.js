@@ -64,7 +64,7 @@ export default class LinearAlgebra {
      * @throws {Error} 'input lengths are not equal' if v0 & v1 have
      *   different lengths (= different number of dimensions)
      * @example
-     *   LinearAlgebra.vectorSubtract([3, 2], [1, 0]) //is equal to [2, 1]
+     *   LinearAlgebra.vectorSubtract([3, 2], [2, 1]) //is equal to [1, 1]
      *   LinearAlgebra.vectorSubtract([0], [1, 2, 3]) //throws an error
      */
     static vectorSubtract(v0, v1){
