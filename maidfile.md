@@ -107,7 +107,7 @@ if [ ! -d docs ]; then
 fi
 
 cd docs
-git clone https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git
+git clone https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git .
 cd ..
 ```
 
@@ -117,9 +117,6 @@ push changes to the wiki. Only works in travis.
 
 ```bash
 cd docs
-git config user.name goldst
-git config user.email leonard-goldstein@outlook.de
-git checkout -b master
 git add .
 git commit -m "Travis CI deployment: documentation update for build $TRAVIS_BUILD_NUMBER"
 
