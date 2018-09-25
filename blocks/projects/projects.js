@@ -22,7 +22,7 @@ function startScrollPositionUpdater() {
 /**
  * @todo i don't know what is happening here. Check it and update
  *   documentation.
- * @param {event} e
+ * @param {event} e some event.
  * @returns {void}
  */
 function onScroll(e) {
@@ -47,7 +47,7 @@ function combined3dRot(absoluteOrigin, mousePosition) {
         rotation = TF.advBellCurve(
                 absoluteOrigin, mousePosition, 0, 1, 2
             ) - 1,
-        
+
         invRotAxis = [
             rotAxis[1],
             -rotAxis[0]
