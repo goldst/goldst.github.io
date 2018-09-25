@@ -20,7 +20,7 @@ export default class cardAbstract extends TC {
 
         console.log(this);
     }
-https://travis-ci.com/goldst/ein-web.svg?token=LoKS6SaGaZPsK3WPmufe&branch=master
+
     /**
      * function which returns the correct transformation for a standard
      * card block depending on the absolute position on screen and the
