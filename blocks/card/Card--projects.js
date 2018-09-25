@@ -27,7 +27,8 @@ export default class CardProjects extends CardAbstract {
      * @override
      * @param {number[]} absoluteOrigin - absolute transformation origin
      * @param {number[]} mousePosition - absolute mouse position
-     * @returns transformation with adjusted scale and 3d rotation
+     * @returns {String} transformation with adjusted scale and 3d
+     *   rotation
      */
     _transformationFunction(absoluteOrigin, mousePosition) {
         const rotAxis = LA.vector(absoluteOrigin, mousePosition),

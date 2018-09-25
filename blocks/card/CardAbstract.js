@@ -34,11 +34,12 @@ export default class cardAbstract extends TC {
      * @see {TransformationFunctions}
      * @param {number[]} absoluteOrigin - absolute transformation origin
      * @param {number[]} mousePosition - absolute mouse position
-     * @returns transformation with adjusted scale and 3d rotation
+     * @returns {string} transformation with adjusted scale and 3d
+     *   rotation
      */
     _transformationFunction(absoluteOrigin, mousePosition) {
         const rotAxis = LA.vector(absoluteOrigin, mousePosition),
-            rotation = 
+            rotation =
                 TF.advBellCurve(
                     absoluteOrigin, mousePosition, 0, 1, 2
                 ) - 1,
@@ -58,7 +59,7 @@ export default class cardAbstract extends TC {
 
     /**
      * in any implementation, override this function with a function that
-     * does what should happen after transforming the element (eg. 
+     * does what should happen after transforming the element (eg.
      * setting the correct background to the parent element)
      * @see {PostTransformFunctions}
      * @abstract
@@ -70,7 +71,8 @@ export default class cardAbstract extends TC {
      */
     _postTransformFunction(event, element) {
         //look for implementation examples in
-        //  'js/transformation/TransformableElement/PostTransformFunctions.js'
+        //  'js/transformation/TransformableElement/
+        //  PostTransformFunctions.js'
         this._throwIfAbstractFunction();
     }
 
@@ -93,6 +95,7 @@ export default class cardAbstract extends TC {
      * helper function that throws if class name ends with 'Abstract'
      * @private
      * @throws {Error} 'cannot call functions in abstract class'
+     * @returns {void}
      */
     _throwIfAbstractClass() {
         if((typeof new.target).endsWith('Abstract')) {

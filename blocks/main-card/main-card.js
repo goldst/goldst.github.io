@@ -1,19 +1,25 @@
-import TransformationController
-    from '../../js/transformation/TransformationController.js';
-import TF
-    from '../../js/transformation/TransformationFunctions.js';
-
+/**
+ * @todo This file is being refactored to card--main.js. Transfer
+ *   the functions and delete it
+ * @returns {void}
+ */
 export default () => {
     enableMainCardToggle();
     //mousemoveTransformations();
     setMouseoverBackgroundVars();
 };
 
+/**
+ * @returns {void}
+ */
 function enableMainCardToggle() {
     document.querySelector('.main-card__toggle')
         .addEventListener("click", toProjects);
 }
 
+/**
+ * @returns {void}
+ */
 function toProjects(e) {
     const mainCard = document.querySelector('.main-card');
 
@@ -45,6 +51,9 @@ function toProjects(e) {
     );
 }*/
 
+/**
+ * @returns {void}
+ */
 function setMouseoverBackgroundVars() {
     document.querySelector('.main-card__inner')
         .addEventListener("mouseover", mainInnerMouseOver);
@@ -52,12 +61,21 @@ function setMouseoverBackgroundVars() {
         .addEventListener("mousemove", mainInnerMouseOver);
 }
 
+/**
+ * @returns {void}
+ */
 function mainInnerMouseOver(e) {
     let inner = document.querySelector('.main-card__inner'),
         rect = inner.getBoundingClientRect();
 
 
-
-    inner.style.setProperty('--card__inner--hover-left', (e.clientX-rect.left) + 'px');
-    inner.style.setProperty('--card__inner--hover-top', (e.clientY-rect.top) + 'px');
+    inner.style.setProperty(
+        '--card__inner--hover-left',
+        (e.clientX-rect.left) + 'px'
+    );
+    
+    inner.style.setProperty(
+        '--card__inner--hover-top',
+        (e.clientY-rect.top) + 'px'
+    );
 }
