@@ -248,7 +248,7 @@ export default class LinearAlgebra {
      * @param {number} n - matrix width/height
      * @returns {Array.<number[]>} identity matrix with n rows and columns
      * @example
-     *   LinearAlgebra.matrixIdentity(3);
+     *   LinearAlgebra.matrixIdentity(3)
      *       //is equal to [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
      */
     static matrixIdentity(n) {
