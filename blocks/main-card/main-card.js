@@ -1,7 +1,6 @@
 /**
  * @todo This file is being refactored to card--main.js. Transfer
  *   the functions and delete it
- * @returns {void}
  */
 export default () => {
     enableMainCardToggle();
@@ -18,6 +17,7 @@ function enableMainCardToggle() {
 }
 
 /**
+ * @param {event} e
  * @returns {void}
  */
 function toProjects(e) {
@@ -62,6 +62,7 @@ function setMouseoverBackgroundVars() {
 }
 
 /**
+ * @param {event} e
  * @returns {void}
  */
 function mainInnerMouseOver(e) {
@@ -73,7 +74,7 @@ function mainInnerMouseOver(e) {
         '--card__inner--hover-left',
         (e.clientX-rect.left) + 'px'
     );
-    
+
     inner.style.setProperty(
         '--card__inner--hover-top',
         (e.clientY-rect.top) + 'px'

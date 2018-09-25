@@ -1,19 +1,30 @@
-import TransformationController
+/*import TransformationController
     from '../../js/transformation/TransformationController.js';
 import TF
     from '../../js/transformation/TransformationFunctions.js';
-import LA from '../../js/math/LinearAlgebra.js';
+import LA from '../../js/math/LinearAlgebra.js';*/
 
 export default () => {
     //mousemoveTransformations();
     startScrollPositionUpdater();
 };
 
+/**
+ * @todo i don't know what is happening here. Check it and update
+ *   documentation. The whole file is a big mess.
+ * @returns {void}
+ */
 function startScrollPositionUpdater() {
     document.querySelector('.projects__inner')
         .addEventListener("scroll", onScroll);
 }
 
+/**
+ * @todo i don't know what is happening here. Check it and update
+ *   documentation.
+ * @param {event} e
+ * @returns {void}
+ */
 function onScroll(e) {
     document.querySelector('.projects').style
         .setProperty('--projects--scroll-top', e.target.scrollTop + 'px');
@@ -33,7 +44,10 @@ function mousemoveTransformations() {
 
 function combined3dRot(absoluteOrigin, mousePosition) {
     const rotAxis = LA.vector(absoluteOrigin, mousePosition),
-        rotation = TF.advBellCurve(absoluteOrigin, mousePosition, 0, 1, 2) - 1,
+        rotation = TF.advBellCurve(
+                absoluteOrigin, mousePosition, 0, 1, 2
+            ) - 1,
+        
         invRotAxis = [
             rotAxis[1],
             -rotAxis[0]
@@ -62,6 +76,11 @@ function setParentBackground(event, element) {
             'transparent',
             5
         );
-    parent.style.setProperty('background', background + ', 0 var(--projects--scroll-top, 0)  repeating-linear-gradient(45deg, var(--c1) 0px, var(--c0) 40px, var(--c1) 80px)');
+    parent.style.setProperty(
+        'background',
+        background +
+        ', 0 var(--projects--scroll-top, 0) ' +
+        'repeating-linear-gradient(45deg, var(--c1) 0px, ' +
+        'var(--c0) 40px, var(--c1) 80px)');
 }
 */

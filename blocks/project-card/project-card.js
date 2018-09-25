@@ -3,12 +3,19 @@ import {
     remove as removeTag
 } from './../tags/tags.js';
 
+/**
+ * @todo This file is being refactored to card--projects.js. Transfer
+ *   the functions and delete it
+ */
 export default () =>
     document.querySelectorAll('.project-card__data .tags__tag').forEach(
         d => d.addEventListener('click', toggleProjectTag)
     );
 
-/*TODO: implement*/
+/**
+ * @todo Implement properly. THis method isn't really done yet.
+ * @param {event} e
+ */
 function toggleProjectTag(e) {
     const element = e.target,
         filterName = element.innerHTML,
