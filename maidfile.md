@@ -83,7 +83,7 @@ for F in $(find js/ -type f); do
     DOCS+="* [${F}](/${F}.md) \n"
 done
 
-echo -e "${DOCS}" | tee "docs/index.md" >/dev/null
+echo -e "${DOCS}" | tee "docs/Home.md" >/dev/null
 ```
 
 ## documentation:clonegit
