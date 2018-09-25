@@ -185,7 +185,9 @@ module.exports = class Parser {
     }
     
     static _functionName(input) {
-        return input.match(/((.+?)(?={))|((.+?)(?=\=\> {))/s)[0].trim();
+        return input.match(/((.+?)(?={))|((.+?)(?=\=\> {))/s)[0]
+            .replace(/\n/g, ' ')
+            .trim();
     }
     
     static _additionalRequires(splitCode) {
