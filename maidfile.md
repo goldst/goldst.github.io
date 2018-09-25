@@ -52,7 +52,7 @@ stylelint blocks/**/*.css --config config/stylelint.json --fix
 lints all files in the js directory
 
 ```bash
-eslint js/** blocks/** -c config/eslint.json
+eslint js/**.js blocks/**.js -c config/eslint.json
 ```
 
 ## lint:js:fix
