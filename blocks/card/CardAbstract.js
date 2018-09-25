@@ -7,11 +7,14 @@ import LA
 
 /**
  * Base for the transformation controller for card blocks, which automates
- * the 3d movement effect
+ * the 3d effect
  * @abstract
  * @extends TransformationController
  */
 export default class cardAbstract extends TC {
+    /**
+     *  @returns {void}
+     */
     constructor(modifier = '') {
         super(
             document.body,

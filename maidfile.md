@@ -96,6 +96,7 @@ if [ ! -d docs ]; then
 fi
 
 cd docs
+git config --global user.name "deployment script via Travis CI"
 git clone https://${GH_TOKEN}@github.com/goldst/ein-web.wiki.git .
 cd ..
 ```
