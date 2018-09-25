@@ -9,10 +9,7 @@
     grid-column-gap: var(--_padding);
     grid-row-gap: var(--_padding);
     grid-template-areas: "logo right";
-    grid-template-columns:
-        38.197%
-        calc(62.803% - 1.5 * var(--_padding));
-    grid-template-rows: 100%;
+    grid-template-columns: 38.197% auto;
 }
 
 .card--main__image {
@@ -22,9 +19,20 @@
 }
 
 .card--main__right {
+    position: relative;
     grid-area: right;
     height: 100%;
     width: 100%;
+}
+
+.card--main__info,
+.card--main__qr {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease;
 }
 
 .card--main__info {
@@ -32,8 +40,44 @@
     grid-row-gap: var(--_padding);
     grid-template-areas: "flex" "button";
     grid-template-rows: auto calc(0.12 * var(--_w));
-    width: 100%;
+}
+
+.card--main__qr {
+    opacity: 0;
+}
+
+.card--main__qr-img {
     height: 100%;
+    width: 100%;
+    background-image: url(card--main__qr-img.svg);
+    background-size: cover;
+}
+
+.card--main__qr-img::before {
+    content: '<-';
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: var(--_padding);
+    color: var(--_c1);
+}
+
+.card--main__qr-img:hover::before {
+    content: '<- go back';
+}
+
+.card--main__right :target {
+    opacity: 1;
+}
+
+.card--main__right :target ~ * {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.card--main__qr:not(:target):not(:hover) {
+    height: 0;
 }
 
 .card--main__info-flex {
@@ -51,7 +95,6 @@
 .card--main__social-links {
     display: flex;
     flex-wrap: wrap;
-    grid-area: social;
 }
 
 .card--main__social-links::before {
