@@ -7,7 +7,7 @@ These are the files for my website.
 ## How it works
 
 Attention! High end technology. Not designed or tested with older browsers in mind. Stuff could be and will be broken.
-For further information, look at the esdoc-generated [documentation](/docs/index.html).
+For further information, look at the generated [documentation in the wiki](/wiki).
 
 ## Contributing
 
@@ -39,13 +39,3 @@ lint with `npx maid lint` or `npx maid lint:fix`.
 
 ### Project
 Released under the [MIT license](https://opensource.org/licenses/MIT)
-
-### External components (included node modules)
-#### [maid](https://github.com/egoist/maid)
-Released under the [MIT license](https://github.com/egoist/maid/blob/master/LICENSE)
-#### [eslint](https://github.com/eslint/eslint)
-Released under the [MIT license](https://github.com/eslint/eslint/blob/master/LICENSE)
-#### [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown)
-Released under the [MIT license](https://github.com/jsdoc2md/jsdoc-to-markdown/blob/master/LICENSE)
-#### [htmllint](https://github.com/htmllint/htmllint) & [htmllint-cli](https://github.com/htmllint/htmllint-cli)
-Released under the [ISC license](https://github.com/htmllint/htmllint/blob/master/LICENSE)
