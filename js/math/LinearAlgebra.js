@@ -298,7 +298,7 @@ export default class LinearAlgebra {
      *   LinearAlgebra.matrixSlice([[0, 1], [2, 3]])
      *       //is equal to [[0, 1], [2, 3]]
      * @example
-     *   LinearAlgebra.matrixSlice([[8,8,8],[8,9,8],[8,8,8]], 1, 1, 1, 1)
+     *   LinearAlgebra.matrixSlice([[8,8,8],[8,9,8],[8,8,8]], 1, 1, 2, 2)
      *   //is equal to [[9]]
      */
     static matrixSlice(M,
