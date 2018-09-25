@@ -10,6 +10,9 @@ import CardAbstract from './CardAbstract.js';
  * @extends CardAbstract
  */
 export default class CardProjects extends CardAbstract {
+    /**
+     * @returns {void}
+     */
     constructor() {
         super('--projects');
     }
@@ -28,7 +31,7 @@ export default class CardProjects extends CardAbstract {
      */
     _transformationFunction(absoluteOrigin, mousePosition) {
         const rotAxis = LA.vector(absoluteOrigin, mousePosition),
-            rotation = 
+            rotation =
                 TF.advBellCurve(
                     absoluteOrigin, mousePosition, 0, 1, 2
                 ) - 1,
@@ -70,7 +73,7 @@ export default class CardProjects extends CardAbstract {
             );
         parent.style.setProperty(
             'background',
-            background + 
+            background +
             ', 0 var(--projects--scroll-top, 0)  ' +
             'repeating-linear-gradient(45deg, var(--c1) 0px, ' +
             'var(--c0) 40px, var(--c1) 80px)');

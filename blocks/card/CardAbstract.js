@@ -13,7 +13,9 @@ import LA
  */
 export default class cardAbstract extends TC {
     /**
-     *  @returns {void}
+     * @param {String} [modifier = ''] Modifier of the card block.
+     *   Default '' means mo modifier.
+     * @returns {void}
      */
     constructor(modifier = '') {
         super(
