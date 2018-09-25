@@ -19,7 +19,7 @@ export default class CardMain extends CardAbstract {
      * @returns {void}
      */
     _postTransformFunction() {
-        //in a card with hte '--main' modfier, nothing happens after the
+        //in a card with the '--main' modfier, nothing happens after the
         //transformation
     }
 }
