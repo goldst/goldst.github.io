@@ -34,7 +34,7 @@ function toggleTag(e) {
 export function add(tagsElement, additionName) {
     if([...tagsElement.childNodes].some(
         e => e.childNodes[0].data === additionName)
-      ) {
+    ) {
         return;
     }
 
@@ -53,8 +53,9 @@ export function add(tagsElement, additionName) {
 /**
  * removes a tag from a div if it exists
  * @param {object} tagsElement - dom element that contains tag
- * @param {String} additionName - content of the tag that should be
+ * @param {String} removalName - content of the tag that should be
  *   removed
+ * @returns {void}
  */
 export function remove(tagsElement, removalName) {
     tagsElement.querySelectorAll('li').forEach(li => {
