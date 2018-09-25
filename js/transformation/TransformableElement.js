@@ -599,15 +599,21 @@ export default class TransformableElement {
         }
     }
 
+    /**
+     * adds the css class `.transformable-element` to the DOM element so
+     * that it can be recognized as transformable when looking at the DOM
+     * @private
+     * @returns {void}
+     */
     _addCssClass() {
         this.domElement.classList.add('transformable-element');
     }
 
     /**
      * stores initial CSS transformation in css variable
-     *   '--transformable-element-initial-transform'. This is necessary at
-     *   the creation of the object to later being able to calculate the
-     *   absolute transformation origin.
+     * '--transformable-element-initial-transform'. This is necessary at
+     * the creation of the object to later being able to calculate the
+     * absolute transformation origin.
      * @private
      * @returns {void}
      */

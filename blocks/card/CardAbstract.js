@@ -5,7 +5,13 @@ import TF
 import LA
     from '../../js/math/LinearAlgebra.js';
 
-export default /*abstract*/ class cardAbstract extends TC {
+/**
+ * Base for the transformation controller for card blocks, which automates
+ * the 3d movement effect
+ * @abstract
+ * @extends TransformationController
+ */
+export default class cardAbstract extends TC {
     constructor(modifier = '') {
         super(
             document.body,

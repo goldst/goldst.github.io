@@ -11,17 +11,16 @@ import TE from './TransformableElement.js';
 export default class TransformationController {
     /**
      * @param {object} baseElement - The common ancestor DOM element of
-                                     all transformed elements. Attention:
-                                     Depending on how many children and
-                                     subchildren this element has, the
-                                     choice of the correct baseElement
-                                     affects the website performance.
-                                     Don't spam DOM mutations in the
-                                     baseElement subtree.
+     *   all transformed elements. Attention: Depending on how many
+     *   children and subchildren this element has, the choice of the
+     *   correct baseElement affects the website performance. Don't spam
+     *   DOM mutations in the baseElement subtree.
      * @param {string} [queryFilter = '*'] - This method only looks for
-                                             elements that match the
-                                             queryFilter. Again: The more
-                                             specific, the better.
+     *   elements that match the queryFilter. Again: The more specific,
+     *   the better.
+     * @param {boolean} [onlyNewElements = true] forgot what it does.
+     * @todo Find out what exacly onlyNewElements does and add docs. If it
+     *   doesn't do anything, delete it.
      * @returns {void}
      */
     constructor(baseElement, queryFilter = '*', onlyNewElements = true) {
@@ -52,7 +51,7 @@ export default class TransformationController {
      * of construction
      * @private
      * @param {object} baseElement - ancestor of all potential
-                                     transformation elements
+     *   transformation elements
      * @returns {void}
      */
     _addExistingElements(baseElement) {
@@ -74,7 +73,7 @@ export default class TransformationController {
      * changes
      * @private
      * @param {object} baseElement - ancestor of all potential
-                                     transformation elements
+     *   transformation elements
      * @returns {void}
      */
     _observe(baseElement) {
@@ -116,8 +115,8 @@ export default class TransformationController {
      * transformation. This method makes sure that the
      * TransformableElements of the changed elements stay up to date.
      * @private
-     * @param {object} element - element with a possibly changed
-                                 CSS transformation
+     * @param {object} element - element with a possibly changed CSS
+     *   transformation
      * @returns {void}
      */
     _updateInternalCornerPoints(element) {
@@ -132,7 +131,7 @@ export default class TransformationController {
      * outside this class only makes sense in few cases, because changes
      * to the element are not observed if itn't child of the baseElement.
      * @param {object[]} elements - Array of DOM elements. Only elements
-                                    that pass the queryFilter are added.
+     *   that pass the queryFilter are added.
      * @returns {void}
      */
     add(elements) {
@@ -151,10 +150,9 @@ export default class TransformationController {
     /**
      * finds the TransformableElement that belongs to a certain domElement
      * @param {object} domElement - DOM element which's
-                                    TransformableElement is sought
+     *   TransformableElement is sought
      * @returns {TransformableElement | void} TransformableElement that
-                                              belongs to a certain
-                                              domElement if there is one
+     *   belongs to a certain domElement if there is one
      */
     getTransformableElement(domElement) {
         return this.transformableElements.find(t =>
@@ -168,7 +166,7 @@ export default class TransformationController {
      * makes sense in few cases, because changes to the element are not
      * observed if itn't child of the baseElement.
      * @param {object} domElement - Element which's TransformableElement
-                                    is about to be added to the array
+     *   is about to be added to the array
      * @returns {void}
      */
     addTransformableElement(domElement) {
@@ -180,24 +178,15 @@ export default class TransformationController {
      * the criteria. Defines how the function should be transformed in
      * case of a mousemove and what should happen afterwards
      * @param {function} [transformationFunction=(o, m)=>'none'] - returns
-                                           a css transformation string.
-                                           params: absolute transformation
-                                           origin and mouse position, both
-                                           in arrays. See
-                                           {TransformationFunctions} for
-                                           examples and predefined
-                                           functions
+     *   a css transformation string. params: absolute transformation
+     *   origin and mouse position, both in arrays. See
+     *   {TransformationFunctions} for examples and predefined functions
      * @param {string} [additionalFilter='*'] - css query that has to
-                                                apply additionaly to the
-                                                one passed in the
-                                                constructor
+     *   apply additionaly to the one passed in the constructor
      * @param {function} [postFunction = (event, element)=>{}] - optional
-                                           function that runs after the
-                                           transformation is sucessfully
-                                           handeled internally. See
-                                           {PostTransformFunctions} for
-                                           examples and predefined
-                                           functions.
+     *   function that runs after the transformation is sucessfully
+     *   handeled internally. See {PostTransformFunctions} for examples
+     *   and predefined functions.
      * @returns {void}
      */
     mousemoveEventTransform(
@@ -219,16 +208,12 @@ export default class TransformationController {
      * the output of that function
      * @private
      * @param {event} event - mousemove event that co-triggered the call
-                              of the method
+     *   of the method
      * @param {TransformableElement} te - TransformableElement the
-                                          transformation applies to
+     *   transformation applies to
      * @param {function} transformationFunction - function which's result
-                                                  is the transformation
-                                                  that is going to be
-                                                  applied. See
-                                                  {PostTransformFunctions}
-                                                  for examples and
-                                                  predefined functions.
+     *   is the transformation that is going to be applied. See
+     *   {PostTransformFunctions} for examples and predefined functions.
      * @returns {void}
      */
     _transform(event, te, transformationFunction) {

@@ -322,8 +322,8 @@ export default class LinearAlgebra {
      * projects, there is no reason to hurry or to watch your coding style
      * and then you just forget stuff. I don't think this function it is
      * necessary though.I might delete it soon.
-     * @param {Array.<number[]>} M0
-     * @param {Array.<number[]>|number[]} M1
+     * @param {Array.<number[]>} M0 first matrix
+     * @param {Array.<number[]>|number[]} M1 second matrix
      * @todo find out what this does and delete it if it's not in use or
      *   not useful
      * @returns {Array.<number[]>} Something. I don't exactly know.
