@@ -5,7 +5,8 @@ export default () =>
 /**
  * changes the view from the main page to the project page and the other
  * way around
- * @param {event} e
+ * @param {event} e - event. Not used, but necessary for passing this
+ *   function to `.addEventListener`.
  * @returns {void}
  */
 function toProjects(e) {

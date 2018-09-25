@@ -6,6 +6,7 @@ import {
 /**
  * @todo This file is being refactored to card--projects.js. Transfer
  *   the functions and delete it
+ * @returns {void}
  */
 export default () =>
     document.querySelectorAll('.project-card__data .tags__tag').forEach(
@@ -14,7 +15,9 @@ export default () =>
 
 /**
  * @todo Implement properly. THis method isn't really done yet.
- * @param {event} e
+ * @param {event} e - event that contains target tag to change its CSS
+ *   classes
+ * @returns {void}
  */
 function toggleProjectTag(e) {
     const element = e.target,

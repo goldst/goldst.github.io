@@ -1,6 +1,7 @@
 /**
  * @todo This file is being refactored to card--main.js. Transfer
  *   the functions and delete it
+ * @returns {void}
  */
 export default () => {
     enableMainCardToggle();
@@ -17,7 +18,7 @@ function enableMainCardToggle() {
 }
 
 /**
- * @param {event} e
+ * @param {event} e - event that contains a checkbox target
  * @returns {void}
  */
 function toProjects(e) {
@@ -62,7 +63,7 @@ function setMouseoverBackgroundVars() {
 }
 
 /**
- * @param {event} e
+ * @param {event} e - mouseover event to find out mouse position
  * @returns {void}
  */
 function mainInnerMouseOver(e) {
