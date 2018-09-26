@@ -19,20 +19,20 @@
 }
 
 .card--main__right {
-    position: relative;
     grid-area: right;
+    position: relative;
     height: 100%;
     width: 100%;
 }
 
 .card--main__info,
 .card--main__qr {
+    left: 0;
     position: absolute;
     height: 100%;
-    width: 100%;
     top: 0;
-    left: 0;
     transition: opacity 1s ease;
+    width: 100%;
 }
 
 .card--main__info {
@@ -64,7 +64,7 @@
 }
 
 .card--main__qr-img:hover::before {
-    content: '<- go back';
+    content: '<- zurückkehren/go back';
 }
 
 .card--main__right :target {
