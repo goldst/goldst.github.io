@@ -1,6 +1,13 @@
 language: node_js
 node_js:
  - stable
-script: npx maid travis
+# script: npx maid travis
+jobs:
+    include:
+        - script: npx maid test
+        - stage: lint
+          script: npx maid lint
+        - stage: deploy
+          script: npx maid documentation
 env:
   - secure: "mlNkBl1gNWaRoEup9ksMsbwNFSZDtSdks+zgYfkHNbKjgzlVe4JBRqm4Xsed0fUK1fL4pzyXJkGnIdIBVjAT19mZ4Q0iDVo0XAeIsS6GjhKGNY2oxljpt27pwILVyfka8qgRB9osbCv6w44iueN3fjqg3S1fZuPmFSdPhhZF22lt3Ai4waifS/v/zDhnfT6le7ydCE5PV6iXLdTlZWOiGlasLLvXjxp0MuSz2hIHmgZF6E4EWo/l7zaQCYMsGVs4gRfTwLu8O9dWajqvXlIcWpR/NYxj3vKYtGqlr2W4g/DoxmgcoD3bYBkQ20zrWx/Su7v8gUfjboeEtKdH8FlFSg5nphkdRCWnUT3g45Jhh0m8GWOjYhZFSWPS/Ko69jDYHGnhbkGWufyEx9q0GHGSUwn0sk+4CkeLq51X2Iwh4g3C2XKCX5jaUpW7a1wkrCuM8wfOV5l8ywmrLbPCUDas6yjYtD0xaidDZGQ4LlPJy/V+rnrvMN+55u0wvXNBXh/4essoGumf0LRcQDjotgt0B036BhEjpiRPI2sP0DkxiYpn3v7OGle3sh2WLAr8/7NwdpPaA6WBh0OcQ7+eehRtDCy+lDeIuKj87tZYQS22v8GIyTdJ7Q2km0Z0UcJfI4gY/eyTHL82+WSNI4AlVy4zrTREjEX5fsrpWGMjgWs7orI="
