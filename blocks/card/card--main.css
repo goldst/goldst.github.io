@@ -20,16 +20,16 @@
 
 .card--main__right {
     grid-area: right;
-    position: relative;
     height: 100%;
+    position: relative;
     width: 100%;
 }
 
 .card--main__info,
 .card--main__qr {
+    height: 100%;
     left: 0;
     position: absolute;
-    height: 100%;
     top: 0;
     transition: opacity 1s ease;
     width: 100%;
@@ -47,20 +47,20 @@
 }
 
 .card--main__qr-img {
-    height: 100%;
-    width: 100%;
     background-image: url(card--main__qr-img.svg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .card--main__qr-img::before {
+    color: var(--_c1);
     content: '<-';
     display: block;
-    position: absolute;
-    width: 100%;
-    text-align: center;
     padding-top: var(--_padding);
-    color: var(--_c1);
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
 
 .card--main__qr-img:hover::before {
