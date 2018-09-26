@@ -1,12 +1,13 @@
 language: node_js
 node_js:
  - stable
-# script: npx maid travis
 jobs:
     include:
         - script: npx maid test
         - stage: lint
-          script: npx maid lint
+          script: npx maid lint:html
+          script: npx maid lint:css
+          script: npx maid lint:js
         - stage: deploy
           script: npx maid documentation
 env:

@@ -4,12 +4,6 @@ do this before pushing to make sure everything is fine.
 
 Run tasks `test`, `lint:fix`, and `documentation` after this.
 
-## travis
-
-Travis CI runs this.
-
-Run tasks `test`, `lint`, and `documentation` after this.
-
 ## lint
 
 lints everything that can be linted
