@@ -1,10 +1,5 @@
 @import url("main-card.keyframes.css");
 
-.main-card {
-    /* left: calc(50vw - 0.5 * var(--w));
-    top: calc(50vh - 0.5 * var(--h)); */
-}
-
 .main-card__inner {
     font-size: 12px;
     height: 100%;
@@ -45,38 +40,16 @@
     position: absolute;
 }
 
-.main-card__return-to-main {
-    display: none;
-    visibility: collapse;
-}
-
-.main-card--minimized .main-card__return-to-main {
-    display: block;
-    left: 52px;
-    opacity: 0;
-    pointer-events: none;
-    position: relative;
-    text-align: center;
-    top: -49px;
-    transition: opacity 0.5s;
-    visibility: visible;
-    width: 80px;
-}
-
-/* TODO line breaks differently without breaking line length 75? */
-.main-card--text-invisible .main-card__inner :not(
-.main-card__image
-):not(
-.main-card__return-to-main
-):not(
-.main-card__button--projects
-) {
-    display: none;
-    opacity: 0;
-    pointer-events: none;
-    visibility: collapse;
+.main-card--minimized .main-card__button--projects {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .main-card--text-invisible .main-card__inner .main-card__button--projects {
     opacity: 0;
 }
+
