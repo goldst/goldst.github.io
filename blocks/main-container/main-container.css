@@ -7,6 +7,7 @@
     top: calc(50vh - 0.5 * var(--h));
     width: var(--w);
     z-index: -2;
+    transition: height 0.5s, left 0.5s, top 0.5s, width 0.5s;
 }
 
 .main-container--maximized {
@@ -29,3 +30,12 @@
     animation: main-container__projects-title-bar--to-maximized 0.5s both;
 }
 
+/* for specific pages */
+
+/* projects page */
+#to-projects:target ~ .main-container {
+    height: calc(50vh + 0.5 * var(--h) + 60px);
+    left: 0;
+    top: calc(50vh - 0.5 * var(--h) - 60px);
+    width: 100vw;
+}
