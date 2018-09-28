@@ -10,6 +10,10 @@
     transition: height 0.5s, left 0.5s, top 0.5s, width 0.5s;
 }
 
+.main-container__projects {
+    transition: height 0.5s, left 0.5s, top 0.5s, width 0.5s, opacity 0.5s;
+}
+
 .main-container--maximized {
     animation: main-container--to-maximized 0.5s both;
 }
@@ -38,4 +42,16 @@
     left: 0;
     top: calc(50vh - 0.5 * var(--h) - 60px);
     width: 100vw;
+}
+
+#to-projects:target ~ * .main-container__projects {
+    height: 100vw;
+    left: calc(-50vh - 0.5 * var(--h) - 70px);
+    opacity: 1;
+    top: -10px;
+    width: calc(50vh + 0.5 * var(--h) + 70px);
+}
+
+#to-projects:target ~ * .main-container__projects-title-bar {
+    width: calc(100vw - 0.3 * var(--w));
 }
