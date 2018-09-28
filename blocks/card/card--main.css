@@ -15,12 +15,12 @@
 }
 
 .card--main__image {
+    background-image: url("card--main__logo.svg");
+    background-size: cover;
     display: block;
     grid-area: logo;
     height: 100%;
     width: 100%;
-    background-image: url("card--main__logo.svg");
-    background-size: cover;
 }
 
 .card--main__right {
@@ -71,7 +71,6 @@
 .card--main__qr-img:hover::before {
     content: '<- zurückkehren/go back';
 }
-
 
 .card--main__info-flex {
     display: flex;
@@ -134,20 +133,21 @@
 
 /* projects page */
 #to-projects:target ~ * .card--main {
-    /* 
+    /*
       TODO: These variable thing ugly and don't update if the definitions
       in card.css change. Find a way to change that.
     */
-    --_padding: calc(
-        0.5 * var(--card--padding, calc(0.02 * var(--w, 500px)))
-    );
-    
+    --_padding:
+        calc(
+            0.5 * var(--card--padding, calc(0.02 * var(--w, 500px)))
+        );
+
     height: calc(0.25 * var(--h));
     width: calc(0.25 * var(--w));
 }
 
 #to-projects:target ~ * .card--main__info {
-    transition: none;
     opacity: 0;
     pointer-events: none;
+    transition: none;
 }

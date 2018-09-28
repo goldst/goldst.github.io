@@ -5,9 +5,9 @@
     left: calc(50vw - 0.5 * var(--w));
     position: absolute;
     top: calc(50vh - 0.5 * var(--h));
+    transition: height 0.5s, left 0.5s, top 0.5s, width 0.5s;
     width: var(--w);
     z-index: -2;
-    transition: height 0.5s, left 0.5s, top 0.5s, width 0.5s;
 }
 
 .main-container__projects {
