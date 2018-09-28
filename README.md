@@ -32,7 +32,7 @@ lint with `npx maid lint` or `npx maid lint:fix`.
 | Language   | Style                                                                                                                                                      |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Javascript | <ul><li>ES6 classes &amp; modules</li><li>`ClassName`, `functionName`</li><li>4 spaces</li><li>Run eslint to check style:<br/>`npx maid lint:js`</li></ul> |
-| HTML       | <ul><li>4 spaces</li><li>no `id`s</li><li>`class` names: BEM</li><li>Run htmllint to check style:<br/>`npx maid lint:html`</li></ul>                       |
+| HTML       | <ul><li>4 spaces</li><li>no `id`s except for `link-to` block</li><li>`class` names: BEM</li><li>Run htmllint to check style:<br/>`npx maid lint:html`</li></ul>                       |
 | CSS        | <ul><li>4 spaces</li><li>BEM syntax for `class`es, `@keyframe` names and variables<ul><li>folder for each block</li></ul></li></ul>                        |
 
 ## License
