@@ -123,17 +123,17 @@
 /* for specific pages */
 
 /* QR page */
-#to-qr:target ~ .card--main .card--main__qr {
+#to-qr:target ~ * .card--main__qr {
     opacity: 1;
 }
 
-#to-qr:target ~ .card--main .card--main__info {
+#to-qr:target ~ * .card--main__info {
     opacity: 0;
     pointer-events: none;
 }
 
 /* projects page */
-#to-projects:target ~ .card--main {
+#to-projects:target ~ * .card--main {
     /* 
       TODO: These variable thing ugly and don't update if the definitions
       in card.css change. Find a way to change that.
@@ -146,7 +146,7 @@
     width: calc(0.25 * var(--w));
 }
 
-#to-projects:target ~ .card--main .card--main__info {
+#to-projects:target ~ * .card--main__info {
     transition: none;
     opacity: 0;
     pointer-events: none;
