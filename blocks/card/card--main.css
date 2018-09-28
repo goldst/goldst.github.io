@@ -67,18 +67,6 @@
     content: '<- zurückkehren/go back';
 }
 
-.card--main__right :target {
-    opacity: 1;
-}
-
-.card--main__right :target ~ * {
-    opacity: 0;
-    pointer-events: none;
-}
-
-.card--main__qr:not(:target):not(:hover) {
-    height: 0;
-}
 
 .card--main__info-flex {
     display: flex;
@@ -125,4 +113,29 @@
 
 .card--main__social-link--mail {
     --button--background: url("../../img/E-Mail.svg");
+}
+
+/* for specific pages */
+
+/* QR page */
+#to-qr:target ~ .card--main .card--main__qr {
+    opacity: 1;
+}
+
+#to-qr:target ~ .card--main .card--main__info {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* projects page */
+#to-projects:target ~ .card--main {
+    /* 
+      TODO: These lines are ugly and don't update if the definitions in
+      card.css change. Find a way to change that.
+    */
+    --_w: calc(0.25 * var(--w, 500px));
+    --_h: clac(0.25 * var(--h, calc(var(--w, 500px) * 0.618033988)));
+    --_padding: calc(
+        0.5 * var(--card--padding, calc(0.02 * var(--w, 500px)))
+    );
 }
