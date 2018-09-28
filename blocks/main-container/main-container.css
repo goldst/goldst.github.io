@@ -14,26 +14,6 @@
     transition: height 0.5s, left 0.5s, top 0.5s, width 0.5s, opacity 0.5s;
 }
 
-.main-container--maximized {
-    animation: main-container--to-maximized 0.5s both;
-}
-
-.main-container:not(.main-container--maximized):not(
-.main-container--initial) {
-    animation: main-container--from-maximized 0.5s both;
-}
-
-.main-container--maximized .main-container__projects {
-    animation: main-container__projects--to-maximized 0.5s both;
-    visibility: visible;
-}
-
-/* .main-container--maximized .main-container__projects
-.main-container__projects-title-bar { */
-.main-container--maximized .main-container__projects-title-bar {
-    animation: main-container__projects-title-bar--to-maximized 0.5s both;
-}
-
 /* for specific pages */
 
 /* projects page */

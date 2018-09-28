@@ -63,20 +63,6 @@
     width: 80px;
 }
 
-.main-card--minimized:hover .main-card__return-to-main {
-    opacity: 1;
-}
-
-.main-card--minimized {
-    animation: main-card--to-minimized 0.5s both;
-    cursor: pointer;
-}
-
-.main-card--minimized .main-card__inner {
-    animation: main-card__inner--to-minimized 0.5s both;
-    display: block;
-}
-
 /* TODO line breaks differently without breaking line length 75? */
 .main-card--text-invisible .main-card__inner :not(
 .main-card__image
@@ -91,40 +77,6 @@
     visibility: collapse;
 }
 
-.main-card--minimized .main-card__button--projects {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
 .main-card--text-invisible .main-card__inner .main-card__button--projects {
     opacity: 0;
-}
-
-.main-card--minimized .main-card__inner .main-card__image {
-    animation: main-card__image--to-minimized 0.5s both;
-}
-
-.main-card:not(
-.main-card--minimized):not(
-    .main-card--initial) .main-card__inner .main-card__image {
-    animation: main-card__image--from-minimized 0.5s both;
-}
-
-.main-card:not(.main-card--minimized):not(
-.main-card--initial) .main-card__inner {
-    animation: main-card__inner--from-minimized 0.5s both;
-}
-
-.main-card:not(.main-card--minimized):not(.main-card--initial) {
-    animation: main-card--from-minimized 0.5s both;
-}
-
-.main-card:not(.main-card--initial):not(.main-card__image):not(
-.main-card--text-invisible) .main-card__inner :not(
-    .main-card__image):not(.main-card__toggle) {
-    animation: main-card__inner--to-text-visible 0.5s both;
 }
