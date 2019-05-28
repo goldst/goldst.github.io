@@ -24,8 +24,8 @@ p1 = [2, 4, 5, 3]
         });
     });
     describe('static vectorSubtract(v0, v1)', function() {
-        it('LinearAlgebra.vectorSubtract([3, 2], [1, 0]) should be [2,1]', function() {
-            assert.deepEqual(LinearAlgebra.vectorSubtract([3, 2], [1, 0]),[2,1]);
+        it('LinearAlgebra.vectorSubtract([3, 2], [2, 1]) should be [1,1]', function() {
+            assert.deepEqual(LinearAlgebra.vectorSubtract([3, 2], [2, 1]),[1,1]);
         });
         it('() => LinearAlgebra.vectorSubtract([0], [1, 2, 3]) should throw an error', function() {
             assert.throws(() => LinearAlgebra.vectorSubtract([0], [1, 2, 3]));
@@ -76,6 +76,24 @@ p1 = [2, 4, 5, 3]
         });
         it('() => LinearAlgebra.shortestDistance([1], [2, 3], [4]) should throw an error', function() {
             assert.throws(() => LinearAlgebra.shortestDistance([1], [2, 3], [4]));
+        });
+    });
+    describe('static matrixIdentity(n)', function() {
+        it('LinearAlgebra.matrixIdentity(3) should be [[1,0,0],[0,1,0],[0,0,1]]', function() {
+            assert.deepEqual(LinearAlgebra.matrixIdentity(3),[[1,0,0],[0,1,0],[0,0,1]]);
+        });
+    });
+    describe('static matrixAugment(M0, M1)', function() {
+        it('LinearAlgebra.matrixAugment([[1], [3]], [[2], 4]) should be [[1,2],[3,4]]', function() {
+            assert.deepEqual(LinearAlgebra.matrixAugment([[1], [3]], [[2], 4]),[[1,2],[3,4]]);
+        });
+    });
+    describe('static matrixSlice(M,         beginRow = 0, beginColumn = 0,         endRow = M.length, endColumn = M[0].length)', function() {
+        it('LinearAlgebra.matrixSlice([[0, 1], [2, 3]]) should be [[0,1],[2,3]]', function() {
+            assert.deepEqual(LinearAlgebra.matrixSlice([[0, 1], [2, 3]]),[[0,1],[2,3]]);
+        });
+        it('LinearAlgebra.matrixSlice([[8,8,8],[8,9,8],[8,8,8]], 1, 1, 2, 2) should be [[9]]', function() {
+            assert.deepEqual(LinearAlgebra.matrixSlice([[8,8,8],[8,9,8],[8,8,8]], 1, 1, 2, 2),[[9]]);
         });
     });
 });

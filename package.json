@@ -1,18 +1,18 @@
 {
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "chai": "^4.1.2",
-    "eslint": "^4.19.1",
-    "htmllint": "^0.7.2",
-    "htmllint-cli": "0.0.7",
-    "jsdoc-to-markdown": "^4.0.1",
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "chai": "*",
+    "eslint": "*",
+    "htmllint": "*",
+    "htmllint-cli": "*",
+    "jsdoc-to-markdown": "^5.0.0",
     "jsdoctest": "^1.7.1",
-    "maid": "^0.2.4",
-    "mocha": "^5.2.0",
-    "stylelint": "^9.2.1",
-    "stylelint-order": "^0.8.1"
+    "maid": "*",
+    "mocha": "*",
+    "stylelint": "^10.0.1",
+    "stylelint-order": "*"
   },
   "dependencies": {
     "postcss-syntax": "^0.28.0"
