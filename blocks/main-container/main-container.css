@@ -7,11 +7,11 @@
     top: calc(50vh - 0.5 * var(--h));
     transition: height 0.5s, left 0.5s, top 0.5s, width 0.5s;
     width: var(--w);
-    z-index: -2;
 }
 
 .main-container__projects {
     transition: height 0.5s, left 0.5s, top 0.5s, width 0.5s, opacity 0.5s;
+    z-index: 1;
 }
 
 /* for specific pages */
