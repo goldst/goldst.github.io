@@ -60,6 +60,7 @@
     transition:
         box-shadow 0.5s,
         transform 0.5s;
+    cursor: inherit;
 }
 
 .button:hover,
