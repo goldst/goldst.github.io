@@ -48,7 +48,7 @@
     border: none;
     box-sizing: content-box;
     color: var(--_c1);
-    cursor: pointer;
+    cursor: inherit;
     display: inline-block;
     font-family: "Manrope", Arial, Verdana, Tahoma, sans-serif;
     font-size: inherit;

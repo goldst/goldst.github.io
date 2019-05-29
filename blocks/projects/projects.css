@@ -1,9 +1,9 @@
 .projects {
     opacity: 0;
+    pointer-events: none;
     position: absolute;
     transform: rotate(-90deg);
     transform-origin: right top;
-    z-index: -1;
 }
 
 .projects__inner {
@@ -13,6 +13,10 @@
     overflow-y: auto;
     position: absolute;
     width: 100%;
+}
+
+.projects__inner > div {
+    pointer-events: all;
 }
 
 .projects__project-card {
@@ -39,6 +43,7 @@
     height: calc(0.15 * var(--w));
     justify-content: flex-start;
     left: calc(50vh + 0.5 * (var(--h) + 75px));
+    pointer-events: all;
     position: absolute;
     top: calc(0.3 * var(--w));
     transform: rotate(90deg);
