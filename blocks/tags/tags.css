@@ -17,12 +17,13 @@
     text-align: right;
 }
 
+/* TODO removed the different cursor here. should instead show shadow
+   behind it when mouseover */
 .tags__tag {
     border: 1px solid var(--c0);
     border-radius: 3px;
     color: var(--c0);
     display: inline-block;
-    /* TODO removed the different cursor here. should instead show shadow behind it when mouseover */ 
     hyphens: none;
     margin-top: 3px;
     padding-left: 3px;
