@@ -46,11 +46,13 @@
         radial-gradient(
             circle at
             calc(
-	        var(--card__inner--hover-left, -100%) / 
-		var(--_hover-scale))
+                var(--card__inner--hover-left, -100%)
+                / var(--_hover-scale)
+            )
             calc(
-	        var(--card__inner--hover-top, -100%) /
-		var(--_hover-scale)),
+                var(--card__inner--hover-top, -100%) /
+                var(--_hover-scale)
+            ),
             var(--_c0) 0,
             transparent calc(0.1 * var(--_w))
         );

@@ -11,29 +11,26 @@
 }
 
 .project-card__inner {
-    background-color: transparent;
-    background-image:
-        linear-gradient(
-            0deg,
-            var(--c1) var(--project-card--padding),
-            transparent var(--project-card--padding)
-        ),
-        linear-gradient(
-            90deg,
-            var(--c1) var(--project-card--padding),
-            transparent var(--project-card--padding)
-        ),
-        linear-gradient(
-            180deg,
-            var(--c1) var(--project-card--padding),
-            transparent var(--project-card--padding)
-        ),
-        linear-gradient(
-            270deg,
-            var(--c1) calc(50% + 0.5 * var(--project-card--padding)),
-            transparent calc(50% + 0.5 * var(--project-card--padding))
-        );
+    --_-w: calc(-1 * var(--w));
+    --_tw: calc(2 * var(--w));
+    --_ax: var(--project-card--padding);
+    --_bx: calc(0.5 * var(--w) - 0.5 * var(--project-card--padding));
+    --_by: calc(var(--h) - var(--project-card--padding));
+
     box-sizing: border-box;
+    clip-path:
+        polygon(
+            var(--_-w) var(--_-w),
+            var(--_-w) var(--_tw),
+            var(--_tw) var(--_tw),
+            var(--_tw) var(--_-w),
+            var(--_-w) var(--_-w),
+            var(--_ax) var(--_ax),
+            var(--_bx) var(--_ax),
+            var(--_bx) var(--_by),
+            var(--_ax) var(--_by),
+            var(--_ax) var(--_ax)
+        );
     color: var(--c0);
     height: var(--h);
     hyphens: auto;
