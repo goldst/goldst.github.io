@@ -38,9 +38,11 @@
 
 .card:hover {
     transform: scale(var(--_hover-scale));
+    z-index: 100;
 }
 
-.card__inner:hover {
+.card__inner:hover,
+.card:hover .card__inner {
     background-image:
         var(--_add-background),
         radial-gradient(
