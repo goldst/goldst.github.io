@@ -77,14 +77,18 @@
 .button--s {
     --collapsed: 15px;
 
-    background:
+    /*background:
         var(--_button--background)
         calc(0.01 * var(--_w))
         calc(0.01 * var(--_w)) /
         15px 15px no-repeat,
-        var(--_c0);
+        var(--_c0);*/
     height: var(--collapsed);
     line-height: normal;
+    mask:
+        subtract linear-gradient(black, black),
+        var(--_button--background) no-repeat
+	calc(0.01 * var(--_w)) calc(0.01 * var(--_w)) / 15px 15px;
 
     /* transition using max-width because width:auto is not animated */
     max-width: 0;
