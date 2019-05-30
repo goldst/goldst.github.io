@@ -15,6 +15,7 @@
     --_c1: var(--c1, lightgrey);
     --_padding: var(--card--padding, calc(0.02 * var(--w, 500px)));
     --_add-background: var(--card--additional-background-image, none);
+    --_hover-scale: var(--card--hover-scale, 1.025);
 
     height: var(--_h);
     transition: transform 0.5s;
@@ -36,7 +37,7 @@
 }
 
 .card:hover {
-    transform: scale(1.025);
+    transform: scale(var(--_hover-scale));
 }
 
 .card__inner:hover {
@@ -44,8 +45,12 @@
         var(--_add-background),
         radial-gradient(
             circle at
-            var(--card__inner--hover-left, -100%)
-            var(--card__inner--hover-top, -100%),
+            calc(
+	        var(--card__inner--hover-left, -100%) / 
+		var(--_hover-scale))
+            calc(
+	        var(--card__inner--hover-top, -100%) /
+		var(--_hover-scale)),
             var(--_c0) 0,
             transparent calc(0.1 * var(--_w))
         );
