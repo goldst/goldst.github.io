@@ -77,15 +77,6 @@
 .button--s {
     --collapsed: 15px;
 
-<<<<<<< HEAD
-=======
-    /*background:
-        var(--_button--background)
-        calc(0.01 * var(--_w))
-        calc(0.01 * var(--_w)) /
-        15px 15px no-repeat,
-        var(--_c0);*/
->>>>>>> button-s-icons
     height: var(--collapsed);
     line-height: normal;
     mask:
