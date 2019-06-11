@@ -30,26 +30,29 @@ export default class CardProjects extends CardAbstract {
      * @returns {String} transformation with adjusted scale and 3d
      *   rotation
      */
-    _transformationFunction(absoluteOrigin, mousePosition) {
-        const rotAxis = LA.vector(absoluteOrigin, mousePosition),
+    _transformationFunction(args) {
+        const rotAxis = LA.vector(args.transformOrigin, args.mousePosition),
             rotation =
                 TF.advBellCurve(
-                    absoluteOrigin, mousePosition, 0, 1, 2
+                    args.transformOrigin, args.mousePosition, 0, 1, 2
                 ) - 1,
             invRotAxis = [
                 rotAxis[1],
                 -rotAxis[0]
             ];
 
-        return 'perspective(2000px) ' +
-            'var(--transformable-element--initial-transform, ' +
-            'translateZ(0)) ' +
-            `rotate3d(${invRotAxis[0]}, ` +
-            `${invRotAxis[1]}, 0, ${rotation}rad) ` +
-            `scale(${TF
-                .advBellCurve(absoluteOrigin, mousePosition,
-                    0.9, 1, 2)}) ` +
-            'translateZ(0) ';
+        return {
+            transform:
+                'perspective(2000px) ' +
+                'var(--transformable-element--initial-transform, ' +
+                'translateZ(0)) ' +
+                `rotate3d(${invRotAxis[0]}, ` +
+                `${invRotAxis[1]}, 0, ${rotation}rad) ` +
+                `scale(${TF
+                    .advBellCurve(args.transformOrigin, args.mousePosition,
+                        0.9, 1, 2)}) ` +
+                'translateZ(0) '
+        };
     }
 
     /**

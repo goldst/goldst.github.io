@@ -1,5 +1,5 @@
 import TC
-    from '../../js/transformation/TransformationController.js';
+    from '../../js/transformationNew/TransformationController.js';
 import TF
     from '../../js/transformation/TransformationFunctions.js';
 import LA
@@ -37,24 +37,35 @@ export default class cardAbstract extends TC {
      * @returns {string} transformation with adjusted scale and 3d
      *   rotation
      */
-    _transformationFunction(absoluteOrigin, mousePosition) {
-        const rotAxis = LA.vector(absoluteOrigin, mousePosition),
-            rotation =
-                TF.advBellCurve(
-                    absoluteOrigin, mousePosition, 0, 1, 2
-                ) - 1,
-            invRotAxis = [
-                rotAxis[1],
-                -rotAxis[0]
+    _transformationFunction(args) {
+        const
+            rotAxis = LA.vector(args.transformOrigin, args.mousePosition),
+                rotation =
+                    TF.advBellCurve(
+                        args.transformOrigin, args.mousePosition, 0, 1, 2
+                    ) - 1,
+                invRotAxis = [
+                    rotAxis[1],
+                    -rotAxis[0]
+                ],
+            rect = args.eventControlElement.domElement.getBoundingClientRect(),
+            hover = [
+                args.event.clientX - rect.left,
+                args.event.clientY - rect.top
             ];
 
-        return `perspective(2000px) ` +
-               `rotate3d(${invRotAxis[0]}, ` +
-               `${invRotAxis[1]}, 0, ${rotation}rad) ` +
-               `scale(${TF
-                   .advBellCurve(absoluteOrigin, mousePosition,
-                       0.9, 1, 2)}) ` +
-               'translateZ(0) ';
+        return { 
+            transform:
+                `perspective(2000px) ` +
+                `rotate3d(${invRotAxis[0]}, ` +
+                `${invRotAxis[1]}, 0, ${rotation}rad) ` +
+                `scale(${TF
+                    .advBellCurve(args.transformOrigin, args.mousePosition,
+                        0.9, 1, 2)}) ` +
+                'translateZ(0) ',
+            '--card__inner--hover-left': hover[0] + 'px',
+            '--card__inner--hover-top': hover[1] + 'px'
+        };
     }
 
     /**
