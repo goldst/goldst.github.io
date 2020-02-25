@@ -6,7 +6,8 @@ import TF
 import CardAbstract from './CardAbstract.js';
 
 /**
- * automates the 3d effect for card blocks with the --projects modifier
+ * automates event based effects for card blocks with the --projects
+ * modifier
  * @extends CardAbstract
  */
 export default class CardProjects extends CardAbstract {
@@ -14,7 +15,12 @@ export default class CardProjects extends CardAbstract {
      * @returns {void}
      */
     constructor() {
-        super('--projects');
+        super(
+            '--projects',
+            CardProjects._postTransformFunction,
+            () => {},
+            CardProjects._transformationFunction
+        );
     }
 
     /**
@@ -30,7 +36,7 @@ export default class CardProjects extends CardAbstract {
      * @returns {String} transformation with adjusted scale and 3d
      *   rotation
      */
-    _transformationFunction(args) {
+    static _transformationFunction(args) {
         const rotAxis = LA.vector(args.transformOrigin, args.mousePosition),
             rotation =
                 TF.advBellCurve(
@@ -64,7 +70,7 @@ export default class CardProjects extends CardAbstract {
      *   transformed
      * @returns {void}
      */
-    _postTransformFunction(event, element) {
+    static _postTransformFunction(event, element) {
         const parent = element.domElement.parentElement,
             background = element.surroundingBackground(
                 'var(--c0)',

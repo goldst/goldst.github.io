@@ -4,7 +4,7 @@ import CardProjects from './Card--projects.js';
 
 
 window.addEventListener('load', () => {
-    new CardProjects().mousemoveEventTransform();
-    new CardMain().mousemoveEventTransform();
-    new Card().mousemoveEventTransform();
+    new CardProjects().mousemoveEvent();
+    new CardMain().mousemoveEvent();
+    new Card().mousemoveEvent();
 });

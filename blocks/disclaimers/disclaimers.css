@@ -31,3 +31,8 @@
 .disclaimers ul :not(:last-child)::after {
     content: " | ";
 }
+
+.disclaimers a {
+    color: var(--c1);
+    text-decoration: none;
+}

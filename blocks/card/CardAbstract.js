@@ -1,29 +1,43 @@
-import TC
-    from '../../js/transformationNew/TransformationController.js';
-import TF
-    from '../../js/transformation/TransformationFunctions.js';
-import LA
-    from '../../js/math/LinearAlgebra.js';
+import CT from './CardTransformable.js';
+import CM from './CardMouseShadowed.js';
+import TF from '../../js/transformation/TransformationFunctions.js';
+import LA from '../../js/math/LinearAlgebra.js';
 
 /**
- * Base for the transformation controller for card blocks, which automates
- * the 3d effect
+ * Base for the event controllers for card blocks, which automates
+ * the effects
  * @abstract
- * @extends TransformationController
  */
-export default class cardAbstract extends TC {
+export default class cardAbstract {
     /**
      * @param {String} [modifier = ''] Modifier of the card block.
      *   Default '' means mo modifier.
+     * @param {function} postTransformFunction for examples, see
+     *   {js/transformation/TransformableElement/
+     *   PostTransformFunctions.js}
      * @returns {void}
      */
-    constructor(modifier = '') {
-        super(
-            document.body,
-            `.card${modifier} > .card__inner`
+    constructor(
+        modifier = '',
+        postTransformFunction,
+        postShadowFunction,
+        transformationFunction = cardAbstract._transformationFunction,
+        shadowFunction = cardAbstract._shadowFunction
+    ) {
+
+        this._throwIfAbstractClass();
+
+        this._ct = new CT(
+            modifier,
+            postTransformFunction,
+            transformationFunction
         );
 
-        console.log(this);
+        this._cm = new CM(
+            modifier,
+            postShadowFunction,
+            shadowFunction
+        );
     }
 
     /**
@@ -38,7 +52,7 @@ export default class cardAbstract extends TC {
      * @returns {string} transformation with adjusted scale and 3d
      *   rotation
      */
-    _transformationFunction(args) {
+    static _transformationFunction(args) {
         const
             rotAxis = LA.vector(args.transformOrigin, args.mousePosition),
             rotation =
@@ -48,11 +62,6 @@ export default class cardAbstract extends TC {
             invRotAxis = [
                 rotAxis[1],
                 -rotAxis[0]
-            ],
-            rect = args.eventControlElement.domElement.getBoundingClientRect(),
-            hover = [
-                args.event.clientX - rect.left,
-                args.event.clientY - rect.top
             ];
 
         return {
@@ -63,44 +72,38 @@ export default class cardAbstract extends TC {
                 `scale(${TF
                     .advBellCurve(args.transformOrigin, args.mousePosition,
                         0.9, 1, 2)}) ` +
-                'translateZ(0) ',
-            '--card__inner--hover-left': hover[0] + 'px',
-            '--card__inner--hover-top': hover[1] + 'px'
+                'translateZ(0) '
         };
     }
 
     /**
-     * in any implementation, override this function with a function that
-     * does what should happen after transforming the element (eg.
-     * setting the correct background to the parent element)
-     * @see {PostTransformFunctions}
-     * @abstract
-     * @protected
-     * @param {event} event - event that caused the transformation
-     * @param {TransformableElement} element - element that was
-     *   transformed
-     * @returns {void}
+     * function which takes an object args which contains e mousemove
+     * event (event) and returns css changes
+     * @param {object} args
+     * @returns {object} object of css properties and their values
      */
-    _postTransformFunction(event, element) {
-        //look for implementation examples in
-        //  'js/transformation/TransformableElement/
-        //  PostTransformFunctions.js'
-        this._throwIfAbstractFunction();
+    static _shadowFunction(args) {
+        const
+            rect = args.eventControlElement.domElement.getBoundingClientRect(),
+            hover = [
+                args.event.clientX - rect.left,
+                args.event.clientY - rect.top
+            ];
+
+        return {
+            '--card__inner--mouse-shadow-left': hover[0] + 'px',
+            '--card__inner--mouse-shadow-top': hover[1] + 'px'
+        };
     }
 
     /**
-     * more specific version of {TransformationController}'s
-     * mousemoveEventTransform that already specifies where to find the
-     * passed transformation functions and what elements it applies to
+     * @todo what does this do in simple words
      * @see TransformationController
      * @returns {void}
      */
-    mousemoveEventTransform() {
-        super.mousemoveEventTransform(
-            this._transformationFunction,
-            '*',
-            this._postTransformFunction
-        );
+    mousemoveEvent() {
+        this._ct.mousemoveEventTransform();
+        this._cm.mousemoveEventShadow();
     }
 
     /**
@@ -113,25 +116,5 @@ export default class cardAbstract extends TC {
         if((typeof new.target).endsWith('Abstract')) {
             throw new Error('cannot call functions in abstract class');
         }
-    }
-
-    /**
-     * Helper function that always throws an error. Override the method
-     * which calls this to avoid that.
-     * @private
-     * @throws {Error} 'cannot call functions in abstract class' if class
-     *   name ends on 'Abstract'
-     * @throws {Error} 'cannot call function in child class of abstract
-     *   class that does not override the abstract function' in any other
-     *   case
-     * @returns {void}
-     */
-    _throwIfAbstractFunction() {
-        this._throwIfAbstractClass();
-
-        throw new Error(
-            'cannot call function in child class of abstract class that ' +
-            'does not override the abstract function'
-        );
     }
 }

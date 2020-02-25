@@ -1,42 +1,31 @@
 import Point4d from './Point4d.js';
 import DO from '../math/DegOperations.js';
 import LA from '../math/LinearAlgebra.js';
+import ECE from '../eventControl/EventControlElement.js';
 
 /**
  * helps with setting, fetching and
- * interpretating CSS transformations
+ * interpreting CSS transformations
  */
-export default class TransformableElement {
+export default class TransformableElement extends ECE {
     /**
      * @param {object} domElement - DOM element that is transformed
      */
-    constructor(domElement) {
+    constructor(domElement, cssClasses) {
         /**
          * @type {object}
          */
-        this.domElement = domElement;
-        this._addCssClass();
+        super(domElement, cssClasses.concat(['transformable-element']));
         this._storeInitialTransform();
         this.updateCornerPoints();
     }
 
     /**
-     * @private
-     * @returns {object} computed style of the domElement
+     * currently equal to {updateCornerPoints}
+     * @todo where is this used, why is this necessary, what does this override?
      */
-    get _style() {
-        return window.getComputedStyle(this.domElement);
-    }
-
-    /**
-     * @private
-     * @return {number[]} width and height of the domElement
-     */
-    get _size() {
-        return [
-            this.domElement.offsetWidth,
-            this.domElement.offsetHeight
-        ];
+    update() {
+        this.updateCornerPoints();
     }
 
     /**
@@ -113,7 +102,7 @@ export default class TransformableElement {
      * @returns {number[]} origin of transformation in px
      */
     get _transformOrigin() {
-        return this._style.getPropertyValue('transform-origin')
+        return this._getPropertyValue('transform-origin')
             .split(' ')
             .map(parseFloat);
     }
@@ -126,7 +115,7 @@ export default class TransformableElement {
      */
     _initialInternalTransform() {
         this.internalTransform(
-            this._style.getPropertyValue('transform')
+            this._getPropertyValue('transform')
         );
     }
 
@@ -593,20 +582,10 @@ export default class TransformableElement {
      * @returns {void}
      */
     transform(css, alsoTransformInternal = true) {
-        this.domElement.style.setProperty('transform', css);
+        this._setProperty('transform', css);
         if(alsoTransformInternal) {
             this._initialInternalTransform();
         }
-    }
-
-    /**
-     * adds the css class `.transformable-element` to the DOM element so
-     * that it can be recognized as transformable when looking at the DOM
-     * @private
-     * @returns {void}
-     */
-    _addCssClass() {
-        this.domElement.classList.add('transformable-element');
     }
 
     /**
@@ -618,14 +597,14 @@ export default class TransformableElement {
      * @returns {void}
      */
     _storeInitialTransform() {
-        const initialTransform = this._style.getPropertyValue('transform'),
+        const initialTransform = this._getPropertyValue('transform'),
             value =
                 initialTransform === 'none' ?
                     '' :
                     initialTransform;
 
-        this.domElement.style.setProperty(
-            '--transformable-element--initial-transform',
+        this._setVariable(
+            'transformable-element', 'initial-transform',
             value
         );
     }
@@ -635,8 +614,8 @@ export default class TransformableElement {
      *   'none'.
      */
     get initialTransform() {
-        return this._style.getPropertyValue(
-            '--transformable-element--initial-transform'
+        return this._getVariable(
+            'transformable-element', 'initial-transform'
         );
     }
 
@@ -648,15 +627,13 @@ export default class TransformableElement {
      *   the last few lines.
      */
     get absoluteTransformOriginApprox() {
-        this.domElement.style.setProperty(
+        this._setProperty(
             'transform', this.initialTransform
         );
 
         const rect = this.domElement.getBoundingClientRect();
 
-        this.domElement.style.setProperty(
-            'transform', ''
-        );
+        this._setProperty('transform', '');
 
         return [
             (rect.left + rect.right) / 2,

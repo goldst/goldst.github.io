@@ -2,5 +2,5 @@
 :root,
 html,
 body {
-    cursor: url(cursor--temp.cur) 12 12, auto;
+    cursor: none;
 }

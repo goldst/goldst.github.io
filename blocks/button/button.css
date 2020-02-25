@@ -64,13 +64,51 @@
 
 .button:hover,
 .button:focus {
+    --a:
+        calc(
+            var(--button--mouse-shadow-left) - (0.5 * var(--button--width))
+        );
+
+    background-image:
+        var(--_add-background),
+        radial-gradient(
+            ellipse at
+            calc(
+                var(--button--mouse-shadow-left, -10000) * 1px
+                / var(--_hover-scale)
+            )
+            bottom,
+            var(--_c1) 0,
+            transparent calc(0.12 * var(--_w))
+        ),
+        radial-gradient(
+            ellipse at
+            calc(
+                var(--button--mouse-shadow-left, -10000) * 1px
+                / var(--_hover-scale)
+            )
+            top,
+            var(--_c1) 0,
+            transparent calc(0.12 * var(--_w))
+        ),
+        radial-gradient(
+            circle at
+            calc(
+                calc(var(--button--mouse-shadow-left, -10000) * 1px)
+                / var(--_hover-scale)
+            )
+            center,
+            var(--_c1) 0,
+            transparent
+            calc(var(--a) * var(--a) * 0.007px + 0.1 * var(--_w))
+        );
     box-shadow: 0 0 calc(0.015 * var(--_w)) 0 var(--_c0);
     outline: none;
     transform: scale(1.05);
 }
 
 /**
- * @modifier button--s Small sqare version of the button. Only shows icon
+ * @modifier button--s Small square version of the button. Only shows icon
  *   by default, extends <code>width</code> and shows text on
  *   <code>:hover</code>.
  */
@@ -108,6 +146,21 @@
 
 .button--s:hover,
 .button--s:focus {
+    background-image:
+        var(--_add-background),
+        radial-gradient(
+            circle at
+            calc(
+                var(--button--mouse-shadow-left, -100%) * 1px
+                / var(--_hover-scale)
+            )
+            calc(
+                var(--button--mouse-shadow-top, -100%) * 1px /
+                var(--_hover-scale)
+            ),
+            var(--_c1) 0,
+            transparent calc(0.1 * var(--_w))
+        );
     box-shadow: 0 0 calc(0.025 * var(--_w)) 0 var(--_c0);
     max-width: var(--_w);
     outline: none;

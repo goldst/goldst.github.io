@@ -1,6 +1,6 @@
-const Point4d = require('./../../../js/transformationNew/Point4d.js').default;
+const Point4d = require('./../../../js/transformation/Point4d.js').default;
 const assert = require('chai').assert;
-describe('js/transformationNew/Point4d.js', function() {
+describe('js/transformation/Point4d.js', function() {
     describe('get X()', function() {
         it('new Point4d(1, 2, 3, 4).X should be 0.25', function() {
             assert.equal(new Point4d(1, 2, 3, 4).X,0.25);
