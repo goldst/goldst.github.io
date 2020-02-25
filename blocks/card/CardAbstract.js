@@ -31,6 +31,7 @@ export default class cardAbstract extends TC {
      * card block depending on the absolute position on screen and the
      * mouse position
      * @protected
+     * @todo this documentation is totally outdated. data isn't correct
      * @see {TransformationFunctions}
      * @param {number[]} absoluteOrigin - absolute transformation origin
      * @param {number[]} mousePosition - absolute mouse position
