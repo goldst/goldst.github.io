@@ -41,21 +41,21 @@ export default class cardAbstract extends TC {
     _transformationFunction(args) {
         const
             rotAxis = LA.vector(args.transformOrigin, args.mousePosition),
-                rotation =
+            rotation =
                     TF.advBellCurve(
                         args.transformOrigin, args.mousePosition, 0, 1, 2
                     ) - 1,
-                invRotAxis = [
-                    rotAxis[1],
-                    -rotAxis[0]
-                ],
+            invRotAxis = [
+                rotAxis[1],
+                -rotAxis[0]
+            ],
             rect = args.eventControlElement.domElement.getBoundingClientRect(),
             hover = [
                 args.event.clientX - rect.left,
                 args.event.clientY - rect.top
             ];
 
-        return { 
+        return {
             transform:
                 `perspective(2000px) ` +
                 `rotate3d(${invRotAxis[0]}, ` +

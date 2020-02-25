@@ -1,6 +1,6 @@
 /**
  * helps with setting, fetching and
- * interpretating CSS changes 
+ * interpretating CSS changes
  */
 export default class EventControlElement {
     /**

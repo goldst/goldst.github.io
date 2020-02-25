@@ -5,7 +5,7 @@ import ECE from '../eventControl/EventControlElement.js';
 
 /**
  * helps with setting, fetching and
- * interpretating CSS transformations
+ * interpreting CSS transformations
  */
 export default class TransformableElement extends ECE {
     /**
@@ -20,6 +20,10 @@ export default class TransformableElement extends ECE {
         this.updateCornerPoints();
     }
 
+    /**
+     * currently equal to {updateCornerPoints}
+     * @todo where is this used, why is this necessary, what does this override?
+     */
     update() {
         this.updateCornerPoints();
     }

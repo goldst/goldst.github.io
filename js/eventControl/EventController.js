@@ -2,7 +2,7 @@ import ECE from './EventControlElement.js';
 
 /**
  * Simplifies watching and regulating CSS changes by linking DOM elements,
- * EventControlElements and actions that should be performed after 
+ * EventControlElements and actions that should be performed after
  * the changing the CSS. Also watches for DOM mutations that could
  * create or delete DOM nodes or change the way these nodes are
  * changed.
@@ -198,7 +198,7 @@ export default class EventController {
     }
 
     /**
-     * Adds an eventListener for each DOM element that matches the 
+     * Adds an eventListener for each DOM element that matches the
      * criteria.
      * @param {string} [eventType=mousemove] type of the event that
      *   should be listened for
