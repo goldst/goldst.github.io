@@ -43,8 +43,9 @@ export default class ButtonAbstract {
             ];
 
         return {
-            '--button--mouse-shadow-left': hover[0] + 'px',
-            '--button--mouse-shadow-top': hover[1] + 'px'
+            '--button--mouse-shadow-left': hover[0],
+            '--button--mouse-shadow-top': hover[1],
+            '--button--width': rect.width
         };
     }
 

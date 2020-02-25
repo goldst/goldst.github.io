@@ -64,20 +64,39 @@
 
 .button:hover,
 .button:focus {
+    --a: calc(var(--button--mouse-shadow-left) - (0.5 * var(--button--width)));
+
     background-image:
         var(--_add-background),
         radial-gradient(
-            circle at
+            ellipse at
             calc(
-                var(--button--mouse-shadow-left, -100%)
+                var(--button--mouse-shadow-left, -10000) * 1px
                 / var(--_hover-scale)
             )
-            calc(
-                var(--button--mouse-shadow-top, -100%) /
-                var(--_hover-scale)
-            ),
+            bottom,
             var(--_c1) 0,
-            transparent calc(0.5 * var(--_w))
+            transparent calc(0.12 * var(--_w))
+        ),
+        radial-gradient(
+            ellipse at
+            calc(
+                var(--button--mouse-shadow-left, -10000) * 1px
+                / var(--_hover-scale)
+            )
+            top,
+            var(--_c1) 0,
+            transparent calc(0.12 * var(--_w))
+        ),
+        radial-gradient(
+            circle at
+            calc(
+                calc(var(--button--mouse-shadow-left, -10000) * 1px)
+                / var(--_hover-scale)
+            )
+            center,
+            var(--_c1) 0,
+            transparent calc(0.007 * var(--a) * var(--a) * 1px + 0.1 * var(--_w))
         );
     box-shadow: 0 0 calc(0.015 * var(--_w)) 0 var(--_c0);
     outline: none;
@@ -128,11 +147,11 @@
         radial-gradient(
             circle at
             calc(
-                var(--button--mouse-shadow-left, -100%)
+                var(--button--mouse-shadow-left, -100%) * 1px
                 / var(--_hover-scale)
             )
             calc(
-                var(--button--mouse-shadow-top, -100%) /
+                var(--button--mouse-shadow-top, -100%) * 1px /
                 var(--_hover-scale)
             ),
             var(--_c1) 0,
