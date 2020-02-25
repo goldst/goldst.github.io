@@ -20,7 +20,6 @@ export default class CardProjects extends CardAbstract {
             CardProjects._postTransformFunction,
             () => {},
             CardProjects._transformationFunction
-            //TODO: implement shadowFunction for project cards
         );
     }
 
