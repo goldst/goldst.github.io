@@ -48,6 +48,7 @@ html,
     font-family: "Manrope", Arial, Verdana, Tahoma, sans-serif;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 .page ::selection {
