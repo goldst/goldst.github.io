@@ -80,9 +80,15 @@
     height: var(--collapsed);
     line-height: normal;
     mask:
-        subtract linear-gradient(black, black),
+        linear-gradient(black, black),
         var(--_button--background) no-repeat
         calc(0.01 * var(--_w)) calc(0.01 * var(--_w)) / 15px 15px;
+    -webkit-mask:
+        linear-gradient(black, black),
+        var(--_button--background) no-repeat
+        calc(0.01 * var(--_w)) calc(0.01 * var(--_w)) / 15px 15px;
+    mask-composite: subtract;
+    -webkit-mask-composite: xor;
 
     /* transition using max-width because width:auto is not animated */
     max-width: 0;
