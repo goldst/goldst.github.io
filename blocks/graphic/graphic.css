@@ -1,0 +1,17 @@
+.graphic {
+    background-image:
+        var(--_add-background),
+        radial-gradient(
+            circle at
+            calc(
+                var(--card__inner--mouse-shadow-left, -100%)
+                / var(--_hover-scale)
+            )
+            calc(
+                var(--card__inner--mouse-shadow-top, -100%) /
+                var(--_hover-scale)
+            ),
+            var(--_c1) 0,
+            transparent calc(0.1 * var(--_w))
+        );
+}
