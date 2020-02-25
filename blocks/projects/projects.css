@@ -11,11 +11,22 @@
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
+    scrollbar-color: var(--c1) var(--c0);
+    scrollbar-width: thin;
     width: 100%;
 }
 
-.projects__inner > div {
-    pointer-events: all;
+.projects__inner::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.projects__inner::-webkit-scrollbar-track {
+    background-color: var(--c0);
+}
+
+.projects__inner::-webkit-scrollbar-thumb {
+    background-color: var(--c1);
+    outline: none;
 }
 
 .projects__project-card {
@@ -23,12 +34,6 @@
     height: var(--w);
     margin-bottom: 10px;
     margin-left: calc(50vh - 0.5 * var(--h) - 60px);
-
-    /*
-        Fix for Firefox: Smooth scrolling makes the background tremble.
-        With a slight transition, it's a little bit less.
-    */
-    transition: background-position 0.01s;
     width: var(--h);
 }
 
@@ -41,15 +46,12 @@
     flex-wrap: nowrap;
     height: calc(0.15 * var(--w));
     justify-content: flex-start;
-    left: calc(50vh + 0.5 * (var(--h) + 75px));
-    pointer-events: all;
     position: absolute;
-    top: calc(0.3 * var(--w));
+    right: calc(1px - (100vw - 0.3175 * var(--w)));
+    top: calc(0.26 * var(--w));
     transform: rotate(90deg);
     transform-origin: top left;
-
-    /* width: calc(100vw - 0.3 * var(--w)); */
-    width: 0;
+    width: calc(100vw - 0.3 * var(--w));
     z-index: 1;
 }
 
