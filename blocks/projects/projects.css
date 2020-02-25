@@ -1,6 +1,5 @@
 .projects {
     opacity: 0;
-    pointer-events: none;
     position: absolute;
     transform: rotate(-90deg);
     transform-origin: right top;

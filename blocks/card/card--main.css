@@ -2,7 +2,9 @@
  * @extends 'card.css'
  */
 .card--main {
+    position: absolute;
     transition: width 0.5s, height 0.5s, transform 0.5s !important;
+    z-index: 2;
 }
 
 .card--main__inner {
