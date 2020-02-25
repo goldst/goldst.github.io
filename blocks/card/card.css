@@ -4,8 +4,8 @@
 /**
  * @variable {length} --card--padding
  * @variable {bg-image} --card--additional-background-image
- * @variable {length} --card__inner--hover-left
- * @variable {length} --card__inner--hover-top
+ * @variable {length} --card__inner--mouse-shadow-left
+ * @variable {length} --card__inner--mouse-shadow-top
  */
 .card {
     /* local private vars */
@@ -48,11 +48,11 @@
         radial-gradient(
             circle at
             calc(
-                var(--card__inner--hover-left, -100%)
+                var(--card__inner--mouse-shadow-left, -100%)
                 / var(--_hover-scale)
             )
             calc(
-                var(--card__inner--hover-top, -100%) /
+                var(--card__inner--mouse-shadow-top, -100%) /
                 var(--_hover-scale)
             ),
             var(--_c0) 0,

@@ -1,5 +1,4 @@
-import TC
-    from '../../js/transformationNew/TransformationController.js';
+import TC from '../../js/transformationNew/TransformationController.js';
 
 /**
  * Base for the transformation controller for card blocks, which automates
@@ -7,7 +6,7 @@ import TC
  * @abstract
  * @extends TransformationController
  */
-export default class cardTransformable extends TC {
+export default class CardTransformable extends TC {
     /**
      * @param {String} [modifier = ''] Modifier of the card block.
      *   Default '' means mo modifier.
@@ -25,8 +24,6 @@ export default class cardTransformable extends TC {
 
         this._postTransformFunction = postTransformFunction;
         this._transformationFunction = transformationFunction;
-
-        console.log(this);
     }
 
     /**

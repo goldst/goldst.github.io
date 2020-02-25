@@ -7,7 +7,7 @@ import CardAbstract from './CardAbstract.js';
 export default class Card extends CardAbstract {
     constructor() {
         // in cards without modifiers, nothing happens
-        // after the transformation, thus the empty function
-        super('', () => {});
+        // after the transformation, thus the empty functions
+        super('', () => {}, () => {});
     }
 }

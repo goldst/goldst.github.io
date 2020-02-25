@@ -1,9 +1,7 @@
-import CT
-    from './CardTransformable.js';
-import TF
-    from '../../js/transformationNew/TransformationFunctions.js';
-import LA
-    from '../../js/math/LinearAlgebra.js';
+import CT from './CardTransformable.js';
+import CM from './CardMouseShadowed.js';
+import TF from '../../js/transformationNew/TransformationFunctions.js';
+import LA from '../../js/math/LinearAlgebra.js';
 
 /**
  * Base for the transformation controller for card blocks, which automates
@@ -23,7 +21,10 @@ export default class cardAbstract {
     constructor(
         modifier = '',
         postTransformFunction,
-        transformationFunction = cardAbstract._transformationFunction) {
+        postShadowFunction,
+        transformationFunction = cardAbstract._transformationFunction,
+        shadowFunction = cardAbstract._shadowFunction
+    ) {
 
         this._throwIfAbstractClass();
 
@@ -32,6 +33,12 @@ export default class cardAbstract {
             postTransformFunction,
             transformationFunction
         );
+
+        this._cm = new CM(
+            modifier,
+            postShadowFunction,
+            shadowFunction
+        )
     }
 
     /**
@@ -56,13 +63,8 @@ export default class cardAbstract {
             invRotAxis = [
                 rotAxis[1],
                 -rotAxis[0]
-            ],
-            rect = args.eventControlElement.domElement.getBoundingClientRect(),
-            hover = [
-                args.event.clientX - rect.left,
-                args.event.clientY - rect.top
             ];
-
+        
         return {
             transform:
                 `perspective(2000px) ` +
@@ -71,21 +73,32 @@ export default class cardAbstract {
                 `scale(${TF
                     .advBellCurve(args.transformOrigin, args.mousePosition,
                         0.9, 1, 2)}) ` +
-                'translateZ(0) ',
-            '--card__inner--hover-left': hover[0] + 'px',
-            '--card__inner--hover-top': hover[1] + 'px'
+                'translateZ(0) '
         };
     }
 
+    static _shadowFunction(args) {
+            const
+                rect = args.eventControlElement.domElement.getBoundingClientRect(),
+                hover = [
+                    args.event.clientX - rect.left,
+                    args.event.clientY - rect.top
+                ];
+        
+        return {
+            '--card__inner--mouse-shadow-left': hover[0] + 'px',
+            '--card__inner--mouse-shadow-top': hover[1] + 'px'
+        }
+    }
+
     /**
-     * more specific version of {TransformationController}'s
-     * mousemoveEventTransform that already specifies where to find the
-     * passed transformation functions and what elements it applies to
+     * @todo what does this do in simple words
      * @see TransformationController
      * @returns {void}
      */
     mousemoveEvent() {
         this._ct.mousemoveEventTransform();
+        this._cm.mousemoveEventShadow();
     }
 
     /**

@@ -25,7 +25,7 @@ export default class EventController {
      *   doesn't do anything, delete it.
      * @returns {void}
      */
-    constructor(baseElement, queryFilter = '*', onlyNewElements = true,
+    constructor(baseElement, queryFilter = '*', classes = [], onlyNewElements = true,
         eventControlClass = ECE) {
         /**
          * @type {MutationObserver}
@@ -45,10 +45,8 @@ export default class EventController {
         this.onlyNewElements = onlyNewElements;
         /**
          * @type {string}
-         * @todo add more specific classes in child classes of this classes
-         *   for example .transformable-element
          */
-        this.classes = ['event-controlled-element'];
+        this.classes = ['event-controlled-element', ...classes];
         /**
          * @type {class}
          */
@@ -68,16 +66,11 @@ export default class EventController {
      * @returns {void}
      */
     _addExistingElements(baseElement) {
-        const classesConnected = this.classes
-            .map(className => '.' + className)
-            .join(' ');
-
         const filtered =
             [...baseElement.querySelectorAll(this.queryFilter)]
                 .filter(e =>
-                    this.onlyNewElements ?
-                        e.matches(`:not(${classesConnected})`) :
-                        true
+                    !this.onlyNewElements ||
+                    this.classes.some(c => e.matches(`:not(.${c})`))
                 );
 
         filtered.forEach(element =>
@@ -146,22 +139,17 @@ export default class EventController {
     /**
      * Adds an array of elements to the system. Calling this method from
      * outside this class only makes sense in few cases, because changes
-     * to the element are not observed if itn't child of the baseElement.
+     * to the element are not observed if isn't child of the baseElement.
      * @param {object[]} elements - Array of DOM elements. Only elements
      *   that pass the queryFilter are added.
      * @returns {void}
      */
     add(elements) {
-        const classesConnected = this.classes
-            .map(className => '.' + className)
-            .join(' ');
-
         elements
             .filter(e => e.matches(this.queryFilter))
             .filter(e =>
-                this.onlyNewElements ?
-                    e.matches(`:not(${classesConnected})`) :
-                    true
+                !this.onlyNewElements ||
+                this.classes.some(c => e.matches(`:not(.${c})`))
             )
             .forEach(element =>
                 this.addEventControlElement(element)
@@ -210,7 +198,7 @@ export default class EventController {
      * @param {string} [additionalFilter='*'] - css query that has to
      *   apply additionaly to the one passed in the constructor
      * @param {function} [postFunction = (event, element)=>{}] - optional
-     *   function that runs after the css change is sucessfully
+     *   function that runs after the css change is successfully
      *   handeled internally. See {PostTransformFunctions} for examples
      *   and predefined functions.
      * @returns {void}
@@ -219,14 +207,17 @@ export default class EventController {
         eventType = 'mousemove',
         modificationFunction = args => [],
         additionalFilter = '*',
-        postFunction = (controller, event, element) => {}) {
+        postFunction = (controller, event, element) => {}
+    ) {
+
         this.eventControlElements
             .filter(ece => ece.domElement.matches(additionalFilter))
-            .forEach(ece =>
+            .forEach(ece => {
                 document.addEventListener(eventType, event => {
                     this._modify(event, ece, modificationFunction);
                     postFunction.call(this, event, ece);
                 })
+            }
             );
     }
 
@@ -245,7 +236,7 @@ export default class EventController {
      */
     _modify(event, ece, modificationFunction) {
         /**
-         * @todo remove transformOrigin and make modification funtions use that directly
+         * @todo remove transformOrigin and make modification functions use that directly
          *   from eventControlElement
          */
         const args = {

@@ -25,13 +25,12 @@ export default class TransformationController extends EC {
      * @returns {void}
      */
     constructor(baseElement, queryFilter = '*', onlyNewElements = true) {
-        super(baseElement, queryFilter, onlyNewElements, TE);
-        this.classes.push('transfromable-element');
+        super(baseElement, queryFilter, ['transformable-element'], onlyNewElements, TE);
     }
 
     /**
      * Adds an mousemove eventListener for each DOM element that matches
-     * the criteria. Defines how the function should be transformed in
+     * the criteria. Defines how the element should be transformed in
      * case of a mousemove and what should happen afterwards
      * @param {function} [transformationFunction=(o, m)=>'none'] - returns
      *   a css transformation string. params: absolute transformation

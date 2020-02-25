@@ -11,7 +11,7 @@ export default class CardMain extends CardAbstract {
      */
     constructor() {
         // in main cards, nothing happens
-        // after the transformation, thus the empty function
-        super('--main', () => {});
+        // after the transformation, thus the empty functions
+        super('--main', () => {}, () => {});
     }
 }
