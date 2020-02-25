@@ -216,7 +216,7 @@ export default class EventController {
                 document.addEventListener(eventType, event => {
                     this._modify(event, ece, modificationFunction);
                     postFunction.call(this, event, ece);
-                })
+                });
             }
             );
     }

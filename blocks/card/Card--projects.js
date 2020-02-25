@@ -1,12 +1,12 @@
 import LA
     from '../../js/math/LinearAlgebra.js';
 import TF
-    from '../../js/transformationNew/TransformationFunctions.js';
+    from '../../js/transformation/TransformationFunctions.js';
 
 import CardAbstract from './CardAbstract.js';
 
 /**
- * automates event based effects for card blocks with the --projects 
+ * automates event based effects for card blocks with the --projects
  * modifier
  * @extends CardAbstract
  */
@@ -18,7 +18,7 @@ export default class CardProjects extends CardAbstract {
         super(
             '--projects',
             CardProjects._postTransformFunction,
-            () => {}, 
+            () => {},
             CardProjects._transformationFunction
             //TODO: implement shadowFunction for project cards
         );

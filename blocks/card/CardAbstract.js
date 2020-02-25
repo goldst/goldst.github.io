@@ -1,13 +1,12 @@
 import CT from './CardTransformable.js';
 import CM from './CardMouseShadowed.js';
-import TF from '../../js/transformationNew/TransformationFunctions.js';
+import TF from '../../js/transformation/TransformationFunctions.js';
 import LA from '../../js/math/LinearAlgebra.js';
 
 /**
- * Base for the transformation controller for card blocks, which automates
- * the 3d effect
+ * Base for the event controllers for card blocks, which automates
+ * the effects
  * @abstract
- * @extends TransformationController
  */
 export default class cardAbstract {
     /**
@@ -38,7 +37,7 @@ export default class cardAbstract {
             modifier,
             postShadowFunction,
             shadowFunction
-        )
+        );
     }
 
     /**
@@ -64,7 +63,7 @@ export default class cardAbstract {
                 rotAxis[1],
                 -rotAxis[0]
             ];
-        
+
         return {
             transform:
                 `perspective(2000px) ` +
@@ -77,18 +76,24 @@ export default class cardAbstract {
         };
     }
 
+    /**
+     * function which takes an object args which contains e mousemove
+     * event (event) and returns css changes
+     * @param {object} args
+     * @returns {object} object of css properties and their values
+     */
     static _shadowFunction(args) {
-            const
-                rect = args.eventControlElement.domElement.getBoundingClientRect(),
-                hover = [
-                    args.event.clientX - rect.left,
-                    args.event.clientY - rect.top
-                ];
-        
+        const
+            rect = args.eventControlElement.domElement.getBoundingClientRect(),
+            hover = [
+                args.event.clientX - rect.left,
+                args.event.clientY - rect.top
+            ];
+
         return {
             '--card__inner--mouse-shadow-left': hover[0] + 'px',
             '--card__inner--mouse-shadow-top': hover[1] + 'px'
-        }
+        };
     }
 
     /**

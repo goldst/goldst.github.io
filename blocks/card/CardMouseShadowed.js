@@ -14,7 +14,7 @@ export default class CardMouseShadowed extends MC {
      */
     constructor(
         modifier = '',
-        postShadowFunction, 
+        postShadowFunction,
         shadowFunction) {
 
         super(

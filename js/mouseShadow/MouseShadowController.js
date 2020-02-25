@@ -34,8 +34,8 @@ export default class MouseShadowController extends EC {
      * the criteria. Defines how the element should be shadowed in case
      * of a mousemove and what should happen afterwards
      * @param {function} [shadowFunction=(o, m)=>'none'] - returns
-     *   a css transformation string. params: array of mouse position 
-     *   (x, y). 
+     *   a css transformation string. params: array of mouse position
+     *   (x, y).
      * @param {string} [additionalFilter='*'] - css query that has to
      *   apply additionally to the one passed in the constructor
      * @param {function} [postFunction = (event, element)=>{}] - optional

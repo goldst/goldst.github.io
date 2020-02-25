@@ -1,3 +1,4 @@
+import EC from '../eventControl/EventController.js';
 import TE from './TransformableElement.js';
 
 /**
@@ -8,7 +9,7 @@ import TE from './TransformableElement.js';
  * transformed.
  * @todo delete TransformableElements of elements that where removed
  */
-export default class TransformationController {
+export default class TransformationController extends EC {
     /**
      * @param {object} baseElement - The common ancestor DOM element of
      *   all transformed elements. Attention: Depending on how many
@@ -24,158 +25,12 @@ export default class TransformationController {
      * @returns {void}
      */
     constructor(baseElement, queryFilter = '*', onlyNewElements = true) {
-        /**
-         * @type {MutationObserver}
-         */
-        this._observer = new MutationObserver(m => this._mutates(m));
-        /**
-         * @type {string}
-         */
-        this.queryFilter = queryFilter;
-        /**
-         * @type {TransformableElement[]}
-         */
-        this.transformableElements = [];
-        /**
-         * @type {bool}
-         */
-        this.onlyNewElements = onlyNewElements;
-
-        this._addExistingElements(baseElement);
-        this._observe(baseElement);
-    }
-
-    /**
-     * creates a TransformableElement and adds it to an array of all
-     * TransformableElements for each node that already exists at the time
-     * of construction
-     * @private
-     * @param {object} baseElement - ancestor of all potential
-     *   transformation elements
-     * @returns {void}
-     */
-    _addExistingElements(baseElement) {
-        const filtered =
-            [...baseElement.querySelectorAll(this.queryFilter)]
-                .filter(e =>
-                    this.onlyNewElements ?
-                        e.matches(':not(.transformable-element)') :
-                        true
-                );
-
-        filtered.forEach(element =>
-            this.addTransformableElement(element)
-        );
-    }
-
-    /**
-     * starts the MutationObserver that controls additions, removals and
-     * changes
-     * @private
-     * @param {object} baseElement - ancestor of all potential
-     *   transformation elements
-     * @returns {void}
-     */
-    _observe(baseElement) {
-        this._observer.observe(baseElement, {
-            subtree: true,
-            attributes: true,
-            attributeFilter: ['style', 'class', 'id', 'type'],
-            childList: true
-        });
-    }
-
-    /**
-     * This method is called by the MutationObserver when there is a
-     * mutation. Considers which further method calls are necessary
-     * @private
-     * @param {object} ms - recent mutations
-     * @returns {void}
-     */
-    _mutates(ms) {
-        ms.forEach(m => {
-            if(m.type === 'childList') {
-                this.add([...m.addedNodes]);
-            } else if(m.type === 'attributes') {
-                switch(m.attributeName) {
-                case 'style':
-                    this._updateInternalCornerPoints(m.target);
-                    break;
-                case 'class':
-                case 'id':
-                case 'type':
-                    this.add([m.target]);
-                }
-            }
-        });
-    }
-
-    /**
-     * _mutates() calls this method when there might have been a CSS
-     * transformation. This method makes sure that the
-     * TransformableElements of the changed elements stay up to date.
-     * @private
-     * @param {object} element - element with a possibly changed CSS
-     *   transformation
-     * @returns {void}
-     */
-    _updateInternalCornerPoints(element) {
-        const te = this.getTransformableElement(element);
-        if(te) {
-            te.updateCornerPoints();
-        }
-    }
-
-    /**
-     * Adds an array of elements to the system. Calling this method from
-     * outside this class only makes sense in few cases, because changes
-     * to the element are not observed if itn't child of the baseElement.
-     * @param {object[]} elements - Array of DOM elements. Only elements
-     *   that pass the queryFilter are added.
-     * @returns {void}
-     */
-    add(elements) {
-        elements
-            .filter(e => e.matches(this.queryFilter))
-            .filter(e =>
-                this.onlyNewElements ?
-                    e.matches(':not(.transformable-element)') :
-                    true
-            )
-            .forEach(element =>
-                this.addTransformableElement(element)
-            );
-    }
-
-    /**
-     * finds the TransformableElement that belongs to a certain domElement
-     * @param {object} domElement - DOM element which's
-     *   TransformableElement is sought
-     * @returns {TransformableElement | void} TransformableElement that
-     *   belongs to a certain domElement if there is one
-     */
-    getTransformableElement(domElement) {
-        return this.transformableElements.find(t =>
-            t.domElement === domElement
-        );
-    }
-
-    /**
-     * Similar to add(), but for a single DOM element and without query
-     * filters. Again, calling this method from outside this class only
-     * makes sense in few cases, because changes to the element are not
-     * observed if itn't child of the baseElement.
-     * @param {object} domElement - Element which's TransformableElement
-     *   is about to be added to the array
-     * @returns {void}
-     */
-    addTransformableElement(domElement) {
-        this.transformableElements.push(new TE(domElement));
+        super(baseElement, queryFilter, ['transformable-element'], onlyNewElements, TE);
     }
 
     /**
      * Adds an mousemove eventListener for each DOM element that matches
-     * the criteria. Defines how the function should be transformed in
+     * the criteria. Defines how the element should be transformed in
      * case of a mousemove and what should happen afterwards
      * @param {function} [transformationFunction=(o, m)=>'none'] - returns
      *   a css transformation string. params: absolute transformation
@@ -193,14 +48,10 @@ export default class TransformationController {
         transformationFunction = (o, m)=>'none',
         additionalFilter='*',
         postFunction = (event, element)=>{} ) {
-        this.transformableElements
-            .filter(te => te.domElement.matches(additionalFilter))
-            .forEach(te =>
-                document.addEventListener('mousemove', event => {
-                    this._transform(event, te, transformationFunction);
-                    postFunction.call(this, event, te);
-                })
-            );
+        this.listenToChangeCss(
+            'mousemove', transformationFunction,
+            additionalFilter, postFunction
+        );
     }
 
     /**
