@@ -44,6 +44,18 @@ html,
     --_h: var(--h, calc(var(--_w) * 0.618033988));
 
     background-color: var(--c0);
+    background-image:
+    radial-gradient(
+        circle at
+        calc(
+            var(--page--mouse-shadow-left, -10000) * 1px
+        )
+        calc(
+            var(--page--mouse-shadow-top, -10000) * 1px
+        ),
+        var(--c1) 0,
+        var(--c0) calc(var(--page--center) * 0.05vw)
+    );
     color: var(--c1);
     font-family: "Manrope", Arial, Verdana, Tahoma, sans-serif;
     height: 100vh;
