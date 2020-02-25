@@ -64,7 +64,10 @@
 
 .button:hover,
 .button:focus {
-    --a: calc(var(--button--mouse-shadow-left) - (0.5 * var(--button--width)));
+    --a:
+        calc(
+            var(--button--mouse-shadow-left) - (0.5 * var(--button--width))
+        );
 
     background-image:
         var(--_add-background),
@@ -96,7 +99,8 @@
             )
             center,
             var(--_c1) 0,
-            transparent calc(0.007 * var(--a) * var(--a) * 1px + 0.1 * var(--_w))
+            transparent
+            calc(var(--a) * var(--a) * 0.007px + 0.1 * var(--_w))
         );
     box-shadow: 0 0 calc(0.015 * var(--_w)) 0 var(--_c0);
     outline: none;

@@ -49,12 +49,16 @@ class Page extends MC {
             '--page--mouse-shadow-left': hover[0],
             '--page--mouse-shadow-top': hover[1],
             '--page--center': Math.max(
-                Math.abs(args.event.clientX - 0.5 * rect.width), 
+                Math.abs(args.event.clientX - 0.5 * rect.width),
                 Math.abs(args.event.clientY - 0.5 * rect.height)),
             '--page--center-v': Math.abs(args.event.clientY - 0.5 * rect.height)
         };
     }
 
+    /**
+     * nothing happens after calculating the mouse shadow
+     * @returns {void}
+     */
     _postShadowFunction() {
 
     }
