@@ -1,14 +1,14 @@
 import MC from '../../js/mouseShadow/MouseShadowController.js';
 
 /**
- * Base for the mouse shadow controller for card blocks, which automates
+ * Base for the mouse shadow controller for button blocks, which automates
  * the mouse shadow effect
  * @abstract
  * @extends MouseShadowController
  */
-export default class CardMouseShadowed extends MC {
+export default class ButtonMouseShadowed extends MC {
     /**
-     * @param {String} [modifier = ''] Modifier of the card block.
+     * @param {String} [modifier = ''] Modifier of the button block.
      *   Default '' means mo modifier.
      * @returns {void}
      */
@@ -19,8 +19,8 @@ export default class CardMouseShadowed extends MC {
 
         super(
             document.body,
-            ['card'],
-            `.card${modifier} > .card__inner`
+            ['button'],
+            `.button${modifier}`
         );
 
         this._postShadowFunction = postShadowFunction;

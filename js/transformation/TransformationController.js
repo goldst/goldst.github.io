@@ -24,8 +24,8 @@ export default class TransformationController extends EC {
      *   doesn't do anything, delete it.
      * @returns {void}
      */
-    constructor(baseElement, queryFilter = '*', onlyNewElements = true) {
-        super(baseElement, queryFilter, ['transformable-element'], onlyNewElements, TE);
+    constructor(baseElement, block, queryFilter = '*', onlyNewElements = true) {
+        super(baseElement, queryFilter, ['transformable-element', ...block.map(b => 'transformable-element-' + b)], onlyNewElements, TE);
     }
 
     /**

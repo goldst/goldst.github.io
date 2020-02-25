@@ -19,6 +19,7 @@ export default class CardTransformable extends TC {
 
         super(
             document.body,
+            ['card'],
             `.card${modifier} > .card__inner`
         );
 

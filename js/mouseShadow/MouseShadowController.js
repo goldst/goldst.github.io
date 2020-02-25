@@ -25,8 +25,8 @@ export default class MouseShadowController extends EC {
      *   doesn't do anything, delete it.
      * @returns {void}
      */
-    constructor(baseElement, queryFilter = '*', onlyNewElements = true) {
-        super(baseElement, queryFilter, ['mouse-shadow-element'], onlyNewElements, ME);
+    constructor(baseElement, blocks = [], queryFilter = '*', onlyNewElements = true) {
+        super(baseElement, queryFilter, ['mouse-shadow-element', ...blocks.map(b => 'mouse-shadow-element-' + b)], onlyNewElements, ME);
     }
 
     /**
