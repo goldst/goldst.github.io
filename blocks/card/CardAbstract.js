@@ -1,7 +1,7 @@
-import TC
-    from '../../js/transformationNew/TransformationController.js';
+import CT
+    from './CardTransformable.js';
 import TF
-    from '../../js/transformation/TransformationFunctions.js';
+    from '../../js/transformationNew/TransformationFunctions.js';
 import LA
     from '../../js/math/LinearAlgebra.js';
 
@@ -11,19 +11,27 @@ import LA
  * @abstract
  * @extends TransformationController
  */
-export default class cardAbstract extends TC {
+export default class cardAbstract {
     /**
      * @param {String} [modifier = ''] Modifier of the card block.
      *   Default '' means mo modifier.
+     * @param {function} postTransformFunction for examples, see
+     *   {js/transformation/TransformableElement/
+     *   PostTransformFunctions.js}
      * @returns {void}
      */
-    constructor(modifier = '') {
-        super(
-            document.body,
-            `.card${modifier} > .card__inner`
-        );
+    constructor(
+        modifier = '',
+        postTransformFunction,
+        transformationFunction = cardAbstract._transformationFunction) {
 
-        console.log(this);
+        this._throwIfAbstractClass();
+
+        this._ct = new CT(
+            modifier,
+            postTransformFunction,
+            transformationFunction
+        );
     }
 
     /**
@@ -38,7 +46,7 @@ export default class cardAbstract extends TC {
      * @returns {string} transformation with adjusted scale and 3d
      *   rotation
      */
-    _transformationFunction(args) {
+    static _transformationFunction(args) {
         const
             rotAxis = LA.vector(args.transformOrigin, args.mousePosition),
             rotation =
@@ -70,37 +78,14 @@ export default class cardAbstract extends TC {
     }
 
     /**
-     * in any implementation, override this function with a function that
-     * does what should happen after transforming the element (eg.
-     * setting the correct background to the parent element)
-     * @see {PostTransformFunctions}
-     * @abstract
-     * @protected
-     * @param {event} event - event that caused the transformation
-     * @param {TransformableElement} element - element that was
-     *   transformed
-     * @returns {void}
-     */
-    _postTransformFunction(event, element) {
-        //look for implementation examples in
-        //  'js/transformation/TransformableElement/
-        //  PostTransformFunctions.js'
-        this._throwIfAbstractFunction();
-    }
-
-    /**
      * more specific version of {TransformationController}'s
      * mousemoveEventTransform that already specifies where to find the
      * passed transformation functions and what elements it applies to
      * @see TransformationController
      * @returns {void}
      */
-    mousemoveEventTransform() {
-        super.mousemoveEventTransform(
-            this._transformationFunction,
-            '*',
-            this._postTransformFunction
-        );
+    mousemoveEvent() {
+        this._ct.mousemoveEventTransform();
     }
 
     /**
@@ -113,25 +98,5 @@ export default class cardAbstract extends TC {
         if((typeof new.target).endsWith('Abstract')) {
             throw new Error('cannot call functions in abstract class');
         }
-    }
-
-    /**
-     * Helper function that always throws an error. Override the method
-     * which calls this to avoid that.
-     * @private
-     * @throws {Error} 'cannot call functions in abstract class' if class
-     *   name ends on 'Abstract'
-     * @throws {Error} 'cannot call function in child class of abstract
-     *   class that does not override the abstract function' in any other
-     *   case
-     * @returns {void}
-     */
-    _throwIfAbstractFunction() {
-        this._throwIfAbstractClass();
-
-        throw new Error(
-            'cannot call function in child class of abstract class that ' +
-            'does not override the abstract function'
-        );
     }
 }
