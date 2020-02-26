@@ -17,11 +17,22 @@
 }
 
 .card--main__image {
-    background-image: url("card--main__logo.svg");
+    --_background: url("card--main__logo.svg");
+
+    background-color: var(--_c0);
     background-size: cover;
+    cursor: none;
     display: block;
     grid-area: logo;
     height: 100%;
+    -webkit-mask:
+        linear-gradient(black, black),
+        var(--_background) no-repeat 0 0 / 100% 100%;
+    mask:
+        linear-gradient(black, black),
+        var(--_background) no-repeat 0 0 / 100% 100%;
+    -webkit-mask-composite: xor;
+    mask-composite: subtract;
     width: 100%;
 }
 
