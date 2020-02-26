@@ -1,13 +1,5 @@
 .project-card {
     --project-card--padding: 10px;
-
-    background-image:
-        repeating-linear-gradient(
-            45deg,
-            var(--c1) 0,
-            var(--c0) 40px,
-            var(--c1) 80px
-        );
 }
 
 .project-card__inner {

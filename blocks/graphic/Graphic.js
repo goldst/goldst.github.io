@@ -7,7 +7,7 @@ import MC from '../../js/mouseShadow/MouseShadowController.js';
  * @extends MouseShadowController
  */
 class Graphic extends MC {
-    /**
+    /**y
      * @returns {void}
      */
     constructor() {

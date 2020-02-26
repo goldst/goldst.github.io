@@ -71,21 +71,17 @@ export default class CardProjects extends CardAbstract {
      * @returns {void}
      */
     static _postTransformFunction(event, element) {
-        const parent = element.domElement.parentElement,
-            background = element.surroundingBackground(
-                'var(--c0)',
-                [
-                    parent.offsetWidth,
-                    parent.offsetHeight
-                ],
-                'transparent',
-                5
-            );
-        parent.style.setProperty(
-            'background',
-            background +
-            ', 0 var(--projects--scroll-top, 0)  ' +
-            'repeating-linear-gradient(45deg, var(--c1) 0px, ' +
-            'var(--c0) 40px, var(--c1) 80px)');
+        const bgElement = element.domElement.parentElement.getElementsByClassName('card--projects__background')[0];
+
+        if(bgElement === undefined) { return; }
+
+        bgElement.style.setProperty(
+            'clip-path',
+            `polygon(${
+                element.cornerPointXYs.map(xy =>
+                    `calc(${xy[1]}px + 0.5 * var(--h)) calc(${-xy[0]}px + var(--h) - 0.5 * var(--w))`
+                ).join(', ')
+            })`
+        );
     }
 }
