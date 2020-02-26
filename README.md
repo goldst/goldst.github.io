@@ -1,4 +1,4 @@
-# Leonard Goldstein Online [![Build Status](https://travis-ci.com/goldst/ein-web.svg?token=LoKS6SaGaZPsK3WPmufe&branch=master)](https://travis-ci.com/goldst/ein-web)
+# Leonard Goldstein Online [![Build Status](https://travis-ci.com/goldst/goldst.github.io.svg?token=LoKS6SaGaZPsK3WPmufe&branch=master)](https://travis-ci.com/goldst/ein-web)
 
 ## About this project
 
