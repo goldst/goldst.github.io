@@ -16,8 +16,8 @@
 
 .card--projects__links {
     bottom: var(--project-card--padding);
-    position: absolute;
     height: 25px;
+    position: absolute;
     right: calc(var(--project-card--padding) + 0.5 * var(--_w));
 }
 
