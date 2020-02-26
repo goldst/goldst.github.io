@@ -1,3 +1,19 @@
 /**
  * @extends 'card.css'
  */
+.card--projects__background {
+    background-image:
+        repeating-linear-gradient(
+            45deg,
+            var(--c1) 0,
+            var(--c0) 40px,
+            var(--c1) 80px
+        );
+    height: var(--_h);
+    position: absolute;
+    transform:
+        translateX(calc(0.5 * var(--h) - 0.5 * var(--w)))
+        translateY(calc(0.5 * var(--w) - 0.5 * var(--h)))
+        rotate(90deg);
+    width: var(--_w);
+}
