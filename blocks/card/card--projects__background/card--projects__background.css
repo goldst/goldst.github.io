@@ -1,0 +1,21 @@
+.card--projects__background--portfolio {
+    background: url("/blocks/card/card--projects__background/goldstein web.svg") repeat;
+    background-size: calc(0.3 * var(--_w)) auto;
+}
+
+.card--projects__background--sincos {
+    background: url("/blocks/card/card--projects__background/sincos.svg") repeat;
+    background-size: calc(0.3 * var(--_w)) auto;
+}
+
+
+.card--projects__background--empty {
+    background:
+        repeating-linear-gradient(
+            45deg,
+            var(--c1) 0,
+            var(--c0) 40px,
+            var(--c1) 80px
+        );
+    background-size: 114px;
+}

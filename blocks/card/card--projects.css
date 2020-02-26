@@ -1,14 +1,10 @@
+@import url("card--projects__background/card--projects__background.css");
+
 /**
  * @extends 'card.css'
  */
+
 .card--projects__background {
-    background-image:
-        repeating-linear-gradient(
-            45deg,
-            var(--c1) 0,
-            var(--c0) 40px,
-            var(--c1) 80px
-        );
     height: var(--_h);
     position: absolute;
     transform:
