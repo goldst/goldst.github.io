@@ -120,6 +120,14 @@
     --button--background: url("../../img/GitHub.svg");
 }
 
+.card--main__social-link--web {
+    --button--background: url("../../img/internet.svg");
+}
+
+.card--main__social-link--scratch {
+    --button--background: url("../../img/Scratch.svg");
+}
+
 .card--main__social-link--qr {
     --button--background: url("../../img/QR%20icon.svg");
 }

@@ -13,3 +13,18 @@
         rotate(90deg);
     width: var(--_w);
 }
+
+.card--projects__links {
+    position: absolute;
+    bottom: var(--project-card--padding);
+    right: calc(var(--project-card--padding) + 0.5 * var(--_w));
+    height: 25px;
+}
+
+.card--projects .card__inner {
+    transition: clip-path 0.5s;
+}
+
+.card--projects:hover .card__inner {
+    --_by: calc(var(--h) - 2 * var(--project-card--padding) - 25px);
+}
