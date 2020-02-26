@@ -15,10 +15,10 @@
 }
 
 .card--projects__links {
-    position: absolute;
     bottom: var(--project-card--padding);
-    right: calc(var(--project-card--padding) + 0.5 * var(--_w));
+    position: absolute;
     height: 25px;
+    right: calc(var(--project-card--padding) + 0.5 * var(--_w));
 }
 
 .card--projects .card__inner {
