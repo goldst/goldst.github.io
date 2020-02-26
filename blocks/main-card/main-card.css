@@ -21,15 +21,15 @@
 }
 
 .main-card__name--surname::before {
-    content: "Name/Surname/Nom";
+    content: "Vornamen/Given names";
 }
 
 .main-card__name--name::before {
-    content: "Vornamen/Given names/Prénoms";
+    content: "Name/Surname";
 }
 
 .main-card__birth::before {
-    content: "Geburtstag/Date of Birth/\A Date de naissance";
+    content: "Geburtstag/Date of birth";
 }
 
 .main-card__toggle {

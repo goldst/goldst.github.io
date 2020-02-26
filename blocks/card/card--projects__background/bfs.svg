@@ -1,0 +1,2226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300mm"
+   height="145mm"
+   viewBox="0 0 300 145"
+   version="1.1"
+   id="svg1464"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="bfs.svg">
+  <defs
+     id="defs1458" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="684.28685"
+     inkscape:cy="362.36249"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1461">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-152)">
+    <g
+       id="g3815"
+       style="fill:#2f2933;fill-opacity:1">
+      <g
+         id="flowRoot2009"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#2f2933;fill-opacity:1;stroke:none"
+         transform="matrix(0.26010609,0,0,0.26010609,-23.953758,128.12924)"
+         aria-label="++++++++[&gt;++++++++&lt;-]&gt;[-
+&lt;++&gt;]&lt;-----&gt;[-]++++++++[
+&gt;[-]&lt;[&gt;+&lt;]&gt;-]&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;[-
+&gt;+&lt;]&gt;[&gt;+&lt;-&lt;+&gt;]&gt;[&gt;&gt;&gt;&gt;&gt;[-&gt;
++&lt;]&gt;+&lt;&lt;&lt;&lt;&lt;++++++++++&lt;[-&gt;
+&gt;+&lt;[&gt;&gt;&gt;]&gt;[[&lt;+&gt;-]&gt;+&gt;&gt;]&lt;&lt;&lt;
+&lt;&lt;]&gt;[-]&gt;[-&lt;&lt;+&gt;&gt;]&gt;[&lt;&lt;+&gt;&gt;]
+&lt;&lt;]&gt;&gt;&gt;&gt;&gt;&gt;[&lt;&lt;&lt;&lt;+++++++[-&lt;
++++++++&gt;]&lt;-[&lt;+&gt;-]&lt;.[- ]&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;]&gt;[[&lt;+&gt;-]&gt;+&gt;&gt;&gt;]&gt;[[
+]&gt;[&gt;+&lt;-&lt;+&gt;]&gt;[&lt;&lt;&lt;&lt;+++&gt;&gt;]]">
+        <path
+           id="path2226"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 102.09227,113.17135 h -3.120004 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.120004 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2228"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2230"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 150.09214,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2232"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 174.09208,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2234"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 198.09202,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2236"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 222.09196,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2238"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 246.0919,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2240"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 270.09184,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2242"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 287.93178,137.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2244"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.73172,109.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2246"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 342.09166,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2248"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 366.09159,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2250"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 390.09153,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2252"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 414.09147,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2254"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 438.09141,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2256"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 462.09135,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2258"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2260"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2262"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 539.45117,109.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2264"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 549.57111,121.89135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2266"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 585.21104,100.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2268"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 597.73098,109.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2270"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 623.93092,137.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2272"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.57086,121.89135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2274"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 107.45227,160.37803 -15.360004,9.48 v 3.48 l 15.200004,9.48 1.8,-2.44 -14.120004,-8.76 14.120004,-8.68 z" />
+        <path
+           id="path2276"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2278"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 150.09214,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2280"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,160.37803 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2282"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 201.21202,151.53803 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2284"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 227.45196,160.37803 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2286"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.5719,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2288"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.57184,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2290"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 285.57178,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2292"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.57172,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2294"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 333.57166,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2296"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 357.73159,160.37803 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2298"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 383.93153,188.73803 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2300"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 405.57147,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2302"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 441.21141,151.53803 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2304"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 462.09135,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2306"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2308"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2310"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 534.09117,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2312"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 558.09111,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2314"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 582.09104,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2316"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 606.09098,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2318"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 630.09092,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2320"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 647.93086,188.73803 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2322"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 93.732266,211.5447 -1.64,2.56 14.120004,8.68 -14.120004,8.72 1.8,2.48 15.200004,-9.48 v -3.44 z" />
+        <path
+           id="path2324"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 119.9322,239.9047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2326"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 141.57214,224.2247 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2328"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 177.21208,202.7047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2330"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 203.45202,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 215.93196,239.9047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2334"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.7319,211.5447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2336"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 270.09184,215.5047 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2338"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 299.45178,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2340"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 321.21172,202.7047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2342"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 333.73166,211.5447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2344"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 357.57159,224.2247 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2346"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 393.21153,202.7047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 419.45147,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2350"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 443.45141,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2352"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 467.45135,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2354"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 491.45129,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2356"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 515.45123,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2358"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 539.45117,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2360"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 563.45111,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2362"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 587.45104,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2364"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 611.45098,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2366"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 623.93092,239.9047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2368"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.57086,224.2247 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2370"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 93.732266,262.71137 -1.64,2.56 14.120004,8.68 -14.120004,8.72 1.8,2.48 15.200004,-9.48 v -3.44 z" />
+        <path
+           id="path2372"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,266.67137 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2374"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 155.45214,262.71137 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2376"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 177.21208,253.87137 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2378"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 189.73202,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2380"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 215.93196,291.07137 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2382"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.7319,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2384"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 270.09184,266.67137 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2386"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 299.45178,262.71137 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2388"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.57172,275.39137 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2390"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 347.45166,262.71137 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2392"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 366.09159,266.67137 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2394"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 381.73153,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2396"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 417.21147,253.87137 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2398"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 429.73141,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2400"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 455.93135,291.07137 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2402"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 477.73129,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2404"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 501.73123,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2406"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 525.73117,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2408"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 549.73111,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2410"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 573.73104,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2412"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 599.93098,291.07137 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2414"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 621.57092,275.39137 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2416"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.73086,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2418"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 102.09227,317.83804 h -3.120004 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.120004 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2420"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 131.4522,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2422"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 153.21214,305.03804 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2424"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,313.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2426"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 198.09202,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2428"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 227.45196,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2430"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 251.4519,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2432"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 275.45184,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2434"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 299.45178,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2436"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 323.45172,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2438"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 342.09166,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2440"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 366.09159,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2442"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 390.09153,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2444"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 414.09147,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2446"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 438.09141,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2448"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 462.09135,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2450"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2452"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2454"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 534.09117,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2456"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 558.09111,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2458"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 587.45104,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2460"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 599.93098,342.23804 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2462"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 621.57092,326.55804 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2464"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.73086,313.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2466"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 93.732266,365.0447 -1.64,2.56 14.120004,8.68 -14.120004,8.72 1.8,2.48 15.200004,-9.48 v -3.44 z" />
+        <path
+           id="path2468"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,369.0047 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2470"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 155.45214,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2472"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 167.93208,393.4047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2474"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 189.73202,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2476"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 213.73196,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2478"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.7319,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2480"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 273.21184,356.2047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2482"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 285.73178,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2484"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 311.93172,393.4047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2486"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 335.93166,393.4047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2488"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 371.45159,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2490"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 390.09153,369.0047 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2492"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 405.73147,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2494"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 429.57141,377.7247 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2496"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 465.21135,356.2047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2498"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 477.73129,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2500"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,369.0047 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2502"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 525.73117,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2504"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 549.73111,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2506"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 585.21104,356.2047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2508"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 611.45098,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2510"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 635.45092,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2512"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 659.45086,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2514"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 107.45227,416.21135 -15.360004,9.48 v 3.48 l 15.200004,9.48 1.8,-2.44 -14.120004,-8.76 14.120004,-8.68 z" />
+        <path
+           id="path2516"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 131.4522,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2518"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 153.21214,407.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2520"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2522"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 191.93202,444.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2524"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 213.57196,428.89135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2526"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 249.2119,407.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2528"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.73184,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2530"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 287.93178,444.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2532"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.57172,428.89135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 347.45166,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2536"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 371.45159,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2538"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 390.09153,420.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2540"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 405.73147,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2542"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 429.73141,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2544"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 465.21135,407.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2546"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 477.73129,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2548"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 503.93123,444.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2550"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 539.45117,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2552"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 563.45111,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2554"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 582.09104,420.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2556"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 597.73098,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2558"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 621.73092,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2560"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 657.21086,407.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2562"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 107.45227,467.37801 -15.360004,9.48 v 3.48 l 15.200004,9.48 1.8,-2.44 -14.120004,-8.76 14.120004,-8.68 z" />
+        <path
+           id="path2564"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 131.4522,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2566"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 153.21214,458.53801 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2568"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2570"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 189.73202,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2572"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 213.73196,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2574"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.7319,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2576"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.73184,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2578"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 285.73178,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2580"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 311.93172,495.73801 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2582"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 347.45166,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2584"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 371.45159,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2586"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 395.45153,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2588"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 419.45147,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2590"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 438.09141,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2592"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 462.09135,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2594"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2596"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2598"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 534.09117,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2600"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 558.09111,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2602"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 582.09104,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2604"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 599.93098,495.73801 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2606"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 621.57092,480.05801 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2608"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 659.45086,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2610"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 102.09227,522.50467 h -3.120004 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.120004 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2612"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2614"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 150.09214,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2616"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 174.09208,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2618"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 198.09202,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2620"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 222.09196,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2622"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 246.0919,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2624"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.73184,518.54467 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2626"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 297.21178,509.70467 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2628"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 323.45172,518.54467 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2630"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 333.57166,531.22467 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2632"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 359.93159,546.90467 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2634"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 395.45153,518.54467 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2636"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 414.09147,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2638"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 429.73141,518.54467 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2640"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 453.57135,531.22467 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2642"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 489.21129,509.70467 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2644"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 515.45123,518.54467 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2646"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 529.01117,539.22467 c 0,2 1.52,3.52 3.52,3.52 2.04,0 3.52,-1.52 3.52,-3.52 0,-1.96 -1.48,-3.52 -3.52,-3.52 -2,0 -3.52,1.56 -3.52,3.52 z" />
+        <path
+           id="path2648"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 551.93111,546.90467 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2650"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 573.57104,531.22467 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2652"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 633.21092,509.70467 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2654"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.73086,518.54467 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2656"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 93.732266,569.71135 -1.64,2.56 14.120004,8.68 -14.120004,8.72 1.8,2.48 15.200004,-9.48 v -3.44 z" />
+        <path
+           id="path2658"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 117.7322,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2660"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 141.73214,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2662"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2664"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 189.73202,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2666"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 213.73196,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2668"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 249.2119,560.87135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2670"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.73184,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2672"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 287.93178,598.07135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2674"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 311.93172,598.07135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2676"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 347.45166,569.71135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2678"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 366.09159,573.67135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2680"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 381.73153,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2682"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 405.57147,582.39135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2684"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 441.21141,560.87135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2686"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 453.73135,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2688"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,573.67135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2690"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 501.73123,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2692"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 525.73117,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2694"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 549.73111,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2696"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 585.21104,560.87135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2698"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 597.73098,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2700"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 623.93092,598.07135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2702"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 647.93086,598.07135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2704"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="M 105.21227,612.03804 H 95.172266 v 2.88 h 6.840004 v 31.48 h -6.840004 v 2.84 h 10.040004 z" />
+        <path
+           id="path2706"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 117.7322,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2708"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 143.93214,649.23804 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2710"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2712"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 198.09202,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2714"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 227.45196,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2716"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.5719,633.55804 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2718"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 275.45184,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2720"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 294.09178,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2722"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.73172,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2724"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 345.21166,612.03804 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2726"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 357.73159,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2728"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 383.93153,649.23804 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2730"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 419.45147,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2732"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 443.45141,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2734"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 467.45135,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2736"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 491.45129,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2738"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2740"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 534.09117,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2742"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 558.09111,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2744"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 573.73104,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2746"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 597.73098,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2748"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 633.21092,612.03804 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2750"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 657.21086,612.03804 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+      </g>
+      <text
+         id="text2059"
+         y="224.83722"
+         x="5.0781207"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#2f2933;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332;fill:#2f2933;fill-opacity:1"
+           y="234.09764"
+           x="5.0781207"
+           id="tspan2057"
+           sodipodi:role="line"></tspan><tspan
+           id="tspan2061"
+           style="stroke-width:0.26458332;fill:#2f2933;fill-opacity:1"
+           y="247.3268"
+           x="5.0781207"
+           sodipodi:role="line" /></text>
+      <flowRoot
+         transform="scale(0.26458333)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#2f2933;fill-opacity:1;stroke:none"
+         id="flowRoot2108"
+         xml:space="preserve"><flowRegion
+           id="flowRegion2110"
+           style="fill:#2f2933;fill-opacity:1"><rect
+             y="533.60077"
+             x="559.62451"
+             height="90.913727"
+             width="33.335033"
+             id="rect2112"
+             style="fill:#2f2933;fill-opacity:1" /></flowRegion><flowPara
+           id="flowPara2114"></flowPara></flowRoot>      <g
+         id="flowRoot2009-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#2f2933;fill-opacity:1;stroke:none"
+         transform="matrix(0.26010609,0,0,0.26010609,126.04624,128.12923)"
+         aria-label="++++++++[&gt;++++++++&lt;-]&gt;[-
+&lt;++&gt;]&lt;-----&gt;[-]++++++++[
+&gt;[-]&lt;[&gt;+&lt;]&gt;-]&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;[-
+&gt;+&lt;]&gt;[&gt;+&lt;-&lt;+&gt;]&gt;[&gt;&gt;&gt;&gt;&gt;[-&gt;
++&lt;]&gt;+&lt;&lt;&lt;&lt;&lt;++++++++++&lt;[-&gt;
+&gt;+&lt;[&gt;&gt;&gt;]&gt;[[&lt;+&gt;-]&gt;+&gt;&gt;]&lt;&lt;&lt;
+&lt;&lt;]&gt;[-]&gt;[-&lt;&lt;+&gt;&gt;]&gt;[&lt;&lt;+&gt;&gt;]
+&lt;&lt;]&gt;&gt;&gt;&gt;&gt;&gt;[&lt;&lt;&lt;&lt;+++++++[-&lt;
++++++++&gt;]&lt;-[&lt;+&gt;-]&lt;.[- ]&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;]&gt;[[&lt;+&gt;-]&gt;+&gt;&gt;&gt;]&gt;[[
+]&gt;[&gt;+&lt;-&lt;+&gt;]&gt;[&lt;&lt;&lt;&lt;+++&gt;&gt;]]">
+        <path
+           id="path2753"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 102.09227,113.17135 h -3.120004 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.120004 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2755"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2757"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 150.09214,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2759"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 174.09208,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2761"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 198.09202,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2763"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 222.09196,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2765"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 246.0919,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2767"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 270.09184,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2769"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 287.93178,137.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2771"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.73172,109.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2773"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 342.09166,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2775"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 366.09159,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2777"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 390.09153,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2779"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 414.09147,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2781"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 438.09141,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2783"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 462.09135,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2785"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2787"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,113.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2789"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 539.45117,109.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2791"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 549.57111,121.89135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2793"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 585.21104,100.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2795"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 597.73098,109.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2797"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 623.93092,137.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2799"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.57086,121.89135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2801"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 107.45227,160.37803 -15.360004,9.48 v 3.48 l 15.200004,9.48 1.8,-2.44 -14.120004,-8.76 14.120004,-8.68 z" />
+        <path
+           id="path2803"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2805"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 150.09214,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2807"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,160.37803 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2809"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 201.21202,151.53803 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2811"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 227.45196,160.37803 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2813"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.5719,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2815"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.57184,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2817"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 285.57178,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2819"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.57172,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2821"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 333.57166,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2823"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 357.73159,160.37803 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2825"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 383.93153,188.73803 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2827"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 405.57147,173.05803 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2829"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 441.21141,151.53803 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2831"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 462.09135,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2833"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2835"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2837"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 534.09117,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2839"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 558.09111,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2841"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 582.09104,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2843"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 606.09098,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2845"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 630.09092,164.33803 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2847"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 647.93086,188.73803 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2849"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 93.732266,211.5447 -1.64,2.56 14.120004,8.68 -14.120004,8.72 1.8,2.48 15.200004,-9.48 v -3.44 z" />
+        <path
+           id="path2851"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 119.9322,239.9047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2853"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 141.57214,224.2247 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2855"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 177.21208,202.7047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2857"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 203.45202,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2859"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 215.93196,239.9047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2861"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.7319,211.5447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2863"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 270.09184,215.5047 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2865"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 299.45178,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2867"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 321.21172,202.7047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2869"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 333.73166,211.5447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2871"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 357.57159,224.2247 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2873"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 393.21153,202.7047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2875"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 419.45147,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2877"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 443.45141,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2879"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 467.45135,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2881"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 491.45129,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2883"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 515.45123,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2885"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 539.45117,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2887"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 563.45111,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2889"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 587.45104,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2891"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 611.45098,211.5447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2893"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 623.93092,239.9047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2895"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.57086,224.2247 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2897"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 93.732266,262.71137 -1.64,2.56 14.120004,8.68 -14.120004,8.72 1.8,2.48 15.200004,-9.48 v -3.44 z" />
+        <path
+           id="path2899"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,266.67137 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2901"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 155.45214,262.71137 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2903"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 177.21208,253.87137 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2905"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 189.73202,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2907"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 215.93196,291.07137 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2909"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.7319,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2911"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 270.09184,266.67137 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2913"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 299.45178,262.71137 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2915"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.57172,275.39137 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2917"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 347.45166,262.71137 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2919"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 366.09159,266.67137 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2921"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 381.73153,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2923"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 417.21147,253.87137 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2925"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 429.73141,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2927"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 455.93135,291.07137 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2929"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 477.73129,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2931"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 501.73123,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2933"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 525.73117,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2935"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 549.73111,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2937"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 573.73104,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2939"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 599.93098,291.07137 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2941"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 621.57092,275.39137 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2943"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.73086,262.71137 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2945"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 102.09227,317.83804 h -3.120004 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.120004 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2947"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 131.4522,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2949"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 153.21214,305.03804 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path2951"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,313.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2953"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 198.09202,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2955"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 227.45196,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2957"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 251.4519,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2959"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 275.45184,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2961"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 299.45178,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2963"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 323.45172,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2965"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 342.09166,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2967"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 366.09159,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2969"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 390.09153,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2971"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 414.09147,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2973"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 438.09141,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2975"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 462.09135,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2977"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2979"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2981"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 534.09117,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2983"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 558.09111,317.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2985"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 587.45104,313.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2987"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 599.93098,342.23804 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path2989"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 621.57092,326.55804 h 14 v -2.88 h -14 z" />
+        <path
+           id="path2991"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.73086,313.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path2993"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 93.732266,365.0447 -1.64,2.56 14.120004,8.68 -14.120004,8.72 1.8,2.48 15.200004,-9.48 v -3.44 z" />
+        <path
+           id="path2995"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,369.0047 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path2997"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 155.45214,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path2999"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 167.93208,393.4047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3001"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 189.73202,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3003"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 213.73196,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3005"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.7319,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3007"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 273.21184,356.2047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3009"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 285.73178,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3011"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 311.93172,393.4047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3013"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 335.93166,393.4047 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3015"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 371.45159,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3017"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 390.09153,369.0047 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3019"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 405.73147,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3021"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 429.57141,377.7247 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3023"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 465.21135,356.2047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3025"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 477.73129,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3027"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,369.0047 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3029"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 525.73117,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3031"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 549.73111,365.0447 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3033"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 585.21104,356.2047 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3035"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 611.45098,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3037"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 635.45092,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3039"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 659.45086,365.0447 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3041"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 107.45227,416.21135 -15.360004,9.48 v 3.48 l 15.200004,9.48 1.8,-2.44 -14.120004,-8.76 14.120004,-8.68 z" />
+        <path
+           id="path3043"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 131.4522,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3045"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 153.21214,407.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3047"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3049"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 191.93202,444.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3051"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 213.57196,428.89135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3053"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 249.2119,407.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3055"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.73184,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3057"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 287.93178,444.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3059"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.57172,428.89135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3061"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 347.45166,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 371.45159,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3065"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 390.09153,420.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3067"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 405.73147,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3069"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 429.73141,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3071"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 465.21135,407.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3073"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 477.73129,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3075"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 503.93123,444.57135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3077"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 539.45117,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3079"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 563.45111,416.21135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3081"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 582.09104,420.17135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3083"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 597.73098,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3085"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 621.73092,416.21135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3087"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 657.21086,407.37135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3089"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 107.45227,467.37801 -15.360004,9.48 v 3.48 l 15.200004,9.48 1.8,-2.44 -14.120004,-8.76 14.120004,-8.68 z" />
+        <path
+           id="path3091"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 131.4522,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3093"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 153.21214,458.53801 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3095"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3097"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 189.73202,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3099"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 213.73196,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3101"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.7319,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3103"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.73184,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3105"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 285.73178,467.37801 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3107"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 311.93172,495.73801 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3109"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 347.45166,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3111"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 371.45159,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3113"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 395.45153,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3115"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 419.45147,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3117"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 438.09141,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3119"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 462.09135,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3121"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3123"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3125"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 534.09117,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3127"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 558.09111,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3129"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 582.09104,471.33801 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3131"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 599.93098,495.73801 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3133"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 621.57092,480.05801 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3135"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 659.45086,467.37801 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3137"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 102.09227,522.50467 h -3.120004 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.120004 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3139"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 126.0922,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3141"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 150.09214,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3143"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 174.09208,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3145"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 198.09202,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3147"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 222.09196,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3149"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 246.0919,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3151"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.73184,518.54467 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3153"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 297.21178,509.70467 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3155"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 323.45172,518.54467 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3157"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 333.57166,531.22467 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3159"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 359.93159,546.90467 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3161"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 395.45153,518.54467 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3163"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 414.09147,522.50467 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3165"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 429.73141,518.54467 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3167"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 453.57135,531.22467 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3169"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 489.21129,509.70467 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3171"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 515.45123,518.54467 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3173"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 529.01117,539.22467 c 0,2 1.52,3.52 3.52,3.52 2.04,0 3.52,-1.52 3.52,-3.52 0,-1.96 -1.48,-3.52 -3.52,-3.52 -2,0 -3.52,1.56 -3.52,3.52 z" />
+        <path
+           id="path3175"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 551.93111,546.90467 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3177"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 573.57104,531.22467 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3179"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 633.21092,509.70467 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3181"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 645.73086,518.54467 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3183"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 93.732266,569.71135 -1.64,2.56 14.120004,8.68 -14.120004,8.72 1.8,2.48 15.200004,-9.48 v -3.44 z" />
+        <path
+           id="path3185"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 117.7322,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3187"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 141.73214,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3189"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3191"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 189.73202,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3193"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 213.73196,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3195"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 249.2119,560.87135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3197"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 261.73184,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3199"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 287.93178,598.07135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3201"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 311.93172,598.07135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3203"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 347.45166,569.71135 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3205"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 366.09159,573.67135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3207"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 381.73153,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3209"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 405.57147,582.39135 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3211"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 441.21141,560.87135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3213"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 453.73135,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3215"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 486.09129,573.67135 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3217"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 501.73123,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3219"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 525.73117,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3221"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 549.73111,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3223"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 585.21104,560.87135 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3225"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 597.73098,569.71135 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3227"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 623.93092,598.07135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3229"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 647.93086,598.07135 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3231"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="M 105.21227,612.03804 H 95.172266 v 2.88 h 6.840004 v 31.48 h -6.840004 v 2.84 h 10.040004 z" />
+        <path
+           id="path3233"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 117.7322,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3235"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 143.93214,649.23804 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3237"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 165.73208,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3239"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 198.09202,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3241"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 227.45196,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3243"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 237.5719,633.55804 h 14 v -2.88 h -14 z" />
+        <path
+           id="path3245"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 275.45184,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3247"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 294.09178,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3249"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 309.73172,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3251"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 345.21166,612.03804 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3253"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 357.73159,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3255"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 383.93153,649.23804 h 10.04 v -2.84 h -6.84 v -31.48 h 6.84 v -2.88 h -10.04 z" />
+        <path
+           id="path3257"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 419.45147,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3259"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 443.45141,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3261"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 467.45135,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3263"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 491.45129,620.87804 -15.36,9.48 v 3.48 l 15.2,9.48 1.8,-2.44 -14.12,-8.76 14.12,-8.68 z" />
+        <path
+           id="path3265"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 510.09123,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3267"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 534.09117,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3269"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 558.09111,624.83804 h -3.12 v 5.96 h -5.76 v 2.8 h 5.76 v 5.96 h 3.12 v -5.96 h 5.84 v -2.8 h -5.84 z" />
+        <path
+           id="path3271"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 573.73104,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3273"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 597.73098,620.87804 -1.64,2.56 14.12,8.68 -14.12,8.72 1.8,2.48 15.2,-9.48 v -3.44 z" />
+        <path
+           id="path3275"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 633.21092,612.03804 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+        <path
+           id="path3277"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono for Powerline';-inkscape-font-specification:'Fira Mono for Powerline';fill:#2f2933;fill-opacity:1"
+           d="m 657.21086,612.03804 h -10.04 v 2.88 h 6.84 v 31.48 h -6.84 v 2.84 h 10.04 z" />
+      </g>
+    </g>
+  </g>
+</svg>

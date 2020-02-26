@@ -8,6 +8,20 @@
     background-size: calc(0.3 * var(--_w)) auto;
 }
 
+.card--projects__background--cyp {
+    background: url("/blocks/card/card--projects__background/cyp.svg") repeat;
+    background-size: calc(var(--_w)) auto;
+}
+
+.card--projects__background--todograph {
+    background: url("/blocks/card/card--projects__background/todograph.svg") repeat;
+    background-size: calc(0.5 * var(--_w)) auto;
+}
+
+.card--projects__background--bfs {
+    background: url("/blocks/card/card--projects__background/bfs.svg") repeat;
+    background-size: calc(0.75 * var(--_w)) auto;
+}
 
 .card--projects__background--empty {
     background:
