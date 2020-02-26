@@ -60,7 +60,7 @@
 }
 
 .projects__title::before {
-    content: "Galerietitel";
+    content: "Titel/Title";
     display: block;
     font-size: 12px;
     text-transform: none;
@@ -75,7 +75,7 @@
 }
 
 .projects__filter::before {
-    content: "auf Technologien klicken,\Aum nach ihnen zu filtern";
+    content: ""; /* TODO filter text yes or no? */
     font-size: 12px;
     position: absolute;
     right: 0;

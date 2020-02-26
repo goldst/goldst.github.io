@@ -70,7 +70,7 @@
 }
 
 .project-card__title::before {
-    content: "Projekttitel";
+    content: "Projekttitel/Project title";
     display: block;
     font-size: 12px;
     text-transform: none;
@@ -84,7 +84,7 @@
 }
 
 .project-card__data::before {
-    content: "Verwendete Technologie";
+    content: "Technologie/Technology";
     display: block;
     font-size: 12px;
     line-height: 11px;
@@ -97,7 +97,7 @@
 } */
 
 .project-card__description:first-of-type::before {
-    content: "Projektbeschreibung";
+    content: "Beschreibung/Description";
     display: block;
     font-size: 12px;
     text-transform: none;

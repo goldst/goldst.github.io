@@ -103,7 +103,7 @@
 }
 
 .card--main__social-links::before {
-    content: 'Kontakt/Contact/TODO';
+    content: 'Kontakt/Contact';
     display: block;
     width: 100%;
 }
