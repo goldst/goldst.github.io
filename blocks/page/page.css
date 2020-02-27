@@ -5,6 +5,7 @@
         url("./../../fonts/Manrope/semibold.woff2") format("woff2"),
         url("./../../fonts/Manrope/semibold.woff") format("woff"),
         url("./../../fonts/Manrope/semibold.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
         url("./../../fonts/Manrope/regular.woff2") format("woff2"),
         url("./../../fonts/Manrope/regular.woff") format("woff"),
         url("./../../fonts/Manrope/regular.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -23,6 +25,7 @@
         url("./../../fonts/Manrope/light.woff2") format("woff2"),
         url("./../../fonts/Manrope/light.woff") format("woff"),
         url("./../../fonts/Manrope/light.ttf") format("truetype");
+    font-display: swap;
 }
 
 :root {
