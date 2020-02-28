@@ -1,31 +1,31 @@
 @font-face {
+    font-display: swap;
     font-family: "Manrope";
     font-weight: 700;
     src:
         url("./../../fonts/Manrope/semibold.woff2") format("woff2"),
         url("./../../fonts/Manrope/semibold.woff") format("woff"),
         url("./../../fonts/Manrope/semibold.ttf") format("truetype");
-    font-display: swap;
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Manrope";
     font-weight: 400;
     src:
         url("./../../fonts/Manrope/regular.woff2") format("woff2"),
         url("./../../fonts/Manrope/regular.woff") format("woff"),
         url("./../../fonts/Manrope/regular.ttf") format("truetype");
-    font-display: swap;
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Manrope";
     font-weight: 300;
     src:
         url("./../../fonts/Manrope/light.woff2") format("woff2"),
         url("./../../fonts/Manrope/light.woff") format("woff"),
         url("./../../fonts/Manrope/light.ttf") format("truetype");
-    font-display: swap;
 }
 
 :root {
@@ -74,4 +74,11 @@ html,
 .page ::-moz-selection {
     background: var(--c1);
     color: var(--c0);
+}
+
+@media screen and (orientation: portrait) {
+    :root {
+        --w: 100vw;
+        --h: 100vh;
+    }
 }

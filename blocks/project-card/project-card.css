@@ -106,3 +106,16 @@
 .project-card__description:first-of-type {
     text-transform: uppercase;
 }
+
+@media screen and (orientation: portrait) {
+    .project-card__inner {
+        --_by: calc(0.85 * var(--_w) - 2 * var(--project-card--padding));
+        --_bx: var(--_by);
+
+        height: auto;
+        overflow: visible;
+        padding-left: var(--project-card--padding);
+        padding-top: calc(0.85 * var(--w) - var(--project-card--padding));
+        width: auto;
+    }
+}

@@ -100,3 +100,54 @@
 .projects__filter:not(:empty)::before {
     content: "Filter:";
 }
+
+@media screen and (orientation: portrait) {
+    .projects {
+        box-sizing: border-box;
+        overflow: scroll;
+        transform: none;
+    }
+
+    .projects__title-bar {
+        display: block;
+        height: auto;
+        position: static;
+        transform: none;
+        width: 100%;
+    }
+
+    .projects__title {
+        font-size: calc(0.07 * var(--_w));
+    }
+
+    .projects__filter {
+        margin-top: 0;
+        width: auto;
+    }
+
+    #to-projects:target ~ * .main-container__projects {
+        height: var(--_h);
+        left: 0;
+        overflow-x: hidden;
+        top: 0;
+        width: var(--_w);
+    }
+
+    .projects__inner {
+        height: auto;
+        max-height: initial;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+
+    .projects__project-card {
+        height: auto;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .projects__project-card .card--projects__background {
+        background-position: 0 var(--projects--scroll-top);
+    }
+}

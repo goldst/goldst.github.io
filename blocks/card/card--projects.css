@@ -28,3 +28,31 @@
 .card--projects:hover .card__inner {
     --_by: calc(var(--h) - 2 * var(--project-card--padding) - 25px);
 }
+
+@media screen and (orientation: portrait) {
+    .card--projects {
+        height: var(--_h);
+        width: auto;
+    }
+
+    .card--projects__background {
+        clip-path: none !important;
+        height: calc(0.85 * var(--_w) - 2 * var(--project-card--padding));
+        position: absolute;
+        transform: none;
+        width: 100%;
+    }
+
+    .card--projects__inner {
+        height: var(--_h);
+        width: auto;
+    }
+
+    .card--projects__links {
+        position: static;
+    }
+
+    .card--projects:hover .card__inner {
+        --_by: calc(0.85 * var(--_w) - 2 * var(--project-card--padding));
+    }
+}
