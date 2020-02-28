@@ -13,7 +13,7 @@
     --_h: var(--h, calc(var(--_w) * 0.618033988));
     --_c0: var(--c0, black);
     --_c1: var(--c1, lightgrey);
-    --_padding: var(--card--padding, calc(0.02 * var(--w, 500px)));
+    --_padding: var(--card--padding, calc(0.02 * var(--_w, 500px)));
     --_add-background: var(--card--additional-background-image, none);
     --_hover-scale: var(--card--hover-scale, 1.025);
 
@@ -75,4 +75,19 @@
     font-size: calc(0.0225 * var(--_w));
     font-weight: 300;
     margin: 0;
+}
+
+@media screen and (orientation: portrait) {
+    .card {
+        --_hover-scale: 1;
+    }
+
+    .card__inner {
+        max-height: 100%;
+        transform: none !important;
+    }
+
+    .card__title {
+        font-size: calc(0.0325 * var(--_w));
+    }
 }

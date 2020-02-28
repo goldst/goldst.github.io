@@ -17,6 +17,9 @@ export default () => {
 function startScrollPositionUpdater() {
     document.querySelector('.projects__inner')
         .addEventListener("scroll", onScroll);
+
+    document.querySelector('.projects')
+        .addEventListener("scroll", onScroll);
 }
 
 /**

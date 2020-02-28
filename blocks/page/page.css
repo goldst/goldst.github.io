@@ -1,4 +1,5 @@
 @font-face {
+    font-display: swap;
     font-family: "Manrope";
     font-weight: 700;
     src:
@@ -8,6 +9,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Manrope";
     font-weight: 400;
     src:
@@ -17,6 +19,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Manrope";
     font-weight: 300;
     src:
@@ -71,4 +74,11 @@ html,
 .page ::-moz-selection {
     background: var(--c1);
     color: var(--c0);
+}
+
+@media screen and (orientation: portrait) {
+    :root {
+        --w: 100vw;
+        --h: 100vh;
+    }
 }

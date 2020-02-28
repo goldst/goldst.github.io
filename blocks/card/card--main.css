@@ -172,3 +172,16 @@
     pointer-events: none;
     transition: none;
 }
+
+@media screen and (orientation: portrait) {
+    .card--main__inner {
+        grid-template-areas: "logo" "right";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    #to-projects:target ~ * .card--main {
+        height: calc(0.15 * var(--_h));
+        width: calc(0.15 * var(--_w));
+    }
+}

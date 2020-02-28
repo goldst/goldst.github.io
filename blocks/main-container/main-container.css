@@ -33,3 +33,19 @@
 #to-projects:target ~ * .main-container__projects-title-bar {
     width: calc(100vw - 0.3 * var(--w));
 }
+
+@media screen and (orientation: portrait) {
+    .main-container {
+        height: 100%;
+        position: initial;
+        width: 100%;
+    }
+
+    .main-container__projects {
+        padding-left: calc(0.15 * var(--_w));
+    }
+
+    #to-projects:target ~ .main-container {
+        height: var(--_h);
+    }
+}
