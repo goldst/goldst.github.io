@@ -106,6 +106,11 @@ export default class cardAbstract {
         this._cm.mousemoveEventShadow();
     }
 
+    doEvent(event) {
+        this._ct.doEvent(event);
+        this._cm.doEvent(event);
+    }
+
     /**
      * helper function that throws if class name ends with 'Abstract'
      * @private

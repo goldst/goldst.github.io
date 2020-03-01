@@ -188,23 +188,24 @@ export default class EventController {
     /**
      * Adds an eventListener for each DOM element that matches the
      * criteria.
-     * @param {string} [eventType=mousemove] type of the event that
-     *   should be listened for
+     * @param {string} eventType type of the event that
+     *   should be listened for. If null, you have to react to events
+     *   manually, running doEvent(event).
      * @param {function} [modificationFunction=args=>\[]] - returns
      *   an array of css changes. args contain absolute transformation
      *   origin and mouse position, both in arrays, and others.
      *   See {TransformationFunctions} for examples and predefined
      *   functions
      * @param {string} [additionalFilter='*'] - css query that has to
-     *   apply additionaly to the one passed in the constructor
+     *   apply additionally to the one passed in the constructor
      * @param {function} [postFunction = (event, element)=>{}] - optional
      *   function that runs after the css change is successfully
-     *   handeled internally. See {PostTransformFunctions} for examples
+     *   handled internally. See {PostTransformFunctions} for examples
      *   and predefined functions.
      * @returns {void}
      */
     listenToChangeCss(
-        eventType = 'mousemove',
+        eventType,
         modificationFunction = args => [],
         additionalFilter = '*',
         postFunction = (controller, event, element) => {}
@@ -213,12 +214,27 @@ export default class EventController {
         this.eventControlElements
             .filter(ece => ece.domElement.matches(additionalFilter))
             .forEach(ece => {
-                document.addEventListener(eventType, event => {
+                const run = (event) => {
                     this._modify(event, ece, modificationFunction);
                     postFunction.call(this, event, ece);
-                });
-            }
-            );
+                }
+
+                if(eventType !== null) {
+                    document.addEventListener(eventType, run);
+                }
+
+                ece.doEvent = run;
+            });
+    }
+
+    doEvent(event) {
+        this.eventControlElements
+            .forEach(ece => {
+                // only if doEvent was set by listenToChangeCss
+                if(ece.doEvent !== undefined) { 
+                    ece.doEvent(event);
+                }
+            });
     }
 
     /**
