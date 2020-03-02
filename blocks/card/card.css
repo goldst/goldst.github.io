@@ -36,8 +36,8 @@
 }
 
 .card:hover {
-    transition: transform 0.5s;
     transform: scale(var(--_hover-scale));
+    transition: transform 0.5s;
     z-index: 100;
 }
 

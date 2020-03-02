@@ -12,10 +12,10 @@ window.addEventListener('load', () => {
     CP.mousemoveEvent();
     CM.mousemoveEvent();
     C.mousemoveEvent();
-    
+
     window.addEventListener('mousemove', (e) => {
         CP.doEvent(e);
         CM.doEvent(e);
         C.doEvent(e);
-    })
+    });
 });

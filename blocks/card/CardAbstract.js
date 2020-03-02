@@ -106,6 +106,11 @@ export default class cardAbstract {
         this._cm.mousemoveEventShadow();
     }
 
+    /**
+     * runs doEvent on both CardTransformable and CardMouseShadowed
+     * @todo that's a bad description. change
+     * @param {event} event
+     */
     doEvent(event) {
         this._ct.doEvent(event);
         this._cm.doEvent(event);

@@ -214,10 +214,15 @@ export default class EventController {
         this.eventControlElements
             .filter(ece => ece.domElement.matches(additionalFilter))
             .forEach(ece => {
+                /**
+                 * Function that will be run on events, when calling
+                 * doEvent or on events of eventType
+                 * @param {event} event
+                 */
                 const run = (event) => {
                     this._modify(event, ece, modificationFunction);
                     postFunction.call(this, event, ece);
-                }
+                };
 
                 if(eventType !== null) {
                     document.addEventListener(eventType, run);
@@ -227,11 +232,18 @@ export default class EventController {
             });
     }
 
+    /**
+     * runs modification functions and postfunctions for all
+     * EventControlElements, if they have previously been passed via
+     * listenToChangeCss
+     * @param {event} event
+     * @returns {void}
+     */
     doEvent(event) {
         this.eventControlElements
             .forEach(ece => {
                 // only if doEvent was set by listenToChangeCss
-                if(ece.doEvent !== undefined) { 
+                if(ece.doEvent !== undefined) {
                     ece.doEvent(event);
                 }
             });
