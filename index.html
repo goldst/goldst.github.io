@@ -33,11 +33,25 @@
                             <span class="card__title main-card__birth">
                                 01.01.1999
                             </span>
+                            <script>
+                                function toMail(encrypted) {
+                                    let decrypted = "";
+                                    for(let i = 0; i < encrypted.length; i++) {
+                                        if(encrypted.charCodeAt(i) > 122) {
+                                            decrypted += String.fromCharCode(encrypted.charCodeAt(i+1) - 56561);
+                                            i++;
+                                        } else {
+                                            decrypted += encrypted.charAt(i);
+                                        }
+                                    }
+                                    window.open("mailto:" + decrypted, "_self");
+                                }
+                            </script>
                             <div class="card--main__social-links">
                                 <a href="https://github.com/goldst" class="card--main__social-link card--main__social-link--github main-card__button main-card__button--github button button--s">
                                     GitHub
                                 </a>
-                                <a href="mailto:leonard-goldstein@outlook.de" class="card--main__social-link card--main__social-link--mail main-card__button button button--s">
+                                <a href="javascript:toMail('𝕝𝕖𝕠𝕟𝕒𝕣𝕕-𝕘𝕠𝕝𝕕𝕤𝕥𝕖𝕚𝕟@𝕠𝕦𝕥𝕝𝕠𝕠𝕜.𝕕𝕖')" class="card--main__social-link card--main__social-link--mail main-card__button button button--s">
                                     E-Mail
                                 </a>
                                 <a href="tel:0157-78218294" class="card--main__social-link card--main__social-link--tel main-card__button button button--s">
