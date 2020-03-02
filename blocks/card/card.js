@@ -4,7 +4,18 @@ import CardProjects from './Card--projects.js';
 
 
 window.addEventListener('load', () => {
-    new CardProjects().mousemoveEvent();
-    new CardMain().mousemoveEvent();
-    new Card().mousemoveEvent();
+    const
+        CP = new CardProjects(),
+        CM = new CardMain(),
+        C = new Card();
+
+    CP.mousemoveEvent();
+    CM.mousemoveEvent();
+    C.mousemoveEvent();
+
+    window.addEventListener('mousemove', (e) => {
+        CP.doEvent(e);
+        CM.doEvent(e);
+        C.doEvent(e);
+    });
 });

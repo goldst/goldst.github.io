@@ -49,7 +49,7 @@ export default class TransformationController extends EC {
         additionalFilter='*',
         postFunction = (event, element)=>{} ) {
         this.listenToChangeCss(
-            'mousemove', transformationFunction,
+            null, transformationFunction,
             additionalFilter, postFunction
         );
     }

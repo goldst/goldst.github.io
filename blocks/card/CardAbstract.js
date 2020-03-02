@@ -107,6 +107,16 @@ export default class cardAbstract {
     }
 
     /**
+     * runs doEvent on both CardTransformable and CardMouseShadowed
+     * @todo that's a bad description. change
+     * @param {event} event
+     */
+    doEvent(event) {
+        this._ct.doEvent(event);
+        this._cm.doEvent(event);
+    }
+
+    /**
      * helper function that throws if class name ends with 'Abstract'
      * @private
      * @throws {Error} 'cannot call functions in abstract class'
