@@ -18,7 +18,6 @@
     --_hover-scale: var(--card--hover-scale, 1.025);
 
     height: var(--_h);
-    transition: transform 0.5s;
     width: var(--_w);
 }
 
@@ -37,6 +36,7 @@
 }
 
 .card:hover {
+    transition: transform 0.5s;
     transform: scale(var(--_hover-scale));
     z-index: 100;
 }
