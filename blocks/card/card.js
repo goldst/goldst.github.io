@@ -20,11 +20,15 @@ window.addEventListener('load', () => {
         // C.doEvent(e);
     });
 
+    /**
+     * flushes all caches that can be flushed
+     * @returns {void}
+     */
     const onMove = () => {
         CP.flushRectCaches();
         CM.flushRectCaches();
         //C.flushRectCaches();
-    }
+    };
 
     window.addEventListener('pushstate', onMove);
     window.addEventListener('popstate', onMove);

@@ -120,6 +120,10 @@ export default class EventController {
         });
     }
 
+    /**
+     * flushes the cache for each eventControlElement
+     * @see {EventControlElement.flushRectCache}
+     */
     flushRectCaches() {
         this.eventControlElements
             .forEach(ece => ece.flushRectCache());
