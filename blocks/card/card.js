@@ -16,6 +16,6 @@ window.addEventListener('load', () => {
     window.addEventListener('mousemove', (e) => {
         CP.doEvent(e);
         CM.doEvent(e);
-        C.doEvent(e);
+        //C.doEvent(e);
     });
 });

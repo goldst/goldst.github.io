@@ -24,14 +24,20 @@ export default class EventControlElement {
     }
 
     /**
+     * only retrieves size from the dom if it's called the first time
+     * else returns cached value
      * @private
      * @return {number[]} width and height of the domElement
      */
     get _size() {
-        return [
-            this.domElement.offsetWidth,
-            this.domElement.offsetHeight
-        ];
+        if(this.__size === undefined) {
+            this.__size = [
+                this.domElement.offsetWidth,
+                this.domElement.offsetHeight
+            ];
+        }
+
+        return this.__size;
     }
 
     /**
