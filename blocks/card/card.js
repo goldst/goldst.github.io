@@ -19,4 +19,14 @@ window.addEventListener('load', () => {
         // TODO: do i need this? In which case?
         // C.doEvent(e);
     });
+
+    const onMove = () => {
+        CP.flushRectCaches();
+        CM.flushRectCaches();
+        //C.flushRectCaches();
+    }
+
+    window.addEventListener('pushstate', onMove);
+    window.addEventListener('popstate', onMove);
+    window.addEventListener('replacestate', onMove);
 });

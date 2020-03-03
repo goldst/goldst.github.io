@@ -36,7 +36,7 @@ export default class ButtonAbstract {
      */
     static _shadowFunction(args) {
         const
-            rect = args.eventControlElement.domElement.getBoundingClientRect(),
+            rect = args.eventControlElement.rect,
             hover = [
                 args.event.clientX - rect.left,
                 args.event.clientY - rect.top

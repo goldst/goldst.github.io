@@ -634,7 +634,7 @@ export default class TransformableElement extends ECE {
             'transform', this.initialTransform
         );
 
-        const rect = this.domElement.getBoundingClientRect();
+        const rect = this.rect;
 
         this._setProperty('transform', '');
 
