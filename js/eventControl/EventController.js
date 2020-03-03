@@ -225,7 +225,7 @@ export default class EventController {
                 };
 
                 if(eventType !== null) {
-                    document.addEventListener(eventType, run);
+                    ece.domElement.addEventListener(eventType, run);
                 }
 
                 ece.doEvent = run;

@@ -16,6 +16,7 @@ window.addEventListener('load', () => {
     window.addEventListener('mousemove', (e) => {
         CP.doEvent(e);
         CM.doEvent(e);
-        //C.doEvent(e);
+        // TODO: do i need this? In which case?
+        // C.doEvent(e);
     });
 });
