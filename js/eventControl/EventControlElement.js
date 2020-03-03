@@ -41,6 +41,46 @@ export default class EventControlElement {
     }
 
     /**
+     * clientBoundingRect of the domElement, cached after it has been the
+     * same for 5 calls. Cache can be flushed using {flushRectCache}
+     */
+    get rect() {
+        if(this._rectSafe === undefined) {
+            this._rectSafe = 5;
+        }
+
+        if(this._rect === undefined || this._rectSafe !== 0) {
+            const newRect = this.domElement.getBoundingClientRect();
+
+            if(this._rect !== undefined) { 
+                this._rectSafe--;
+                for(let a in newRect) {
+                    if(newRect[a] !== this._rect) {
+                        this._rectSafe = 5;
+                        break;
+                    }
+                }
+            }
+
+            this._rect = newRect;
+            console.log('neql');
+        } else {
+            console.log('equal');
+        }
+
+        return this._rect;
+    }
+
+    /**
+     * flushes the rect cache from {get rect}
+     * @returns {void}
+     */
+    flushRectCache() {
+        this._rect = undefined;
+        this._rectSafe = 5;
+    }
+
+    /**
      * adds the given css classes to the DOM element so that it can be
      * recognized as transformable when looking at the DOM
      * @private

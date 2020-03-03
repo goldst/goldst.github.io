@@ -120,6 +120,11 @@ export default class EventController {
         });
     }
 
+    flushRectCaches() {
+        this.eventControlElements
+            .forEach(ece => ece.flushRectCache());
+    }
+
     /**
      * _mutates() calls this method when there might have been a CSS
      * change. This method makes sure that the EventControlElements of
