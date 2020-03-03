@@ -8,7 +8,7 @@ import LA from '../../js/math/LinearAlgebra.js';
  * the effects
  * @abstract
  */
-export default class cardAbstract {
+export default class CardAbstract {
     /**
      * @param {String} [modifier = ''] Modifier of the card block.
      *   Default '' means mo modifier.
@@ -21,8 +21,8 @@ export default class cardAbstract {
         modifier = '',
         postTransformFunction,
         postShadowFunction,
-        transformationFunction = cardAbstract._transformationFunction,
-        shadowFunction = cardAbstract._shadowFunction
+        transformationFunction = CardAbstract._transformationFunction,
+        shadowFunction = CardAbstract._shadowFunction
     ) {
 
         this._throwIfAbstractClass();
@@ -38,6 +38,15 @@ export default class cardAbstract {
             postShadowFunction,
             shadowFunction
         );
+    }
+
+    /**
+     * flushes all rect caches
+     * @returns {void}
+     */
+    flushRectCaches() {
+        this._ct.flushRectCaches();
+        this._cm.flushRectCaches();
     }
 
     /**
@@ -84,7 +93,7 @@ export default class cardAbstract {
      */
     static _shadowFunction(args) {
         const
-            rect = args.eventControlElement.domElement.getBoundingClientRect(),
+            rect = args.eventControlElement.rect,
             hover = [
                 args.event.clientX - rect.left,
                 args.event.clientY - rect.top

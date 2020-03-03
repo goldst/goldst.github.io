@@ -24,14 +24,60 @@ export default class EventControlElement {
     }
 
     /**
+     * only retrieves size from the dom if it's called the first time
+     * else returns cached value
      * @private
      * @return {number[]} width and height of the domElement
      */
     get _size() {
-        return [
-            this.domElement.offsetWidth,
-            this.domElement.offsetHeight
-        ];
+        if(this.__size === undefined) {
+            this.__size = [
+                this.domElement.offsetWidth,
+                this.domElement.offsetHeight
+            ];
+        }
+
+        return this.__size;
+    }
+
+    /**
+     * clientBoundingRect of the domElement, cached after it has been the
+     * same for 5 calls. Cache can be flushed using {flushRectCache}
+     */
+    get rect() {
+        if(this._rectSafe === undefined) {
+            this._rectSafe = 5;
+        }
+
+        if(this._rect === undefined || this._rectSafe !== 0) {
+            const newRect = this.domElement.getBoundingClientRect();
+
+            if(this._rect !== undefined) {
+                this._rectSafe--;
+                for(let a in newRect) {
+                    if(newRect[a] !== this._rect) {
+                        this._rectSafe = 5;
+                        break;
+                    }
+                }
+            }
+
+            this._rect = newRect;
+            console.log('neql');
+        } else {
+            console.log('equal');
+        }
+
+        return this._rect;
+    }
+
+    /**
+     * flushes the rect cache from {get rect}
+     * @returns {void}
+     */
+    flushRectCache() {
+        this._rect = undefined;
+        this._rectSafe = 5;
     }
 
     /**

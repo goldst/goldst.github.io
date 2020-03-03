@@ -611,12 +611,15 @@ export default class TransformableElement extends ECE {
 
     /**
      * @returns {string} initial CSS transformation as matrix/matrix3d or
-     *   'none'.
+     *   'none' (cached).
      */
     get initialTransform() {
-        return this._getVariable(
-            'transformable-element', 'initial-transform'
-        );
+        if(this._initialTransform === undefined) {
+            this._initialTransform = this._getVariable(
+                'transformable-element', 'initial-transform'
+            );
+        }
+        return this._initialTransform;
     }
 
     /**
@@ -631,7 +634,7 @@ export default class TransformableElement extends ECE {
             'transform', this.initialTransform
         );
 
-        const rect = this.domElement.getBoundingClientRect();
+        const rect = this.rect;
 
         this._setProperty('transform', '');
 
