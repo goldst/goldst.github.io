@@ -21,6 +21,10 @@
     right: calc(var(--project-card--padding) + 0.5 * var(--_w));
 }
 
+.card.card--projects:hover {
+    transition: none;
+}
+
 .card--projects:hover .card__inner {
     --_by: calc(var(--h) - 2 * var(--project-card--padding) - 25px);
 }
