@@ -6,7 +6,7 @@ These are the files for my website.
 
 ## How it works
 
-Attention! High end technology. Not designed or tested with older browsers in mind. Stuff could be and will be broken.
+Attention! Makes use of non-standard and newest standard EcmaScript. Not designed or tested with older browsers in mind. Stuff could be and will be broken there.
 For further information, look at the generated [documentation in the wiki](/wiki).
 
 ## Contributing
