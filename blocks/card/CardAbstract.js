@@ -40,6 +40,10 @@ export default class CardAbstract {
         );
     }
 
+    /**
+     * flushes all rect caches
+     * @returns {void}
+     */
     flushRectCaches() {
         this._ct.flushRectCaches();
         this._cm.flushRectCaches();

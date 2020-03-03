@@ -52,7 +52,7 @@ export default class EventControlElement {
         if(this._rect === undefined || this._rectSafe !== 0) {
             const newRect = this.domElement.getBoundingClientRect();
 
-            if(this._rect !== undefined) { 
+            if(this._rect !== undefined) {
                 this._rectSafe--;
                 for(let a in newRect) {
                     if(newRect[a] !== this._rect) {
