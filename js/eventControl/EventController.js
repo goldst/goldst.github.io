@@ -18,15 +18,19 @@ export default class EventController {
      * @param {string} [queryFilter = '*'] - This method only looks for
      *   elements that match the queryFilter. Again: The more specific,
      *   the better.
-     * @param {boolean} [onlyNewElements = true] - forgot what it does.
+     * @param {array<string>} [classes = []] - the css class names that
+     *   are necessary to qualify the object to be handled by this
+     *   EventController
+     * @param {boolean} [onlyNewElements = true] - if true, objects that
+     *   are already handled by another EventController won't be added to
+     *   this object's list.
      * @param {class} [eventControlClass = EventControlElement] - class
      *   that inherits from EventControlElement
-     * @todo Find out what exacly onlyNewElements does and add docs. If it
-     *   doesn't do anything, delete it.
      * @returns {void}
      */
-    constructor(baseElement, queryFilter = '*', classes = [], onlyNewElements = true,
-        eventControlClass = ECE) {
+    constructor(baseElement, queryFilter = '*', classes = [],
+        onlyNewElements = true, eventControlClass = ECE) {
+
         /**
          * @type {MutationObserver}
          */
@@ -123,6 +127,7 @@ export default class EventController {
     /**
      * flushes the cache for each eventControlElement
      * @see {EventControlElement.flushRectCache}
+     * @returns {void}
      */
     flushRectCaches() {
         this.eventControlElements
@@ -226,7 +231,9 @@ export default class EventController {
                 /**
                  * Function that will be run on events, when calling
                  * doEvent or on events of eventType
-                 * @param {event} event
+                 * @param {event} event - event that co-triggered the call
+                 *   of the method
+                 * @returns {void}
                  */
                 const run = (event) => {
                     this._modify(event, ece, modificationFunction);
@@ -245,7 +252,8 @@ export default class EventController {
      * runs modification functions and postfunctions for all
      * EventControlElements, if they have previously been passed via
      * listenToChangeCss
-     * @param {event} event
+     * @param {event} event - event that co-triggered the call
+     *   of the method
      * @returns {void}
      */
     doEvent(event) {
@@ -265,16 +273,16 @@ export default class EventController {
      * @param {event} event - mousemove event that co-triggered the call
      *   of the method
      * @param {EventControlElement} ece - EventControlElement the
-     *   modificmation applies to
-     * @param {function} modificmationFunction - function which's result
-     *   is the modification that is going to be applied. See
+     *   modification applies to
+     * @param {function} modificationFunction - function, result is the
+     *   modification that is going to be applied. See
      *   {PostTransformFunctions} for examples and predefined functions.
      * @returns {void}
      */
     _modify(event, ece, modificationFunction) {
         /**
-         * @todo remove transformOrigin and make modification functions use that directly
-         *   from eventControlElement
+         * @todo remove transformOrigin and make modification functions +
+         *   use that directly from eventControlElement
          */
         const args = {
             event: event,

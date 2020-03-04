@@ -84,7 +84,7 @@ export default class EventControlElement {
      * adds the given css classes to the DOM element so that it can be
      * recognized as transformable when looking at the DOM
      * @private
-     * @param {string[]} - CSS classes that should be added
+     * @param {string[]} classes - CSS classes that should be added
      * @returns {void}
      */
     _addCssClasses(classes) {

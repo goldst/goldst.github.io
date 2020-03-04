@@ -10,6 +10,10 @@ export default class CardMouseShadowed extends MC {
     /**
      * @param {String} [modifier = ''] Modifier of the card block.
      *   Default '' means mo modifier.
+     * @param {function} postShadowFunction - function that performs
+     *   actions after the result of shadowFunction is applied
+     * @param {function} shadowFunction - function that will
+     *   calculate the shadow of the dom elements
      * @returns {void}
      */
     constructor(
@@ -23,7 +27,14 @@ export default class CardMouseShadowed extends MC {
             `.card${modifier} > .card__inner`
         );
 
+        /**
+         * @type {function}
+         */
         this._postShadowFunction = postShadowFunction;
+
+        /**
+         * @type {function}
+         */
         this._shadowFunction = shadowFunction;
     }
 

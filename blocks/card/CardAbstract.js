@@ -12,9 +12,19 @@ export default class CardAbstract {
     /**
      * @param {String} [modifier = ''] Modifier of the card block.
      *   Default '' means mo modifier.
-     * @param {function} postTransformFunction for examples, see
-     *   {js/transformation/TransformableElement/
+     * @param {function} postTransformFunction - function that performs
+     *   actions after the result of transformationFunction is applied.
+     *   for examples, see {js/transformation/TransformableElement/
      *   PostTransformFunctions.js}
+     * @param {function} postShadowFunction - function that performs
+     *   actions after the result of shadowFunction is applied
+     * @param {function} [transformationFunction =
+     *   CardAbstract._transformationFunction] - function that will
+     *   calculate the transformation of the dom elements
+     * @param {function} [shadowFunction =
+     *   CardAbstract._shadowFunction] - function that will calculate the
+     *   shadow of the dom elements
+     *
      * @returns {void}
      */
     constructor(
@@ -56,8 +66,9 @@ export default class CardAbstract {
      * @protected
      * @todo this documentation is totally outdated. data isn't correct
      * @see {TransformationFunctions}
-     * @param {number[]} absoluteOrigin - absolute transformation origin
-     * @param {number[]} mousePosition - absolute mouse position
+     * @param {object} args - contains at least:
+     *   {number[]} absoluteOrigin - absolute transformation origin
+     *   {number[]} mousePosition - absolute mouse position
      * @returns {string} transformation with adjusted scale and 3d
      *   rotation
      */
@@ -88,7 +99,9 @@ export default class CardAbstract {
     /**
      * function which takes an object args which contains e mousemove
      * event (event) and returns css changes
-     * @param {object} args
+     * @param {object} args - contains at least:
+     *   {event} event
+     *   {object} eventControlElement
      * @returns {object} object of css properties and their values
      */
     static _shadowFunction(args) {
@@ -118,7 +131,8 @@ export default class CardAbstract {
     /**
      * runs doEvent on both CardTransformable and CardMouseShadowed
      * @todo that's a bad description. change
-     * @param {event} event
+     * @param {event} event - event, most likely mousemove event
+     * @returns {void}
      */
     doEvent(event) {
         this._ct.doEvent(event);

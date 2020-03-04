@@ -31,13 +31,19 @@ export default class CardProjects extends CardAbstract {
      *   this stuff down from my memory, which might be incorrect here
      * @see {CardAbstract}
      * @override
-     * @param {number[]} absoluteOrigin - absolute transformation origin
-     * @param {number[]} mousePosition - absolute mouse position
+     * @param {object} args -  contains at least:
+     *   {number[]} transformOrigin - absolute transformation origin
+     *   {number[]} mousePosition - absolute mouse position
      * @returns {String} transformation with adjusted scale and 3d
      *   rotation
      */
     static _transformationFunction(args) {
-        const rotAxis = LA.vector(args.transformOrigin, args.mousePosition),
+        const
+            rotAxis =
+                LA.vector(
+                    args.transformOrigin,
+                    args.mousePosition
+                ),
             rotation =
                 TF.advBellCurve(
                     args.transformOrigin, args.mousePosition, 0, 1, 2
@@ -54,9 +60,12 @@ export default class CardProjects extends CardAbstract {
                 'translateZ(0)) ' +
                 `rotate3d(${invRotAxis[0]}, ` +
                 `${invRotAxis[1]}, 0, ${rotation}rad) ` +
-                `scale(${TF
-                    .advBellCurve(args.transformOrigin, args.mousePosition,
-                        0.9, 1, 2)}) ` +
+                `scale(${
+                    TF.advBellCurve(
+                        args.transformOrigin, args.mousePosition,
+                        0.9, 1, 2
+                    )
+                }) ` +
                 'translateZ(0) '
         };
     }
@@ -71,7 +80,8 @@ export default class CardProjects extends CardAbstract {
      * @returns {void}
      */
     static _postTransformFunction(event, element) {
-        const bgElement = element.domElement.parentElement.getElementsByClassName('card--projects__background')[0];
+        const bgElement = element.domElement.parentElement
+            .getElementsByClassName('card--projects__background')[0];
 
         if(bgElement === undefined) { return; }
 
@@ -79,7 +89,8 @@ export default class CardProjects extends CardAbstract {
             'clip-path',
             `polygon(${
                 element.cornerPointXYs.map(xy =>
-                    `calc(${xy[1]}px + 0.5 * var(--h)) calc(${-xy[0]}px + var(--h) - 0.5 * var(--w))`
+                    `calc(${ xy[1]}px + 0.5 * var(--h)) ` +
+                    `calc(${-xy[0]}px + var(--h) - 0.5 * var(--w))`
                 ).join(', ')
             })`
         );

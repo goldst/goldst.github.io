@@ -10,6 +10,10 @@ export default class CardTransformable extends TC {
     /**
      * @param {String} [modifier = ''] Modifier of the card block.
      *   Default '' means mo modifier.
+     * @param {function} postTransformFunction - function that performs
+     *   actions after the result of transformationFunction is applied
+     * @param {function} transformationFunction - function that will
+     *   calculate the transformation of the dom elements
      * @returns {void}
      */
     constructor(
