@@ -8,9 +8,11 @@ export default class ButtonAbstract {
 /**
      * @param {String} [modifier = ''] Modifier of the card block.
      *   Default '' means mo modifier.
-     * @param {function} postTransformFunction for examples, see
-     *   {js/transformation/TransformableElement/
-     *   PostTransformFunctions.js}
+     * @param {function} postShadowFunction - function that performs
+     *   actions after the result of shadowFunction is applied
+     * @param {function} [shadowFunction =
+     *   ButtonAbstract._shadowFunction] - function that will calculate
+     *   the shadow of the dom elements
      * @returns {void}
      */
     constructor(
@@ -31,7 +33,8 @@ export default class ButtonAbstract {
     /**
      * function which takes an object args which contains e mousemove
      * event (event) and returns css changes
-     * @param {object} args
+     * @param {object} args - contains at least eventControlElement and
+     *   event
      * @returns {object} object of css properties and their values
      */
     static _shadowFunction(args) {

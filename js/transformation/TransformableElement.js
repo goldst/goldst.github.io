@@ -10,6 +10,8 @@ import ECE from '../eventControl/EventControlElement.js';
 export default class TransformableElement extends ECE {
     /**
      * @param {object} domElement - DOM element that is transformed
+     * @param {object} cssClasses - CSS classes that will be added to the
+     *   dom element
      */
     constructor(domElement, cssClasses) {
         /**
@@ -22,7 +24,9 @@ export default class TransformableElement extends ECE {
 
     /**
      * currently equal to {updateCornerPoints}
-     * @todo where is this used, why is this necessary, what does this override?
+     * @todo where is this used, why is this necessary, what does this
+     *   override?
+     * @returns {void}
      */
     update() {
         this.updateCornerPoints();

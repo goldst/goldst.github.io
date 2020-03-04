@@ -16,16 +16,30 @@ export default class TransformationController extends EC {
      *   children and subchildren this element has, the choice of the
      *   correct baseElement affects the website performance. Don't spam
      *   DOM mutations in the baseElement subtree.
+     * @param {array<string>} blocks - list of element names that the
+     *   object will get. CSS classes will get these names, with
+     *   'mouse-shadow-element-' prepended.
      * @param {string} [queryFilter = '*'] - This method only looks for
      *   elements that match the queryFilter. Again: The more specific,
      *   the better.
      * @param {boolean} [onlyNewElements = true] forgot what it does.
-     * @todo Find out what exacly onlyNewElements does and add docs. If it
-     *   doesn't do anything, delete it.
+     * @todo Find out what exactly onlyNewElements does and add docs. If
+     *   it doesn't do anything, delete it.
      * @returns {void}
      */
-    constructor(baseElement, block, queryFilter = '*', onlyNewElements = true) {
-        super(baseElement, queryFilter, ['transformable-element', ...block.map(b => 'transformable-element-' + b)], onlyNewElements, TE);
+    constructor(baseElement, blocks, queryFilter = '*',
+        onlyNewElements = true) {
+
+        super(
+            baseElement,
+            queryFilter,
+            [
+                'transformable-element',
+                ...blocks.map(b => 'transformable-element-' + b)
+            ],
+            onlyNewElements,
+            TE
+        );
     }
 
     /**
@@ -37,10 +51,10 @@ export default class TransformationController extends EC {
      *   origin and mouse position, both in arrays. See
      *   {TransformationFunctions} for examples and predefined functions
      * @param {string} [additionalFilter='*'] - css query that has to
-     *   apply additionaly to the one passed in the constructor
+     *   apply additionally to the one passed in the constructor
      * @param {function} [postFunction = (event, element)=>{}] - optional
-     *   function that runs after the transformation is sucessfully
-     *   handeled internally. See {PostTransformFunctions} for examples
+     *   function that runs after the transformation is successfully
+     *   handled internally. See {PostTransformFunctions} for examples
      *   and predefined functions.
      * @returns {void}
      */

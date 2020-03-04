@@ -32,7 +32,8 @@ class Graphic extends MC {
     /**
      * function which takes an object args which contains e mousemove
      * event (event) and returns css changes
-     * @param {object} args
+     * @param {object} args - contains at least an eventControlElement and
+     *   the event
      * @returns {object} object of css properties and their values
      */
     _shadowFunction(args) {

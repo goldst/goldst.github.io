@@ -34,7 +34,8 @@ class Page extends MC {
     /**
      * function which takes an object args which contains e mousemove
      * event (event) and returns css changes
-     * @param {object} args
+     * @param {object} args - contains at least an eventControlElement and
+     *   the event
      * @returns {object} object of css properties and their values
      */
     _shadowFunction(args) {
@@ -51,7 +52,9 @@ class Page extends MC {
             '--page--center': Math.max(
                 Math.abs(args.event.clientX - 0.5 * rect.width),
                 Math.abs(args.event.clientY - 0.5 * rect.height)),
-            '--page--center-v': Math.abs(args.event.clientY - 0.5 * rect.height)
+            '--page--center-v': Math.abs(
+                args.event.clientY - 0.5 * rect.height
+            )
         };
     }
 

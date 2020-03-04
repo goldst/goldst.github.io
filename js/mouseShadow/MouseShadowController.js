@@ -17,6 +17,9 @@ export default class MouseShadowController extends EC {
      *   children and subchildren this element has, the choice of the
      *   correct baseElement affects the website performance. Don't spam
      *   DOM mutations in the baseElement subtree.
+     * @param {array<string>} blocks - list of element names that the
+     *   object will get. CSS classes will get these names, with
+     *   'mouse-shadow-element-' prepended.
      * @param {string} [queryFilter = '*'] - This method only looks for
      *   elements that match the queryFilter. Again: The more specific,
      *   the better.
@@ -25,8 +28,18 @@ export default class MouseShadowController extends EC {
      *   doesn't do anything, delete it.
      * @returns {void}
      */
-    constructor(baseElement, blocks = [], queryFilter = '*', onlyNewElements = true) {
-        super(baseElement, queryFilter, ['mouse-shadow-element', ...blocks.map(b => 'mouse-shadow-element-' + b)], onlyNewElements, ME);
+    constructor(baseElement, blocks = [], queryFilter = '*',
+        onlyNewElements = true) {
+
+        super(
+            baseElement,
+            queryFilter,
+            [
+                'mouse-shadow-element',
+                ...blocks.map(b => 'mouse-shadow-element-' + b)
+            ],
+            onlyNewElements,
+            ME);
     }
 
     /**
