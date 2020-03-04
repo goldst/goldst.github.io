@@ -24,7 +24,7 @@ export default class CardMouseShadowed extends MC {
         super(
             document.body,
             ['card'],
-            `.card${modifier} > .card__inner`
+            `.card${modifier}`
         );
 
         /**
