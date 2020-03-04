@@ -7,15 +7,15 @@
     "eslint": "*",
     "htmllint": "*",
     "htmllint-cli": "*",
-    "jsdoc-to-markdown": "^5.0.0",
+    "jsdoc-to-markdown": "^5.0.3",
     "jsdoctest": "^1.7.1",
     "maid": "*",
     "mocha": "*",
-    "stylelint": "^10.0.1",
+    "stylelint": "^13.2.0",
     "stylelint-order": "*"
   },
   "dependencies": {
-    "postcss-syntax": "^0.28.0"
+    "postcss-syntax": "^0.36.2"
   },
   "babel": {
     "extends": "./config/babel.json"
