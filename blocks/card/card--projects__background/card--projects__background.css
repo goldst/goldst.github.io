@@ -2,7 +2,21 @@
     --__bg-size: var(--_bg-size, var(--_w) auto);
     --_pos: var(--projects--scroll-top, 0) 0;
 
-    background-color: var(--c1);
+    background-image:
+        radial-gradient(
+            circle at
+            calc(
+                var(--card__inner--mouse-shadow-left, -100%)
+                / var(--_hover-scale)
+            )
+            calc(
+                var(--card__inner--mouse-shadow-top, -100%) /
+                var(--_hover-scale)
+            ),
+            var(--_c0) 0,
+            var(--_c1) calc(0.1 * var(--_w))
+        );
+
     -webkit-mask: 
         var(--_card-background) repeat 
         var(--_pos) /

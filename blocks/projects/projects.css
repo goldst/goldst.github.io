@@ -37,10 +37,6 @@
     width: var(--h);
 }
 
-.projects__project-card .card--projects__background {
-    background-position: var(--projects--scroll-top) 0;
-}
-
 .projects__project-card:last-of-type {
     margin-bottom: 0;
 }
@@ -145,9 +141,5 @@
         height: auto;
         margin-left: 0;
         width: auto;
-    }
-
-    .projects__project-card .card--projects__background {
-        background-position: 0 var(--projects--scroll-top);
     }
 }
