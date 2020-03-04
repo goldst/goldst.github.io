@@ -1,35 +1,58 @@
+.card--projects__background {
+    --__bg-size: var(--_bg-size, var(--_w) auto);
+    --_pos: var(--projects--scroll-top, 0) 0;
+
+    background-color: var(--c1);
+    -webkit-mask: 
+        var(--_card-background) repeat 
+        var(--_pos) /
+        var(--__bg-size);
+    mask:
+        var(--_card-background) repeat 
+        var(--_pos) /
+        var(--__bg-size);
+    -webkit-mask-composite: xor;
+    mask-composite: subtract;
+}
+
+@media screen and (orientation: portrait) {
+    .card--projects__background {
+        --_pos: 0 0;
+    }
+}
+
 .card--projects__background--portfolio {
-    background: url("/blocks/card/card--projects__background/goldstein web.svg") repeat;
-    background-size: calc(0.3 * var(--_w)) auto;
+    --_card-background: url("/blocks/card/card--projects__background/goldstein web.svg");
+    --_bg-size: calc(0.3 * var(--_w)) auto;
 }
 
 .card--projects__background--sincos {
-    background: url("/blocks/card/card--projects__background/sincos.svg") repeat;
-    background-size: calc(0.3 * var(--_w)) auto;
+    --_card-background: url("/blocks/card/card--projects__background/sincos.svg");
+    --_bg-size: calc(0.3 * var(--_w)) auto;
 }
 
 .card--projects__background--cyp {
-    background: url("/blocks/card/card--projects__background/cyp.svg") repeat;
-    background-size: calc(var(--_w)) auto;
+    --_card-background: url("/blocks/card/card--projects__background/cyp.svg");
+    --_bg-size: calc(var(--_w)) auto;
 }
 
 .card--projects__background--todograph {
-    background: url("/blocks/card/card--projects__background/todograph.svg") repeat;
-    background-size: calc(0.5 * var(--_w)) auto;
+    --_card-background: url("/blocks/card/card--projects__background/todograph.svg");
+    --_bg-size: calc(0.5 * var(--_w)) auto;
 }
 
 .card--projects__background--bfs {
-    background: url("/blocks/card/card--projects__background/bfs.svg") repeat;
-    background-size: calc(0.75 * var(--_w)) auto;
+    --_card-background: url("/blocks/card/card--projects__background/bfs.svg");
+    --_bg-size: calc(0.75 * var(--_w));
 }
 
 .card--projects__background--empty {
-    background:
+    --_card-background:
         repeating-linear-gradient(
             45deg,
             var(--c1) 0,
-            var(--c0) 40px,
+            transparent 40px,
             var(--c1) 80px
         );
-    background-size: 114px;
+    --_bg-size: 114px;
 }
