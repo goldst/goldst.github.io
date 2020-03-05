@@ -31,7 +31,11 @@
 
 @media screen and (orientation: portrait) {
     .card--projects__background {
-        --_pos: 0 0;
+        --_projects--orientation-a: calc(var(--projects--orientation-a, 0) * 50px);
+        --_projects--orientation-b: calc(var(--projects--orientation-b, 0) * 50px);
+        --_projects--orientation-c: calc(var(--projects--orientation-c, 0) * 50px);
+
+        --_pos: var(--_projects--orientation-a) var(--_projects--orientation-b);
     }
 }
 
