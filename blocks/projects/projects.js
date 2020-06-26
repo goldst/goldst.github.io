@@ -14,7 +14,7 @@ function startPositionUpdater() {
 
     document.querySelector('.projects')
         .addEventListener("scroll", onScroll);
-    
+
     window
         .addEventListener('devicemotion', onOrientationChange, true);
 }
