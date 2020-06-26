@@ -44,6 +44,11 @@
     --_bg-size: calc(0.3 * var(--_w)) auto;
 }
 
+.card--projects__background--cosia {
+    --_card-background: url("/blocks/card/card--projects__background/cosia.svg");
+    --_bg-size: calc(0.3 * var(--_w)) auto;
+}
+
 .card--projects__background--sincos {
     --_card-background: url("/blocks/card/card--projects__background/sincos.svg");
     --_bg-size: calc(0.3 * var(--_w)) auto;
