@@ -31,12 +31,21 @@
 
 @media screen and (orientation: portrait) {
     .card--projects__background {
-        --_pos: 0 0;
+        --_projects--orientation-a: calc(var(--projects--orientation-a, 0) * 50px);
+        --_projects--orientation-b: calc(var(--projects--orientation-b, 0) * 50px);
+        --_projects--orientation-c: calc(var(--projects--orientation-c, 0) * 50px);
+
+        --_pos: var(--_projects--orientation-a) var(--_projects--orientation-b);
     }
 }
 
 .card--projects__background--portfolio {
     --_card-background: url("/blocks/card/card--projects__background/goldstein web.svg");
+    --_bg-size: calc(0.3 * var(--_w)) auto;
+}
+
+.card--projects__background--cosia {
+    --_card-background: url("/blocks/card/card--projects__background/cosia.svg");
     --_bg-size: calc(0.3 * var(--_w)) auto;
 }
 
