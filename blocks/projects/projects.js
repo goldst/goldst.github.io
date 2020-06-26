@@ -30,6 +30,11 @@ function onScroll(e) {
         .setProperty('--projects--scroll-top', e.target.scrollTop + 'px');
 }
 
+/**
+ * todo i don't know what is happening here. Check it and update
+ *   documentation.
+ * @param {*} e some event.
+ */
 function onOrientationChange(e) {
     const
         a = 1 * e.accelerationIncludingGravity.x,
