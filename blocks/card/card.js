@@ -21,8 +21,13 @@ window.addEventListener('load', () => {
         CM.flushRectCaches();
         //C.flushRectCaches();
     }
-    
+
     let lastEvent = null;
+    /**
+     * @param {event} event - optional event that could be passed to
+     *   change the event the doEvent functions run on
+     * @returns {void}
+     */
     function doEvent(event = lastEvent) {
         CP.doEvent(event);
         CM.doEvent(event);
@@ -38,10 +43,9 @@ window.addEventListener('load', () => {
     /**
      * @todo this creates a dependency to the projects block by using
      *   their classes, resolve somehow?
-     */ 
-    document.querySelector('.projects__inner').addEventListener('scroll', (e) => {
-        doEvent();
-    });
+     */
+    document.querySelector('.projects__inner')
+        .addEventListener('scroll', () => doEvent());
 
     window.addEventListener('pushstate', onMove);
     window.addEventListener('popstate', onMove);
