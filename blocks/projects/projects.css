@@ -1,3 +1,20 @@
+/**
+ * horizontal scroll card container for <code>.card--projects</code>
+ * @tree
+ *   .projects
+ *      .projects__inner
+ *        .card.card--projects
+ *          .card--inner
+ *            [project card content 1]
+ *        .card.card--projects
+ *          .card--inner
+ *            [project card content 2]
+ *        .card.card--projects
+ *          .card--inner
+ *            [(...)]
+ * @requires ../card/card.css
+ * @requires ../card/card.js
+ */
 .projects {
     opacity: 0;
     position: absolute;

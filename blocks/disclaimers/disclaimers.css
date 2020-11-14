@@ -1,13 +1,14 @@
 /**
- * @block disclaimers
- * @markup
- *   <footer class="disclaimers">
- *      <ul>
- *          <li>element 1</li>
- *          <li>element 2</li>
- *          <li>element 3</li>
- *      </ul>
- *   </footer>
+ * disclaimers
+ * @tree
+ *   .disclaimers: footer
+ *     : ul
+ *       : li
+ *         [element 1]
+ *       : li
+ *         [element 2]
+ *       : li
+ *         [(...)]
  */
 .disclaimers {
     bottom: 0;

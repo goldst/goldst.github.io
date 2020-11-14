@@ -1,5 +1,20 @@
 /**
- * @extends 'card.css'
+ * card for start page
+ * @extends card.css
+ * @tree
+ * : main
+ *   .card.card--main
+ *     .card__inner.card--main__inner: header
+ *       .card--main__image
+ *       .card--main__right
+ *         .card--main__qr
+ *         .card--main__info
+ *           .card--main__info-flex
+ *             [Title]
+ *             .card--main__social-links
+ *           .card--main__projects-button.button
+ *             [main link →]
+ * @requires ../page/page.css
  */
 .card--main {
     position: absolute;

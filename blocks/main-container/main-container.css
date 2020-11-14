@@ -1,3 +1,13 @@
+/**
+ * interactive multi-page container for main content
+ * @tree
+ *   .main-container
+ *     .card.card--main
+ *       .card__inner.card--main__inner
+ *         [main content]
+ *     .main-container__projects.projects
+ *       [project content]
+ */
 .main-container {
     height: var(--h);
     left: calc(50vw - 0.5 * var(--w));

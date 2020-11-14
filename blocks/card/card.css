@@ -2,10 +2,22 @@
 @import url("card--projects.css");
 
 /**
- * @variable {length} --card--padding
- * @variable {bg-image} --card--additional-background-image
- * @variable {length} --card__inner--mouse-shadow-left
- * @variable {length} --card__inner--mouse-shadow-top
+ * standard card that can hold any content
+ * @tree
+ *   .card
+ *     .card__inner
+ *       [card content]
+ * @variable {length} [--w=500px] width
+ * @variable {length} [--h=calc(var(--w) * 0.618033988)] height
+ * @variable {color} [--c0=black] foreground/text color
+ * @variable {color} [--c1=lightgrey] background color
+ * @variable {[length|percentage]{1,4}} [--card--padding=calc(0.02 * var(--_w, 500px))] padding
+ * @variable {bg-image} [--card--additional-background-image=none] background image for the whole card
+ * @variable {number} [--card--hover-scale=1.025] size relative to original size of card at hover
+ * @variable {length} [--card__inner--mouse-shadow-left=-100%] y mouse position on the card. Usually set automatically by included js
+ * @variable {length} [--card__inner--mouse-shadow-top=-100%] x mouse position on the card. Usually set automatically by included js
+ * @todo mouse shadow position manual setting doesn't work
+ * @requires ../page/page.css
  */
 .card {
     /* local private vars */
@@ -19,6 +31,7 @@
 
     height: var(--_h);
     width: var(--_w);
+    backface-visibility: hidden;
 }
 
 .card__inner {
