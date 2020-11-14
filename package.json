@@ -6,7 +6,7 @@
     "bemdoc-gen": "^0.1.4",
     "chai": "^4.2.0",
     "eslint": "^7.13.0",
-    "htmllint": "^0.8.0",
+    "htmllint": "^0.7.2",
     "htmllint-cli": "*",
     "jsdoc-to-markdown": "^6.0.1",
     "maid": "^0.3.0",
