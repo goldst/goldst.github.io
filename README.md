@@ -1,28 +1,18 @@
-# Leonard Goldstein Online [![Build Status](https://travis-ci.com/goldst/goldst.github.io.svg?token=LoKS6SaGaZPsK3WPmufe&branch=master)](https://travis-ci.com/goldst/ein-web) [![CodeFactor](https://www.codefactor.io/repository/github/goldst/goldst.github.io/badge?s=066bb56c72b702a7ddc1f6599bda42473ca77254)](https://www.codefactor.io/repository/github/goldst/goldst.github.io)
+# Leonard Goldstein Online 
+[![Build Status](https://travis-ci.com/goldst/goldst.github.io.svg?token=LoKS6SaGaZPsK3WPmufe&branch=master)](https://travis-ci.com/goldst/ein-web) [![CodeFactor](https://www.codefactor.io/repository/github/goldst/goldst.github.io/badge?s=066bb56c72b702a7ddc1f6599bda42473ca77254)](https://www.codefactor.io/repository/github/goldst/goldst.github.io)
 
-## About this project
-
-These are the files for my website.
-
-## How it works
-
-Attention! Makes use of non-standard and newest standard EcmaScript. Not designed or tested with older browsers in mind. Stuff could be and will be broken there.
-For further information, look at the generated [documentation in the wiki](/wiki).
+These are the files for my website, currently located at [gldstn.dev](https://gldstn.dev/).
 
 ## Contributing
 
-This is a personal project, that's why I'll only accept your commits if they only contain minor changes. If you find any bugs or have suggestions, feel free to open an issue. 
+This is a personal project, that's why I'll only accept your commits if they only contain minor changes. Probably, it's best to always open an issue first. If you find any bugs or have suggestions, feel free to open an issue too. 
 
-However, you can fork and reuse as much as you want (see [License](#License)). I'd love to hear from you and how you use my code at [leonard-goldstein@outlook.de](mailto:leonard-goldstein@outlook.de).
+However, you can fork and reuse as much as you want (see [License](#License)). I'd love to hear from you and how you use my code at 𝕝𝕖𝕠𝕟𝕒𝕣𝕕-𝕘𝕠𝕝𝕕𝕤𝕥𝕖𝕚𝕟@𝕠𝕦𝕥𝕝𝕠𝕠𝕜.𝕕𝕖.
 
 Before contributing, please run
 
-```bash
-# node 5.2 or newer:
-npx maid prepublish
-
-# older versions of npm:
-./node_modules/.bin/maid prepublish
+```
+> npx maid prepublish
 ```
 in the project directory to make sure there are no errors and all documentation is generated.
 
@@ -36,6 +26,4 @@ lint with `npx maid lint` or `npx maid lint:fix`.
 | CSS        | <ul><li>4 spaces</li><li>BEM syntax for `class`es, `@keyframe` names and variables<ul><li>folder for each block</li></ul></li></ul>                        |
 
 ## License
-
-### Project
-Released under the [MIT license](https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT)

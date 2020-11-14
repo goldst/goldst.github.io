@@ -1,3 +1,8 @@
+/**
+ * invisible navigational element for screen reader / jump contexts
+ * @tree .link-to: a[href="#x"]
+ *   [go to element x]
+ */
 .link-to {
     position: absolute;
     visibility: collapse;

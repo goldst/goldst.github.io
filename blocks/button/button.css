@@ -1,11 +1,8 @@
 /**
- * @block button a standard button
- * @markup
- *   <a class="button">button</a>
- * @markup
- *   <button class="button">button</button>
- * @markup
- *   <input type="button" class="button" value="button">
+ * a standard button
+ * @tree
+ *   .button: a, button, input[type="button"]
+ *     [button text]
  */
 .button {
     /**
@@ -14,13 +11,6 @@
      *   overwritten
      */
     --_w: var(--w, 500px);
-
-    /**
-     * @variable {length} [--h=calc(var(--w, 500px) * 0.618033988)] base
-     *   height of a standard card, influences size of element if
-     *   element's <code>height</code> isn't overwritten
-     */
-    --_h: var(--h, calc(var(--w, 500px) * 0.618033988));
 
     /**
      * @variable {color} [--c0=black] block background color
@@ -36,7 +26,6 @@
      * @variable {image} [--button--background=
      *   linear-gradient(black, black)] Icon of the button. Currently only
      *   works with the <code>.button--s</code> modifier.
-     * @requires button-s on button
      */
     --_button--background:
         var(
@@ -44,6 +33,7 @@
             linear-gradient(black, black)
         );
 
+    backface-visibility: hidden;
     background: var(--_c0);
     border: none;
     box-sizing: content-box;
@@ -108,9 +98,12 @@
 }
 
 /**
- * @modifier button--s Small square version of the button. Only shows icon
- *   by default, extends <code>width</code> and shows text on
- *   <code>:hover</code>.
+ * Small square version of the button. Only shows icon
+ * by default, extends <code>width</code> and shows text on
+ * <code>:hover</code>.
+ * @tree
+ *   .button.button--s
+ *     [small button text]
  */
 .button--s {
     --collapsed: 15px;

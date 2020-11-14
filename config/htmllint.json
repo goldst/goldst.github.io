@@ -48,7 +48,7 @@
     "attr-new-line": false,
     "attr-validate": true,
     "id-no-dup": true,
-    "id-class-no-ad": true,
+    "id-class-no-ad": false,
     //"id-class-style": "bem",
     "id-class-style": "/([a-z]([-_]?[a-z])*(--[a-z]([-_]?[a-z])*)*(__[a-z]([-_]?[a-z])*)?(--[a-z]([-_]?[a-z])*)*)(( [a-z]([-_]?[a-z])*(--[a-z]([-_]?[a-z])*)*(__[a-z]([-_]?[a-z])*)?(--[a-z]([-_]?[a-z])*)*))*/", //value bem currently doesn't support block--modifier__element which is necessary in this project
     "class-no-dup": true,

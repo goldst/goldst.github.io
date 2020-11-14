@@ -34,6 +34,7 @@ function onScroll(e) {
  * todo i don't know what is happening here. Check it and update
  *   documentation.
  * @param {*} e some event.
+ * @returns {void}
  */
 function onOrientationChange(e) {
     const

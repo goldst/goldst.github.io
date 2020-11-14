@@ -1,9 +1,24 @@
 @import url("card--projects__background/card--projects__background.css");
 
 /**
- * @extends 'card.css'
+ * project card
+ * @extends card.css
+ * @tree
+ *   .card.card--projects
+ *     .card--projects__background
+ *     .card__inner.card--projects__inner
+ *       .card__title
+ *         [title]
+ *       : p
+ *         [content]
+ *       .card--projects__links
+ *         : a
+ *           [link]
+ *         : a
+ *           [link]
+ *         [(...)]
+ * @requires ../page/page.css
  */
-
 .card--projects__background {
     height: var(--_h);
     position: absolute;

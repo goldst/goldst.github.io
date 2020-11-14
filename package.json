@@ -3,16 +3,16 @@
     "babel-cli": "*",
     "babel-core": "*",
     "babel-preset-env": "*",
-    "chai": "*",
-    "eslint": "*",
-    "htmllint": "*",
+    "bemdoc-gen": "^0.1.4",
+    "chai": "^4.2.0",
+    "eslint": "^7.13.0",
+    "htmllint": "^0.7.2",
     "htmllint-cli": "*",
-    "jsdoc-to-markdown": "^5.0.3",
-    "jsdoctest": "^1.7.1",
-    "maid": "*",
-    "mocha": "*",
-    "stylelint": "^13.2.0",
-    "stylelint-order": "*"
+    "jsdoc-to-markdown": "^6.0.1",
+    "maid": "^0.3.0",
+    "mocha": "^8.2.1",
+    "stylelint": "^13.7.2",
+    "stylelint-order": "^4.1.0"
   },
   "dependencies": {
     "postcss-syntax": "^0.36.2"
