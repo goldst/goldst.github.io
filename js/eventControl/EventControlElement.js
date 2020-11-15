@@ -63,9 +63,6 @@ export default class EventControlElement {
             }
 
             this._rect = newRect;
-            console.log('neql');
-        } else {
-            console.log('equal');
         }
 
         return this._rect;

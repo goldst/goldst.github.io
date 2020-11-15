@@ -135,6 +135,10 @@
     --button--background: url("../../img/GitHub.svg");
 }
 
+.card--main__social-link--npm {
+    --button--background: url("../../img/npm.svg");
+}
+
 .card--main__social-link--web {
     --button--background: url("../../img/internet.svg");
 }
