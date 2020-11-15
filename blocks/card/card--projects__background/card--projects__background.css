@@ -49,6 +49,13 @@
     --_bg-size: calc(0.3 * var(--_w)) auto;
 }
 
+
+
+.card--projects__background--bemdoc-gen {
+    --_card-background: url("/blocks/card/card--projects__background/bemdoc-gen.svg");
+    --_bg-size: calc(0.3 * var(--_w)) auto;
+}
+
 .card--projects__background--sincos {
     --_card-background: url("/blocks/card/card--projects__background/sincos.svg");
     --_bg-size: calc(0.3 * var(--_w)) auto;
