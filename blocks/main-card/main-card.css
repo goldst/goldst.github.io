@@ -4,7 +4,7 @@
 }
 
 .main-card__name,
-.main-card__birth {
+.main-card__occupation {
     font-size: 2.5em;
     font-style: normal;
     margin: 0;
@@ -12,7 +12,7 @@
 }
 
 .main-card__name::before,
-.main-card__birth::before {
+.main-card__occupation::before {
     display: block;
     font-size: 12px;
     font-weight: normal;
@@ -28,8 +28,8 @@
     content: "Name/Surname";
 }
 
-.main-card__birth::before {
-    content: "Geburtstag/Date of birth";
+.main-card__occupation::before {
+    content: "Beschäftigung/Occupation";
 }
 
 .main-card__toggle {
