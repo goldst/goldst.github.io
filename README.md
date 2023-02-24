@@ -1,7 +1,7 @@
 # Leonard Goldstein Online 
 [![Build Status](https://travis-ci.com/goldst/goldst.github.io.svg?token=LoKS6SaGaZPsK3WPmufe&branch=master)](https://travis-ci.com/goldst/ein-web) [![CodeFactor](https://www.codefactor.io/repository/github/goldst/goldst.github.io/badge?s=066bb56c72b702a7ddc1f6599bda42473ca77254)](https://www.codefactor.io/repository/github/goldst/goldst.github.io)
 
-These are the files for my website, currently located at [gldstn.dev](https://gldstn.dev/).
+These are the files for my old website (aka v1), currently located at [goldst.dev/v1](https://goldst.dev/v1). The current version can be found at [l.goldst.dev](https://goldst.dev).
 
 ## Contributing
 
